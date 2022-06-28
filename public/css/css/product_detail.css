@@ -1,0 +1,162 @@
+.get-quote h3 {
+    color: red;
+    margin-top: 10px!important;
+    font-size: 26px;
+    font-family: 'Daikon';
+}
+.single-img {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+44,e5e5e5+100 */
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 44%, #e5e5e5 100%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 44%, #e5e5e5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #ffffff 44%, #e5e5e5 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+.h5{
+    float: left;
+}
+.single-img:hover {
+    cursor: pointer;
+}
+
+.deal-in {
+    position: absolute;
+    top: 20px;
+    width: 150px !important;
+    right: 21px;
+}
+.tiles {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+44,e5e5e5+100 */
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 44%, #e5e5e5 100%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 44%, #e5e5e5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #ffffff 44%, #e5e5e5 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.tiles:hover {
+    cursor: move;
+    overflow: hidden;
+}
+.zoom-eff {
+    position: relative;
+}
+
+.is-invalid {
+    border: 1px solid red;
+}
+.main_image{
+    width: 100%;
+}
+.Detailwrapper tr:nth-child(odd) {
+    background-color: #cae1e9;
+}
+.Detailwrapper tr:nth-child(even) {
+    background-color: #fff;
+}
+.Detailwrapper table tr td {
+    padding-left: 7px;
+}
+.Detailwrapper table td {
+    border: 1px solid #f3f4f4;
+}
+.Detailwrapper table tr td p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.Detailwrapper h3 {
+    margin-top: 0;
+}
+
+.clr-orange {
+    color: #eb2127 !important;
+    font-size:28px !important ;
+}
+section {
+    padding: 25px 0;
+}
+
+h1, h2, h4 {
+    font-family: 'Daikon';
+}
+.h2, h2 {
+    font-size: 22px !important;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}.perfect-content h3 {
+     margin-top: 0;
+ }
+h3 {
+    font-family: 'Daikon';
+}
+.h3, h3 {
+    font-size: 18px;
+}
+
+.product-sec {
+    margin-top: 30px;
+}
+
+
+/* .product-slider .owl-item:nth-child(even) .shadow-view {
+    background-image: url(../images/back-grey.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.product-slider .owl-item:nth-child(odd) .shadow-view {
+    background-image: url(../images/back-yellow.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+@media all and (max-width: 575px) {
+
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+        height: auto !important;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    .product-slider .owl-carousel .owl-prev {
+        display: inline-block;
+        position: absolute;
+        top: 38%;
+        right: -100px;
+    }
+}
+.detail_page_benefits_text{
+    font-size: 12px;
+}
+.btn-quote.chat-btn {
+   font-family: 'Daikon';
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 12px 42px;
+    float: none;
+    border: none;
+    border-radius: 27px;
+    margin-top: 7px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.hidden-sm .opi-let-talk-img {
+    height: 84px;
+}
+.product_detail h5{
+   font-family: 'Daikon';
+}
