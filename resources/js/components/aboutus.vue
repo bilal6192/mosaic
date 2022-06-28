@@ -4,11 +4,11 @@
 <html lang="en">
    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
    <head>
-      <title>Privacy and Security</title>
+      <title>About Us</title>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
+   
    </head>
    <!-- overflow-y: scroll; -->
    <body style="-webkit-overflow-scrolling: touch;">
@@ -30,7 +30,7 @@
          <div class="container-fluid">
             <router-link  to='/'>
             <img class="default-logo1" :src="`images/logo.png`"  sizes="(min-width: 400px) 400px, 400px" alt="Mosaic Vision Packaging" aria-label="Mosaic Vision Packaging" width="273" height="55">
-            </router-link>
+             </router-link>
             <button class="navbar-toggler ms-auto me-3" type="button" data-target="#main_nav" onclick="openNav()" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
             <div class="collapse navbar-collapse" id="main_nav">
                <ul class="navbar-nav ms-auto">
@@ -43,7 +43,7 @@
                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">BOX BY STYLE <i
                         class="fa fa-angle-down" aria-hidden="true"></i></a>
                   </li>
-                  <li class="nav-item dropdown mx-1">
+                   <li class="nav-item dropdown mx-1">
                      <router-link class="routerLink"  to='/blog'>
                     BLOG 
                     </router-link>
@@ -267,7 +267,7 @@
          </div>
       </div>
       <a href="tel:+923248473731" class="common_phone_call_icon">
-         <div> <img src="assets/images/phone-icon-946.webp" width="35" height="35"> </div>
+         <div> <img :src="`images/phone-icon-946.webp`"  width="35" height="35"> </div>
       </a>
       <!-- ********** Header End ********** -->
       <div>
@@ -277,47 +277,43 @@
                   <div class="col-12 my-5">
                      <div class="row">
                         <div class="col-md-8 col-12">
-                           <h2>Privacy and Security</h2>
+                           <h2>About Us</h2>
                            <p>
-                           <p>OXO Packaging is committed to maintaining the confidentiality of our customers. We do not share, sell, or otherwise disclose information about our clients to any other party except as required to process and ship purchases.</p>
-                           <h2>Information Collection</h2>
-                           <p>OXO Packaging is the sole owner of the information collected on www.oxopackaging.com. OXO Packaging collects information from our users at several different points on our Web site.</p>
-                           <h2>Registration</h2>
-                           <p>In order to use OXO Packaging, a user must first complete the registration form. During registration, a user is required to give a name and email address. We use this information to contact the user about our services even if they have not placed an order.</p>
-                           <h3>Order</h3>
-                           <p>We request information from the user on our order form. A user must provide contact information (such as name, email and shipping address) and financial information (such as credit card number and expiration date). This information is used for credit card authorization and to fill customers orders. If we have trouble processing an order, the information is used to contact the user.</p>
-                           <h3>Cookies</h3>
-                           <p>A cookie is a piece of data stored on the user&rsquo;s computer tied to information about the user. We use persistent cookies. A persistent cookie is a small text file stored on the user&rsquo;s hard drive for an extended period of time. Persistent cookies can be removed by following Internet browser help file directions.</p>
-                           <p>Cookies are used by both My OXO Packaging and the Oxopackaging order section in order to uniquely identify users, associate user files with orders, and to enable the shopping basket. Our site cannot be used with cookies turned off.</p>
-                           <h2>Log Files</h2>
-                           <p>Like most standard website servers, we use log files. This includes internet protocol (IP) addresses, browser type, internet service provider (ISP), referring/exit pages, platform type, date/time stamp, and number of clicks to analyze trends, administer the site, track users&rsquo; movement in the aggregate, and gather broad demographic information for aggregate use. This data is not linked to personally identifiable information.</p>
-                           <h2>Communications from the Site</h2>
-                           <h3>Special Offers and Updates</h3>
-                           <p>Established members will occasionally receive information on products, services, special deals, and a newsletter. Out of respect for the privacy of our users, we present the option to not receive these types of communications. If you do not wish to receive future emails, send an email to remove@oxopackaging.com</p>
-                           <h2>Newsletter</h2>
-                           <p>Customers are automatically subscribed to our newsletter, we ask for contact information such as name and email address. Out of respect for our user&#39;s privacy, we provide a way to opt-out of these communications. If you do not wish to receive future newsletters, send an email to info@oxopackaging.com</p>
-                           <h3>Customer Service</h3>
-                           <p>We communicate with users on a regular basis to provide requested services. Our production and customer service use both email and phone information to communicate with customers in regards to issues relating to the in-process order.</p>
-                           <h3>Legal Disclaimer</h3>
-                           <p>Though we make every effort to preserve user privacy, we may need to disclose personal information when required by law wherein we have a good-faith belief that such action is necessary to comply with a current judicial proceeding, a court order or legal process served on our Web site.</p>
-                           <h3>Third Party Intermediaries</h3>
-                           <p>We use an outside shipping company to ship orders, and a credit card processing company to bill users for goods and services. These companies do not retain, share, store or use personally identifiable information for any secondary purposes.</p>
-                           <h3>Business Transitions</h3>
-                           <p>If oxopackaging goes through a business transition, such as a merger, being acquired by another company, or selling a portion of its assets, users&rsquo; personal information will, in most instances, be part of the assets transferred. If as a result of the business transition, the users&rsquo; personally identifiable information will be used in a manner different from that stated at the time of collection they will be given choice consistent with our notification of changes section.</p>
-                           <h3>Choice/Opt-out</h3>
-                           <p>Our users are given the opportunity to &lsquo;opt-out&rsquo; of having their information used for purposes not directly related to our site at the point where we ask for information. For example, our order form has an &lsquo;opt-out&rsquo; mechanism so users who buy a product from us, but don&rsquo;t want any marketing material, can keep their email address off of our lists.</p>
-                           <p>Users who no longer wish to receive our newsletter and promotional communications may opt-out of receiving these communications by replying to unsubscribe in the subject line in the email or email us at remove@oxopackaging.com</p>
-                           <h3>Links</h3>
-                           <p>Our sites may contain links to other sites. Please be aware that we are not responsible for the privacy practices of such other sites. We encourage our users to be aware when they leave our site and to read the privacy statements of each and every Web site that collects personally identifiable information. This privacy statement applies solely to information collected by this Web site.</p>
-                           <h3>Security</h3>
-                           <p>Our Websites take every precaution to protect our users&rsquo; information. When users submit sensitive information via the Web site, their information is protected both online and off-line.</p>
-                           <p>When our registration/order form asks users to enter sensitive information (such as credit card number and/or social security number) that information is encrypted and is protected with the best encryption software in the industry&mdash;SSL. While on a secure page, such as our order form, the lock icon on the bottom of Web browsers such as Netscape Navigator and Microsoft Internet Explorer becomes locked, as opposed to un-locked, or open, when users are just &lsquo;surfing.&rsquo;</p>
-                           <p>While we use SSL encryption to protect sensitive information online, we also do everything in our power to protect user information off-line. All of our users&rsquo; information, not just the sensitive information mentioned above, is restricted in our offices. Only employees who need the information to perform a specific job (for example, our billing clerk or a customer service representative) are granted access to personally identifiable information. Employees must enter their password to gain access to user information. Finally, the servers that store personally identifiable information are in a high-security environment at our co-location facility.</p>
-                           <h2>Supplementation of Information</h2>
-                           <h3>Notification of Changes</h3>
-                           <p>If we decide to change our privacy policy, we will post those changes to this privacy statement, the homepage, and other places we deem appropriate so our users are always aware of what information we collect, how we use it, and under what circumstances, if any, we disclose it. We will use information in accordance with the privacy policy under which the information was collected.</p>
-                           <p>If, however, we are going to use users&rsquo; personally identifiable information in a manner different from that stated at the time of collection we will notify users via email. Users will have a choice as to whether or not we use their information in this different manner.</p>
-                           <p>If customers have opted out of all communication with the site or deleted/deactivated their account, then they will not be contacted, nor will their personal information be used in this new manner. In addition, if we make any material changes in our privacy practices that do not affect user information already stored in our database, we will post a prominent notice on our Web site notifying users of the change.</p>
+                           <p>OXO Packaging is a manufacturers&rsquo; hub for all sorts of production printing and
+                              packaging. Our designers and printing press have all their roots in aesthetics and
+                              quality hand in hand. The capacity they hold is precise with all kinds of
+                              boxes&rsquo; styles and requirements. For our good worth, we don&rsquo;t take a
+                              penny from our divine customers for designing and little changes.
+                           </p>
+                           <p>Our production team has the vision to win as many hearts as they can. To meet their
+                              vision hereby, they execute the whole process in the most efficient manner to treat
+                              to your need as early as possible. We don&rsquo;t earn money, we earn admiration!
+                              We, therefore, let our customers take full advantage of our affordable
+                              pricing.&nbsp;
+                           </p>
+                           <p>We make it all possible. If you are ambitious to stand out amongst your peers, we are
+                              the best option to create an entirely new path for you to go. Kraft, Corrugated,
+                              Cardboard, Kraft, window, die-cut and wedding boxes are our handy commodities. We
+                              have our concepts clear about the customization of these carriers for your
+                              particular product in view of its rigidity and reliability. Our projections include
+                              all the extremes: from thick boxes like electronics to elegant cosmetics packing.
+                           </p>
+                           <p>Our designers make eye-catchy designs with attractive dimensional variants and
+                              internal fixers and fitments, perforations, UV, glossy and matte lamination and
+                              surfaces, and die-cut patterns are to fetch elite and style for your brand&rsquo;s
+                              identity. The preference is always to the hygienic and eco-friendly packaging
+                              material. We play with colors and hue to stroke the best amalgamations for the
+                              matchless preface of your product. &nbsp;&nbsp;
+                           </p>
+                           <p>OXO Packaging is a fervent packaging house all ready to serve in all business types
+                              around the mundane. We are already striking high with our dedicated team services
+                              and holistic facilitation in terms of shipment, etc as well. We don&rsquo;t meet the
+                              industries&rsquo; permanent needs only but event and season based packing is also a
+                              source of excitement to our designers. Our choice is elite of the quality and
+                              standards in the US as well as all around Europe and Asia.
+                           </p>
+                           <p>For more information, contact us at&nbsp;<a
+                              href="mailto:sales@oxopackaging.com">sales@oxopackaging.com</a>.</p>
                            </p>
                         </div>
                         <div class="col-md-4 col-12">
@@ -332,10 +328,15 @@
                               </div>
                               <div class="social-icon row text-right">
                                  <ul>
-                                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.youtube.com"
+                                       target="_blank"><i class="fab fa-youtube"
+                                       aria-hidden="true"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fab fa-linkedin"
+                                       aria-hidden="true"></i></a></li>
+                                    <li><a href="https://twitter.com" target="_blank"><i
+                                       class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="http://www.facebook.com" target="_blank"><i
+                                       class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
                                  </ul>
                               </div>
                               <hr>
@@ -350,26 +351,31 @@
                                  </div>
                                  <div class="col-sm-12">
                                     <div class="sidebar-package opi-sidebar-package">
-                                       <img src="https://oxopackaging.com/assets/images/blog-posts/light-your-way-by-custom-candle-boxes.jpg"
-                                          style="width: 100%;height: auto"
-                                          width="416" height="217">
-                                       <h3 class="sidebar-pack-hover"><a href="#">Light Your Way with Luxury Candle Boxes</a></h3>
+                                       <img :src="`images/blog-posts/light-your-way-by-custom-candle-boxes.jpg`"
+                                          style="width: 100%;height: auto" width="416" height="217">
+                                       <h3 class="sidebar-pack-hover"><a href="#">Light
+                                          Your Way with Luxury Candle Boxes</a>
+                                       </h3>
                                     </div>
                                  </div>
                                  <div class="col-sm-12">
                                     <div class="sidebar-package opi-sidebar-package">
-                                       <img src="https://oxopackaging.com/assets/images/blog-posts/creative-handmade-soap-boxes1.jpg"
-                                          style="width: 100%;height: auto"
-                                          width="416" height="217">
-                                       <h3 class="sidebar-pack-hover"><a href="#">How to Grab your Customers’ Attention with Our Creative Handmade Soap Boxes</a></h3>
+                                       <img :src="`images/blog-posts/creative-handmade-soap-boxes1.jpg`"
+                                          style="width: 100%;height: auto" width="416" height="217">
+                                       <h3 class="sidebar-pack-hover"><a
+                                          href="#">How
+                                          to Grab your Customers’ Attention with Our Creative Handmade
+                                          Soap Boxes</a>
+                                       </h3>
                                     </div>
                                  </div>
                                  <div class="col-sm-12">
                                     <div class="sidebar-package opi-sidebar-package">
-                                       <img src="https://oxopackaging.com/assets/images/blog-posts/we-have-you-covered1.jpg"
-                                          style="width: 100%;height: auto"
-                                          width="416" height="217">
-                                       <h3 class="sidebar-pack-hover"><a href="#">We have you Covered</a></h3>
+                                       <img :src="`images/blog-posts/we-have-you-covered1.jpg`" 
+                                          style="width: 100%;height: auto" width="416" height="217">
+                                       <h3 class="sidebar-pack-hover"><a
+                                          href="#">We have you Covered</a>
+                                       </h3>
                                     </div>
                                  </div>
                               </div>
@@ -406,13 +412,13 @@
                         transition: none !important;
                         " type="submit">Submit</button>
                   </form>
-                  <img style="margin-top: 25px;" srcset="assets/images/payment-img.webp 800w, assets/images/payment-img.webp 400w" sizes="(min-width: 400px) 400px, 400px" src="assets/images/payment-img.webp" alt="Box Packaging" title="Box Packaging" width="205" height="73">
+                  <img style="margin-top: 25px;" srcset="assets/images/payment-img.webp 800w, assets/images/payment-img.webp 400w" sizes="(min-width: 400px) 400px, 400px" :src="`images/payment-img.webp`" alt="Box Packaging" title="Box Packaging" width="205" height="73">
                   <div class="clearfix"></div>
                   <p>Follow Us:</p>
                   <div class="social-icon">
                      <a href="http://www.facebook.com/Mosaic Visionpackaging" aria-label="Face Book" target="_blank" rel="noopener"> <i class="fab fa-facebook-f" aria-hidden="true"></i></a>
                      <a href="https://twitter.com/Mosaic Vision_Packaging" aria-label="Twitter" target="_blank" rel="noopener"> <i class="fab fa-twitter" aria-hidden="true"></i></a>
-                     <a href="https://www.youtube.com/" aria-label="Youtube" target="_blank" rel="noopener"> <i class="fab fa-youtube" aria-hidden="true"></i></a>
+                     <a href="https://www.youtube.com/channel/UCDZAA-9ksepAMcUmA8nCUaA/" aria-label="Youtube" target="_blank" rel="noopener"> <i class="fab fa-youtube" aria-hidden="true"></i></a>
                      <a href="https://www.pinterest.com/Mosaic Visionpackaging/" aria-label="Pinterest" target="_blank" rel="noopener"> <i class="fab fa-pinterest" aria-hidden="true"></i></a>
                   </div>
                </div>
@@ -475,9 +481,9 @@
                      <li><i class="fa fa-map-marker" aria-hidden="true" style="margin-right: 8px;"></i> 19-A, Abbot Road, Near PTV Station, 
                         Lahore, Punjab, Pakistan
                      </li>
-                     <li class="payment"><img loading="lazy" style="width: 100%;height: auto" alt="Box Packaging" title="Box Packaging" src="assets/images/free-shipping.webp" width="300" height="102"> </li>
+                     <li class="payment"><img loading="lazy" style="width: 100%;height: auto" alt="Box Packaging" title="Box Packaging" :src="`images/free-shipping.webp`"  width="300" height="102"> </li>
                      <li class="payment"><img loading="lazy" style="margin-top: -17px;
-                        margin-left: -6px;width: 100%;height: auto" alt="Box Packaging" title="Box Packaging" src="assets/images/flag.webp" width="249" height="85"></li>
+                        margin-left: -6px;width: 100%;height: auto" alt="Box Packaging" title="Box Packaging" :src="`images/flag.webp`" width="249" height="85"></li>
                   </ul>
                </div>
             </div>

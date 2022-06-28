@@ -10,7 +10,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
    </head>
-   <body style="-webkit-overflow-scrolling: touch;overflow-y: scroll;">
+   <!-- overflow-y: scroll; -->
+   <body style="-webkit-overflow-scrolling: touch;">
       <!-- ********** Header Start ********** -->
       <header class="header bg-warning py-2">
          <div class="container-fluid">
@@ -614,7 +615,7 @@
                   <ul>
                       <li><router-link  to='/privacy'>Privacy and Security</router-link> </li>
                      <li><a href="terms.html">Terms and Conditions</a></li>
-                     <li><a href="about-us.html">About Us</a></li>
+                     <li><router-link  to='/aboutus'>About Us</router-link> </li>
                      <li><a href="contact-us.html">Contact Us</a></li>
                      <li><a href="sitemap.html">Sitemap</a></li>
                      <li><a href="portfolio.html">Portfolio</a></li>

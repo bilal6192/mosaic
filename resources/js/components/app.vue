@@ -1,4 +1,5 @@
 <template>
+
   <div>
   
 <html lang="en">
@@ -9,7 +10,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
    </head>
-   <body style="-webkit-overflow-scrolling: touch;overflow-y: scroll;">
+   <!-- overflow-y: scroll; -->
+   <body style="-webkit-overflow-scrolling: touch;">
 
 
 
@@ -185,8 +187,8 @@
                         class="fa fa-angle-down" aria-hidden="true"></i></a>
                   </li>
                   <li class="nav-item dropdown mx-1">
-                     <router-link  to='/blog'>BLOG</router-link> 
-                        
+                     <router-link class="routerLink"   to='/blog'>BLOG</router-link> 
+                          
                   </li>
                   
                   <li class="nav-item mx-1"> <a class="nav-link" href="tel:+92 324 8473731" aria-label="Portfolio" style="transition: none !important;"><i
@@ -838,7 +840,7 @@
                      
                      <li><router-link  to='/privacy'>Privacy and Security</router-link> </li>
                      <li><a href="terms.html">Terms and Conditions</a></li>
-                     <li><a href="about-us.html">About Us</a></li>
+                     <li><router-link  to='/aboutus'>About Us</router-link> </li> 
                      <li><a href="contact-us.html">Contact Us</a></li>
                      <li><a href="sitemap.html">Sitemap</a></li>
                      <li><a href="portfolio.html">Portfolio</a></li>
@@ -960,4 +962,10 @@ const default_layout = "default";
 export default {
   
 };
+
 </script>
+<style>
+   .routerLink{
+     text-decoration: none;
+ }
+   </style>

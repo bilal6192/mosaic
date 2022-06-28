@@ -28,6 +28,13 @@ const routes = [
       path: '/privacy',
       component: require('./components/privacy.vue').default
     }
+    ,
+  
+    {
+      name: 'aboutus',
+      path: '/aboutus',
+      component: require('./components/aboutus.vue').default
+    }
   ];
 
 
