@@ -16,6 +16,7 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    
     <!-- Styles -->
     <link href="{{ ('css/app.css') }}" rel="stylesheet">
     
@@ -26,6 +27,9 @@
       <link rel="stylesheet" href="{{ ('css/css/style.css') }}" as="style">
       <link rel="stylesheet" href="{{ ('css/css/custum.css') }}">
       <link rel="stylesheet" href="{{ ('css/css/blogs.css') }}" type="text/css">
+      <link rel="stylesheet" href="{{ ('css/css/static_pages.css') }}" type="text/css">
+     
+
       <noscript>
          <link rel='stylesheet' href=" {{ ('css/css/all.min.css') }}">
       </noscript>
@@ -34,11 +38,11 @@
          <link rel="stylesheet" href="{{ ('css/css/owl.carousel.min.css') }}">
       </noscript>
       <script src="{{ ('css/css/bootstrap.bundle.min.js') }}"></script>
-
+      <script src="{{ ('js/js/home_scripts.js') }}"></script>
+      
       <script src="{{('js/js/jquery.min.js')}}"></script>
       <script src="{{('js/js/owl.carousel.min.js')}}"></script>
       <script src="{{('js/js/script3860.js')}}"></script>
-      <!-- <script src="{{ ('js/js/home_scripts.js') }}"></script> -->
       
 </head>
 

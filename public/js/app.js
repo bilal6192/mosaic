@@ -4344,25 +4344,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 var default_layout = "default";
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  mounted: function mounted() {//              $('.owl-carousel').owlCarousel({
-    // loop:true,
-    // margin:10,
-    // nav:true,
-    // responsive:{
-    //     0:{
-    //         items:1
-    //     },
-    //     600:{
-    //         items:3
-    //     },
-    //     1000:{
-    //         items:5
-    //     }
-    // }
-    // });
-  }
+  mounted: function mounted() {}
 });
 
 /***/ }),
@@ -46712,7 +46702,6 @@ var render = function () {
           _c("section", { staticClass: "static_page" }, [
             _c("div", { staticClass: "container top_mar" }, [
               _c("div", { staticClass: "row" }, [
-                _vm._v("\n                  bilal saleem\n                  "),
                 _c("div", { staticClass: "slider", attrs: { id: "slider" } }, [
                   _c("div", { staticClass: "owl-carousel" }, [
                     _c("div", [

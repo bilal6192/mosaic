@@ -1,4 +1,8 @@
+    
+      <script src="{{ ('css/css/bootstrap.bundle.min.js') }}"></script>
+      <script src="{{ ('js/js/home_scripts.js') }}"></script>
 <template>
+
   <div>
   
 
@@ -275,11 +279,10 @@
          <section class="static_page">
             <div class="container top_mar">
                <div class="row">
-                  bilal saleem
                   <div id="slider" class="slider">
                      <div class="owl-carousel">
                         <div>
-                           <img :src="`images/sliders/banner_5_51.webp`"/>                           
+                           <img  :src="`images/sliders/banner_5_51.webp`"/>                           
                         </div>
                         <div>
                            <img :src="`images/sliders/%5e40E0BC7AFB4966CAF02303F8C3638F786026FF072ECE4B6951%5epimgpsh_fullsize_distr.webp`"/>                            
@@ -719,28 +722,17 @@
 
   </div>
 </template>
+<script src="{{('js/js/jquery.min.js')}}"></script>
+      <script src="{{('js/js/owl.carousel.min.js')}}"></script>
+      <script src="{{('js/js/script3860.js')}}"></script>
 <script>
 const default_layout = "default";
 
 
 export default {
   mounted() {
-//              $('.owl-carousel').owlCarousel({
-// loop:true,
-// margin:10,
-// nav:true,
-// responsive:{
-//     0:{
-//         items:1
-//     },
-//     600:{
-//         items:3
-//     },
-//     1000:{
-//         items:5
-//     }
-// }
-// });
+   
+  
         }
 };
 </script>
