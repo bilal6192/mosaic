@@ -45,9 +45,8 @@
                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">BOX BY STYLE <i
                         class="fa fa-angle-down" aria-hidden="true"></i></a>
                   </li>
-                  <li class="nav-item dropdown mx-1">
-                     <a class="nav-link dropdown-toggle" href="blog.html" data-bs-toggle="dropdown">BLOG <i
-                        class="fas fa-angle-down"></i></a>
+                  <li class="nav-item active mx-1">                     
+                     <router-link class="routerLink" to='/blog'>BLOG</router-link>  
                   </li>
                   <li class="nav-item mx-1"> <a class="nav-link" href="tel:+92 324 8473731" aria-label="Portfolio" style="transition: none !important;"><i
                      class="fas fa-phone-alt"></i> +92 324 8473731</a> </li>
