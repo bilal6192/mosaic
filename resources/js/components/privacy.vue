@@ -32,7 +32,7 @@
             <img class="default-logo1" :src="`images/logo.png`"  sizes="(min-width: 400px) 400px, 400px" alt="Mosaic Vision Packaging" aria-label="Mosaic Vision Packaging" width="273" height="55">
             </router-link>
             <button class="navbar-toggler ms-auto me-3" type="button" data-target="#main_nav" onclick="openNav()" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-            <div class="collapse navbar-collapse" id="main_nav">
+            <div class="collapse navbar-collapse custom-setting" id="main_nav">
                <ul class="navbar-nav ms-auto">
                   <li class="nav-item active mx-1"> <a class="nav-link" href="index.html">RETAIL BOXES</a> </li>
                   <li class="nav-item  mx-1dropdown has-megamenu menga-menu-bullets">

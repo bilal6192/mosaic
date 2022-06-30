@@ -34,6 +34,12 @@ const routes = [
       name: 'aboutus',
       path: '/aboutus',
       component: require('./components/aboutus.vue').default
+    },
+  
+    {
+      name: 'retailbox',
+      path: '/retailbox',
+      component: require('./components/retailbox.vue').default
     }
   ];
 

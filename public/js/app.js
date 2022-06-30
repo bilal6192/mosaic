@@ -3470,143 +3470,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 var default_layout = "default";
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
@@ -3623,6 +3486,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4915,6 +4793,926 @@ var default_layout = "default";
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/retailbox.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/retailbox.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  mounted: function mounted() {}
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -5029,6 +5827,10 @@ var routes = [{
   name: 'aboutus',
   path: '/aboutus',
   component: (__webpack_require__(/*! ./components/aboutus.vue */ "./resources/js/components/aboutus.vue")["default"])
+}, {
+  name: 'retailbox',
+  path: '/retailbox',
+  component: (__webpack_require__(/*! ./components/retailbox.vue */ "./resources/js/components/retailbox.vue")["default"])
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]({
   // base: '/blogportal/',
@@ -41100,6 +41902,45 @@ component.options.__file = "resources/js/components/privacy.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/retailbox.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/retailbox.vue ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _retailbox_vue_vue_type_template_id_2740dfa6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./retailbox.vue?vue&type=template&id=2740dfa6& */ "./resources/js/components/retailbox.vue?vue&type=template&id=2740dfa6&");
+/* harmony import */ var _retailbox_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./retailbox.vue?vue&type=script&lang=js& */ "./resources/js/components/retailbox.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _retailbox_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _retailbox_vue_vue_type_template_id_2740dfa6___WEBPACK_IMPORTED_MODULE_0__.render,
+  _retailbox_vue_vue_type_template_id_2740dfa6___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/retailbox.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/about.vue?vue&type=script&lang=js&":
 /*!********************************************************************!*\
   !*** ./resources/js/components/about.vue?vue&type=script&lang=js& ***!
@@ -41177,6 +42018,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_privacy_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./privacy.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/privacy.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_privacy_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/retailbox.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/retailbox.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_retailbox_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./retailbox.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/retailbox.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_retailbox_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -41304,6 +42161,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/retailbox.vue?vue&type=template&id=2740dfa6&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/retailbox.vue?vue&type=template&id=2740dfa6& ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_retailbox_vue_vue_type_template_id_2740dfa6___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_retailbox_vue_vue_type_template_id_2740dfa6___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_retailbox_vue_vue_type_template_id_2740dfa6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./retailbox.vue?vue&type=template&id=2740dfa6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/retailbox.vue?vue&type=template&id=2740dfa6&");
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/about.vue?vue&type=template&id=0b0aedd2&":
 /*!*****************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/about.vue?vue&type=template&id=0b0aedd2& ***!
@@ -41389,7 +42263,7 @@ var render = function () {
                 _c(
                   "div",
                   {
-                    staticClass: "collapse navbar-collapse",
+                    staticClass: "collapse navbar-collapse custom-setting",
                     attrs: { id: "main_nav" },
                   },
                   [
@@ -43558,7 +44432,7 @@ var render = function () {
           "nav",
           {
             staticClass:
-              "navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 bg-white rounded custom-menu scroll_background_important",
+              "navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 bg-white rounded  custom-setting2 custom-menu scroll_background_important",
           },
           [
             _c(
@@ -43584,16 +44458,30 @@ var render = function () {
                 _c(
                   "div",
                   {
-                    staticClass: "collapse navbar-collapse",
+                    staticClass: "collapse navbar-collapse custom-setting",
                     attrs: { id: "main_nav" },
                   },
                   [
                     _c("ul", { staticClass: "navbar-nav ms-auto" }, [
+                      _c(
+                        "li",
+                        { staticClass: "nav-item active mx-1" },
+                        [
+                          _c(
+                            "router-link",
+                            {
+                              staticClass: "routerLink",
+                              attrs: { to: "/retailbox" },
+                            },
+                            [_vm._v("RETAIL BOXES")]
+                          ),
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
                       _vm._m(3),
                       _vm._v(" "),
                       _vm._m(4),
-                      _vm._v(" "),
-                      _vm._m(5),
                       _vm._v(" "),
                       _c(
                         "li",
@@ -43611,9 +44499,9 @@ var render = function () {
                         1
                       ),
                       _vm._v(" "),
-                      _vm._m(6),
+                      _vm._m(5),
                       _vm._v(" "),
-                      _vm._m(7),
+                      _vm._m(6),
                     ]),
                   ]
                 ),
@@ -43621,13 +44509,13 @@ var render = function () {
               1
             ),
             _vm._v(" "),
-            _vm._m(8),
+            _vm._m(7),
           ]
         ),
         _vm._v(" "),
-        _vm._m(9),
+        _vm._m(8),
         _vm._v(" "),
-        _vm._m(10),
+        _vm._m(9),
         _vm._v(" "),
         _c(
           "a",
@@ -43656,6 +44544,25 @@ var render = function () {
               _c("div", { staticClass: "slide" }, [
                 _c("div", { staticClass: "container" }, [
                   _c("div", { staticClass: "row" }, [
+                    _vm._m(10),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _c("div", { staticClass: "banner-img" }, [
+                        _c("img", {
+                          attrs: {
+                            src: "images/sliders/banner-col-img.png",
+                            alt: "",
+                          },
+                        }),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "slide" }, [
+                _c("div", { staticClass: "container" }, [
+                  _c("div", { staticClass: "row" }, [
                     _vm._m(11),
                     _vm._v(" "),
                     _c("div", { staticClass: "col-md-6" }, [
@@ -43676,25 +44583,6 @@ var render = function () {
                 _c("div", { staticClass: "container" }, [
                   _c("div", { staticClass: "row" }, [
                     _vm._m(12),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c("div", { staticClass: "banner-img" }, [
-                        _c("img", {
-                          attrs: {
-                            src: "images/sliders/banner-col-img.png",
-                            alt: "",
-                          },
-                        }),
-                      ]),
-                    ]),
-                  ]),
-                ]),
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "slide" }, [
-                _c("div", { staticClass: "container" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _vm._m(13),
                     _vm._v(" "),
                     _c("div", { staticClass: "col-md-6" }, [
                       _c("div", { staticClass: "banner-img" }, [
@@ -43735,7 +44623,7 @@ var render = function () {
                     },
                   }),
                   _vm._v(" "),
-                  _vm._m(14),
+                  _vm._m(13),
                 ]
               ),
               _vm._v(" "),
@@ -43756,7 +44644,7 @@ var render = function () {
                     },
                   }),
                   _vm._v(" "),
-                  _vm._m(15),
+                  _vm._m(14),
                 ]
               ),
               _vm._v(" "),
@@ -43777,7 +44665,7 @@ var render = function () {
                     },
                   }),
                   _vm._v(" "),
-                  _vm._m(16),
+                  _vm._m(15),
                 ]
               ),
               _vm._v(" "),
@@ -43798,7 +44686,7 @@ var render = function () {
                     },
                   }),
                   _vm._v(" "),
-                  _vm._m(17),
+                  _vm._m(16),
                 ]
               ),
               _vm._v(" "),
@@ -43819,7 +44707,7 @@ var render = function () {
                     },
                   }),
                   _vm._v(" "),
-                  _vm._m(18),
+                  _vm._m(17),
                 ]
               ),
               _vm._v(" "),
@@ -43840,7 +44728,7 @@ var render = function () {
                     },
                   }),
                   _vm._v(" "),
-                  _vm._m(19),
+                  _vm._m(18),
                 ]
               ),
             ]),
@@ -43848,7 +44736,7 @@ var render = function () {
         ]),
         _vm._v(" "),
         _c("section", { staticClass: "products" }, [
-          _vm._m(20),
+          _vm._m(19),
           _vm._v(" "),
           _c("div", { staticClass: "container" }, [
             _c("div", { staticClass: "d-flex" }, [
@@ -43901,7 +44789,7 @@ var render = function () {
                         ]
                       ),
                       _vm._v(" "),
-                      _vm._m(21),
+                      _vm._m(20),
                     ]
                   ),
                 ]),
@@ -43954,7 +44842,7 @@ var render = function () {
                         ]
                       ),
                       _vm._v(" "),
-                      _vm._m(22),
+                      _vm._m(21),
                     ]
                   ),
                 ]),
@@ -44007,7 +44895,7 @@ var render = function () {
                         ]
                       ),
                       _vm._v(" "),
-                      _vm._m(23),
+                      _vm._m(22),
                     ]
                   ),
                 ]),
@@ -44061,7 +44949,7 @@ var render = function () {
                         ]
                       ),
                       _vm._v(" "),
-                      _vm._m(24),
+                      _vm._m(23),
                     ]
                   ),
                 ]),
@@ -44115,7 +45003,7 @@ var render = function () {
                         ]
                       ),
                       _vm._v(" "),
-                      _vm._m(25),
+                      _vm._m(24),
                     ]
                   ),
                 ]),
@@ -44168,18 +45056,18 @@ var render = function () {
                         ]
                       ),
                       _vm._v(" "),
-                      _vm._m(26),
+                      _vm._m(25),
                     ]
                   ),
                 ]),
                 _vm._v(" "),
-                _vm._m(27),
+                _vm._m(26),
               ]),
             ]),
           ]),
         ]),
         _vm._v(" "),
-        _vm._m(28),
+        _vm._m(27),
         _vm._v(" "),
         _c(
           "div",
@@ -44189,6 +45077,33 @@ var render = function () {
               _c("h3", [_vm._v("Testimonial")]),
               _vm._v(" "),
               _c("div", { staticClass: "owl-carousel" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "card d-flex",
+                    staticStyle: { border: "none" },
+                  },
+                  [
+                    _c("div", { staticClass: "card-img" }, [
+                      _c("img", {
+                        staticClass: "media-object rounded-pill",
+                        attrs: {
+                          loading: "lazy",
+                          src: "images/testimonial-img.png",
+                          srcset: "assets/images/testimonial-img.png",
+                          sizes: "(min-width: 73px) 73px, 73px",
+                          alt: "",
+                          title: "",
+                          width: "73",
+                          height: "73",
+                        },
+                      }),
+                    ]),
+                    _vm._v(" "),
+                    _vm._m(28),
+                  ]
+                ),
+                _vm._v(" "),
                 _c(
                   "div",
                   {
@@ -44323,33 +45238,6 @@ var render = function () {
                     _vm._m(33),
                   ]
                 ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "card d-flex",
-                    staticStyle: { border: "none" },
-                  },
-                  [
-                    _c("div", { staticClass: "card-img" }, [
-                      _c("img", {
-                        staticClass: "media-object rounded-pill",
-                        attrs: {
-                          loading: "lazy",
-                          src: "images/testimonial-img.png",
-                          srcset: "assets/images/testimonial-img.png",
-                          sizes: "(min-width: 73px) 73px, 73px",
-                          alt: "",
-                          title: "",
-                          width: "73",
-                          height: "73",
-                        },
-                      }),
-                    ]),
-                    _vm._v(" "),
-                    _vm._m(34),
-                  ]
-                ),
               ]),
             ]),
           ]
@@ -44357,7 +45245,7 @@ var render = function () {
         _vm._v(" "),
         _c("section", { staticClass: "brands-section" }, [
           _c("div", { staticClass: "container" }, [
-            _vm._m(35),
+            _vm._m(34),
             _vm._v(" "),
             _c("div", { staticClass: "barands-body" }, [
               _c("div", { staticClass: "row" }, [
@@ -44474,7 +45362,7 @@ var render = function () {
                   attrs: { id: "messagenote" },
                 }),
                 _vm._v(" "),
-                _vm._m(36),
+                _vm._m(35),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { "margin-top": "25px" },
@@ -44497,7 +45385,7 @@ var render = function () {
                 _vm._v(" "),
                 _c("p", [_vm._v("Follow Us:")]),
                 _vm._v(" "),
-                _vm._m(37),
+                _vm._m(36),
               ]),
               _vm._v(" "),
               _c(
@@ -44532,7 +45420,7 @@ var render = function () {
                       1
                     ),
                     _vm._v(" "),
-                    _vm._m(38),
+                    _vm._m(37),
                     _vm._v(" "),
                     _c(
                       "li",
@@ -44544,16 +45432,16 @@ var render = function () {
                       1
                     ),
                     _vm._v(" "),
+                    _vm._m(38),
+                    _vm._v(" "),
                     _vm._m(39),
                     _vm._v(" "),
                     _vm._m(40),
-                    _vm._v(" "),
-                    _vm._m(41),
                   ]),
                 ]
               ),
               _vm._v(" "),
-              _vm._m(42),
+              _vm._m(41),
               _vm._v(" "),
               _c(
                 "div",
@@ -44577,11 +45465,11 @@ var render = function () {
                   ),
                   _vm._v(" "),
                   _c("ul", { staticStyle: { "list-style-type": "none" } }, [
+                    _vm._m(42),
+                    _vm._v(" "),
                     _vm._m(43),
                     _vm._v(" "),
                     _vm._m(44),
-                    _vm._v(" "),
-                    _vm._m(45),
                     _vm._v(" "),
                     _c("li", { staticClass: "payment" }, [
                       _c("img", {
@@ -44622,9 +45510,9 @@ var render = function () {
           ]),
         ]),
         _vm._v(" "),
-        _vm._m(46),
+        _vm._m(45),
         _vm._v(" "),
-        _vm._m(47),
+        _vm._m(46),
       ]),
     ]),
   ])
@@ -44777,16 +45665,6 @@ var staticRenderFns = [
       },
       [_c("span", { staticClass: "navbar-toggler-icon" })]
     )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item active mx-1" }, [
-      _c("a", { staticClass: "nav-link", attrs: { href: "index.html" } }, [
-        _vm._v("RETAIL BOXES"),
-      ]),
-    ])
   },
   function () {
     var _vm = this
@@ -46643,7 +47521,7 @@ var render = function () {
           "nav",
           {
             staticClass:
-              "navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 bg-white rounded custom-menu scroll_background_important",
+              "navbar navbar-expand-lg navbar-light custom-setting2 bg-light sticky-top p-3 bg-white rounded custom-menu scroll_background_important",
           },
           [
             _c(
@@ -46701,32 +47579,51 @@ var render = function () {
         _c("div", [
           _c("section", { staticClass: "static_page" }, [
             _c("div", { staticClass: "container top_mar" }, [
-              _c("div", { staticClass: "row" }, [
-                _c("div", { staticClass: "slider", attrs: { id: "slider" } }, [
-                  _c("div", { staticClass: "owl-carousel" }, [
-                    _c("div", [
-                      _c("img", {
-                        attrs: { src: "images/sliders/banner_5_51.webp" },
-                      }),
+              _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass: "carousel slide",
+                    attrs: { id: "myCarousel", "data-ride": "carousel" },
+                  },
+                  [
+                    _c("div", { staticClass: "carousel-inner" }, [
+                      _c("div", { staticClass: "item active" }, [
+                        _c("img", {
+                          attrs: {
+                            src: "images/sliders/%5e410836B54409450B229352E5022E745ADB0F5D3DBC1E5F8AAF%5epimgpsh_fullsize_distr2.webp",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "carousel-caption" }),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "item" }, [
+                        _c("img", {
+                          attrs: {
+                            src: "images/sliders/%5e40E0BC7AFB4966CAF02303F8C3638F786026FF072ECE4B6951%5epimgpsh_fullsize_distr.webp",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "carousel-caption" }),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "item" }, [
+                        _c("img", {
+                          attrs: {
+                            src: "images/sliders/%5e0130799E202DC738545DE729D7373441C7D9A89F31271556C6%5epimgpsh_fullsize_distr.webp",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "carousel-caption" }),
+                      ]),
                     ]),
                     _vm._v(" "),
-                    _c("div", [
-                      _c("img", {
-                        attrs: {
-                          src: "images/sliders/%5e40E0BC7AFB4966CAF02303F8C3638F786026FF072ECE4B6951%5epimgpsh_fullsize_distr.webp",
-                        },
-                      }),
-                    ]),
+                    _vm._m(7),
                     _vm._v(" "),
-                    _c("div", [
-                      _c("img", {
-                        attrs: {
-                          src: "images/sliders/%5e0130799E202DC738545DE729D7373441C7D9A89F31271556C6%5epimgpsh_fullsize_distr.webp",
-                        },
-                      }),
-                    ]),
-                  ]),
-                ]),
+                    _vm._m(8),
+                  ]
+                ),
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "row" }, [
@@ -46745,7 +47642,7 @@ var render = function () {
                       },
                     }),
                     _vm._v(" "),
-                    _vm._m(7),
+                    _vm._m(9),
                   ]
                 ),
                 _vm._v(" "),
@@ -46765,7 +47662,7 @@ var render = function () {
                       },
                     }),
                     _vm._v(" "),
-                    _vm._m(8),
+                    _vm._m(10),
                   ]
                 ),
                 _vm._v(" "),
@@ -46785,7 +47682,7 @@ var render = function () {
                       },
                     }),
                     _vm._v(" "),
-                    _vm._m(9),
+                    _vm._m(11),
                   ]
                 ),
               ]),
@@ -46794,7 +47691,7 @@ var render = function () {
                 _c("div", { staticClass: "col-md-8 col-12" }, [
                   _c("div", { staticClass: "row" }, [
                     _c("div", { staticClass: "col-sm-12" }, [
-                      _vm._m(10),
+                      _vm._m(12),
                       _vm._v(" "),
                       _c("div", { staticClass: "mb-4" }, [
                         _c("img", {
@@ -46837,7 +47734,7 @@ var render = function () {
                             ]
                           ),
                           _vm._v(" "),
-                          _vm._m(11),
+                          _vm._m(13),
                         ]),
                       ]
                     ),
@@ -46869,7 +47766,7 @@ var render = function () {
                             ]
                           ),
                           _vm._v(" "),
-                          _vm._m(12),
+                          _vm._m(14),
                         ]),
                       ]
                     ),
@@ -46901,7 +47798,7 @@ var render = function () {
                             ]
                           ),
                           _vm._v(" "),
-                          _vm._m(13),
+                          _vm._m(15),
                         ]),
                       ]
                     ),
@@ -46933,7 +47830,7 @@ var render = function () {
                             ]
                           ),
                           _vm._v(" "),
-                          _vm._m(14),
+                          _vm._m(16),
                         ]),
                       ]
                     ),
@@ -46965,7 +47862,7 @@ var render = function () {
                             ]
                           ),
                           _vm._v(" "),
-                          _vm._m(15),
+                          _vm._m(17),
                         ]),
                       ]
                     ),
@@ -46997,7 +47894,7 @@ var render = function () {
                             ]
                           ),
                           _vm._v(" "),
-                          _vm._m(16),
+                          _vm._m(18),
                         ]),
                       ]
                     ),
@@ -47006,16 +47903,16 @@ var render = function () {
                 _vm._v(" "),
                 _c("div", { staticClass: "col-md-4 col-12" }, [
                   _c("section", { staticClass: "right_bar" }, [
-                    _vm._m(17),
+                    _vm._m(19),
                     _vm._v(" "),
-                    _vm._m(18),
+                    _vm._m(20),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
                     _c("ul", { staticClass: "tips-ul" }),
                     _vm._v(" "),
                     _c("div", { staticClass: "row" }, [
-                      _vm._m(19),
+                      _vm._m(21),
                       _vm._v(" "),
                       _c("div", { staticClass: "col-sm-12" }, [
                         _c(
@@ -47033,7 +47930,7 @@ var render = function () {
                               },
                             }),
                             _vm._v(" "),
-                            _vm._m(20),
+                            _vm._m(22),
                           ]
                         ),
                       ]),
@@ -47054,7 +47951,7 @@ var render = function () {
                               },
                             }),
                             _vm._v(" "),
-                            _vm._m(21),
+                            _vm._m(23),
                           ]
                         ),
                       ]),
@@ -47075,7 +47972,7 @@ var render = function () {
                               },
                             }),
                             _vm._v(" "),
-                            _vm._m(22),
+                            _vm._m(24),
                           ]
                         ),
                       ]),
@@ -47083,7 +47980,7 @@ var render = function () {
                   ]),
                 ]),
                 _vm._v(" "),
-                _vm._m(23),
+                _vm._m(25),
               ]),
             ]),
           ]),
@@ -47125,7 +48022,7 @@ var render = function () {
                   attrs: { id: "messagenote" },
                 }),
                 _vm._v(" "),
-                _vm._m(24),
+                _vm._m(26),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { "margin-top": "25px" },
@@ -47148,7 +48045,7 @@ var render = function () {
                 _vm._v(" "),
                 _c("p", [_vm._v("Follow Us:")]),
                 _vm._v(" "),
-                _vm._m(25),
+                _vm._m(27),
               ]),
               _vm._v(" "),
               _c(
@@ -47183,7 +48080,7 @@ var render = function () {
                       1
                     ),
                     _vm._v(" "),
-                    _vm._m(26),
+                    _vm._m(28),
                     _vm._v(" "),
                     _c(
                       "li",
@@ -47195,25 +48092,25 @@ var render = function () {
                       1
                     ),
                     _vm._v(" "),
-                    _vm._m(27),
-                    _vm._v(" "),
-                    _vm._m(28),
-                    _vm._v(" "),
                     _vm._m(29),
+                    _vm._v(" "),
+                    _vm._m(30),
+                    _vm._v(" "),
+                    _vm._m(31),
                   ]),
                 ]
               ),
               _vm._v(" "),
-              _vm._m(30),
+              _vm._m(32),
               _vm._v(" "),
-              _vm._m(31),
+              _vm._m(33),
             ]),
           ]),
         ]),
         _vm._v(" "),
-        _vm._m(32),
+        _vm._m(34),
         _vm._v(" "),
-        _vm._m(33),
+        _vm._m(35),
       ]),
     ]),
   ])
@@ -47353,7 +48250,7 @@ var staticRenderFns = [
     return _c(
       "button",
       {
-        staticClass: "navbar-toggler ms-auto me-3",
+        staticClass: "navbar-toggler ms-auto me-3 ",
         attrs: {
           type: "button",
           "data-target": "#main_nav",
@@ -47371,7 +48268,10 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "div",
-      { staticClass: "collapse navbar-collapse", attrs: { id: "main_nav" } },
+      {
+        staticClass: "collapse navbar-collapse custom-setting",
+        attrs: { id: "main_nav" },
+      },
       [
         _c("ul", { staticClass: "navbar-nav ms-auto" }, [
           _c("li", { staticClass: "nav-item active mx-1" }, [
@@ -48458,6 +49358,40 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "left carousel-control",
+        attrs: { href: "#myCarousel", "data-slide": "prev" },
+      },
+      [
+        _c("span", { staticClass: "glyphicon glyphicon-chevron-left" }),
+        _vm._v(" "),
+        _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "right carousel-control",
+        attrs: { href: "#myCarousel", "data-slide": "next" },
+      },
+      [
+        _c("span", { staticClass: "glyphicon glyphicon-chevron-right" }),
+        _vm._v(" "),
+        _c("span", { staticClass: "sr-only" }, [_vm._v("Next")]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "package-hover" }, [
       _c("h2", [
         _c("a", { attrs: { href: "#.html" } }, [
@@ -49483,7 +50417,7 @@ var render = function () {
                 _c(
                   "div",
                   {
-                    staticClass: "collapse navbar-collapse",
+                    staticClass: "collapse navbar-collapse custom-setting",
                     attrs: { id: "main_nav" },
                   },
                   [
@@ -51705,6 +52639,3171 @@ var staticRenderFns = [
           ]
         ),
       ]),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/retailbox.vue?vue&type=template&id=2740dfa6&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/retailbox.vue?vue&type=template&id=2740dfa6& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _c(
+      "nav",
+      {
+        staticClass:
+          "navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 bg-white rounded custom-menu scroll_background_important",
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "container-fluid" },
+          [
+            _c("router-link", { attrs: { to: "/" } }, [
+              _c("img", {
+                staticClass: "default-logo1",
+                attrs: {
+                  src: "images/logo.png",
+                  sizes: "(min-width: 400px) 400px, 400px",
+                  alt: "Mosaic Vision Packaging",
+                  "aria-label": "Mosaic Vision Packaging",
+                  width: "273",
+                  height: "55",
+                },
+              }),
+            ]),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _vm._m(3),
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _vm._m(4),
+      ]
+    ),
+    _vm._v(" "),
+    _vm._m(5),
+    _vm._v(" "),
+    _vm._m(6),
+    _vm._v(" "),
+    _c(
+      "a",
+      {
+        staticClass: "common_phone_call_icon",
+        attrs: { href: "tel:+923248473731" },
+      },
+      [
+        _c("div", [
+          _c("img", {
+            attrs: {
+              src: "images/phone-icon-946.webp",
+              width: "35",
+              height: "35",
+            },
+          }),
+        ]),
+      ]
+    ),
+    _vm._v(" "),
+    _c("section", { staticClass: "products_container" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-9 col-12" }, [
+            _c("div", { staticClass: "banner banner-bg" }, [
+              _c("div", { staticClass: "tl-corner-box" }, [
+                _c("div", { staticClass: "container" }, [
+                  _c("div", { staticClass: "row" }, [
+                    _vm._m(7),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _c("div", { staticClass: "banner-img" }, [
+                        _c("img", {
+                          attrs: {
+                            src: "assets/images/sliders/product-pb.png",
+                            alt: "",
+                          },
+                        }),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "products-list my-4" }, [
+              _c("div", { staticClass: "card-deck row mx-0" }, [
+                _c(
+                  "div",
+                  { staticClass: "col-sm-6 col-lg-4 col-12 d-sm-flex px-1" },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "card-box card shadow-lg mb-5 mx-1 bg-white rounded",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "change-hover d-sm-flex justify-content-center flex-wrap",
+                            attrs: {
+                              href: "assets/images/product-1.png",
+                              "aria-label": "custom-tuck-boxes",
+                              target: "_blank",
+                              rel: "noopener",
+                            },
+                          },
+                          [
+                            _c("img", {
+                              staticClass: "product_image",
+                              staticStyle: { width: "100%", height: "auto" },
+                              attrs: {
+                                height: "356",
+                                width: "356",
+                                alt: "Custom Tuck Boxes",
+                                title: "Custom Tuck Boxes",
+                                src: "images/product-1.png",
+                              },
+                            }),
+                            _vm._v(" "),
+                            _c("img", {
+                              staticClass: "product_image",
+                              staticStyle: { width: "100%", height: "auto" },
+                              attrs: {
+                                height: "356",
+                                width: "356",
+                                alt: "Custom Tuck Box Template",
+                                title: "Custom Tuck Box Template",
+                                src: "images/product-1.png",
+                              },
+                            }),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _vm._m(8),
+                      ]
+                    ),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "col-sm-6 col-lg-4 col-12 d-sm-flex px-1" },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "card-box card shadow-lg mb-5 mx-1 bg-white rounded",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "change-hover d-sm-flex justify-content-center flex-wrap",
+                            attrs: {
+                              href: "assets/images/product-2.png",
+                              "aria-label":
+                                "custom-printed-straight-tuck-end-packaging-boxes",
+                              target: "_blank",
+                              rel: "noopener",
+                            },
+                          },
+                          [
+                            _c("img", {
+                              staticClass: "product_image",
+                              staticStyle: { width: "100%", height: "auto" },
+                              attrs: {
+                                height: "356",
+                                width: "356",
+                                alt: "Custom Printed Straight Tuck End Packaging Boxes",
+                                title:
+                                  "Custom Printed Straight Tuck End Packaging Boxes",
+                                src: "images/product-2.png",
+                              },
+                            }),
+                            _vm._v(" "),
+                            _c("img", {
+                              staticClass: "product_image",
+                              staticStyle: { width: "100%", height: "auto" },
+                              attrs: {
+                                height: "356",
+                                width: "356",
+                                alt: "Custom Straight Tuck End Packaging Boxes",
+                                title:
+                                  "Custom Straight Tuck End Packaging Boxes",
+                                src: "images/product-2.png",
+                              },
+                            }),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _vm._m(9),
+                      ]
+                    ),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "col-sm-6 col-lg-4 col-12 d-sm-flex px-1" },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "card-box card shadow-lg mb-5 mx-1 bg-white rounded",
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass:
+                              "change-hover d-sm-flex justify-content-center flex-wrap",
+                            attrs: {
+                              href: "assets/images/product-3.png",
+                              "aria-label":
+                                "custom-printed-sleeve-packaging-boxes",
+                              target: "_blank",
+                              rel: "noopener",
+                            },
+                          },
+                          [
+                            _c("img", {
+                              staticClass: "product_image",
+                              staticStyle: { width: "100%", height: "auto" },
+                              attrs: {
+                                height: "356",
+                                width: "356",
+                                alt: "Custom Printed Sleeve Packaging Boxes",
+                                title: "Custom Printed Sleeve Packaging Boxes",
+                                src: "images/product-3.png",
+                              },
+                            }),
+                            _vm._v(" "),
+                            _c("img", {
+                              staticClass: "product_image",
+                              staticStyle: { width: "100%", height: "auto" },
+                              attrs: {
+                                height: "356",
+                                width: "356",
+                                alt: "Custom Printed Sleeve Packaging Boxes",
+                                title: "Custom Printed Sleeve Packaging Boxes",
+                                src: "images/product-3.png",
+                              },
+                            }),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _vm._m(10),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _vm._m(11),
+        ]),
+        _vm._v(" "),
+        _vm._m(12),
+      ]),
+    ]),
+    _vm._v(" "),
+    _vm._m(13),
+    _vm._v(" "),
+    _c("section", { staticClass: "footer" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h3", { staticClass: "text-center" }, [
+          _vm._v("MOSAIC VISION PACKAGING"),
+        ]),
+        _vm._v(" "),
+        _c("hr"),
+        _vm._v(" "),
+        _c("div", { staticClass: "row mx-0" }, [
+          _c("div", { staticClass: "col-sm-6 col-lg-3 col-xs-12" }, [
+            _c(
+              "p",
+              {
+                staticStyle: {
+                  "font-size": "18px",
+                  "margin-top": "10px",
+                  "margin-bottom": "10px",
+                  "text-transform": "uppercase",
+                  color: "#fff",
+                  "font-weight": "500",
+                  "line-height": "1.2",
+                  "font-family": "'Montserrat Bold'",
+                },
+              },
+              [_vm._v("Newsletter")]
+            ),
+            _vm._v(" "),
+            _c("p", { staticClass: "fw-bold font_m_bold" }, [
+              _vm._v("Subscribe for a newsletter"),
+            ]),
+            _vm._v(" "),
+            _c("div", {
+              staticStyle: { color: "red" },
+              attrs: { id: "messagenote" },
+            }),
+            _vm._v(" "),
+            _vm._m(14),
+            _vm._v(" "),
+            _c("img", {
+              staticStyle: { "margin-top": "25px" },
+              attrs: {
+                srcset:
+                  "assets/images/payment-img.webp" +
+                  " 800w, " +
+                  "assets/images/payment-img.webp" +
+                  " 400w",
+                sizes: "(min-width: 400px) 400px, 400px",
+                src: "images/payment-img.webp",
+                alt: "Box Packaging",
+                title: "Box Packaging",
+                width: "205",
+                height: "73",
+              },
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "clearfix" }),
+            _vm._v(" "),
+            _c("p", [_vm._v("Follow Us:")]),
+            _vm._v(" "),
+            _vm._m(15),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-sm-6 col-lg-3 col-xs-12 bullets" }, [
+            _c(
+              "p",
+              {
+                staticStyle: {
+                  "font-size": "18px",
+                  "margin-top": "10px",
+                  "margin-bottom": "10px",
+                  "text-transform": "uppercase",
+                  color: "#fff",
+                  "font-weight": "500",
+                  "line-height": "1.2",
+                  "font-family": "'Montserrat Bold'",
+                },
+              },
+              [_vm._v("Information")]
+            ),
+            _vm._v(" "),
+            _c("ul", [
+              _c(
+                "li",
+                [
+                  _c("router-link", { attrs: { to: "/privacy" } }, [
+                    _vm._v("Privacy and Security"),
+                  ]),
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _vm._m(16),
+              _vm._v(" "),
+              _c(
+                "li",
+                [
+                  _c("router-link", { attrs: { to: "/aboutus" } }, [
+                    _vm._v("About Us"),
+                  ]),
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _vm._m(17),
+              _vm._v(" "),
+              _vm._m(18),
+              _vm._v(" "),
+              _vm._m(19),
+            ]),
+          ]),
+          _vm._v(" "),
+          _vm._m(20),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-sm-6 col-lg-3 col-xs-12 contact-ul" }, [
+            _c(
+              "span",
+              {
+                staticStyle: {
+                  "font-size": "18px",
+                  "margin-top": "10px",
+                  "margin-bottom": "10px",
+                  "text-transform": "uppercase",
+                  color: "#fff",
+                  "font-weight": "500",
+                  "line-height": "1.2",
+                  "font-family": "'Montserrat Bold'",
+                },
+              },
+              [_vm._v("Contact Us")]
+            ),
+            _vm._v(" "),
+            _c("ul", { staticStyle: { "list-style-type": "none" } }, [
+              _vm._m(21),
+              _vm._v(" "),
+              _vm._m(22),
+              _vm._v(" "),
+              _vm._m(23),
+              _vm._v(" "),
+              _c("li", { staticClass: "payment" }, [
+                _c("img", {
+                  staticStyle: { width: "100%", height: "auto" },
+                  attrs: {
+                    loading: "lazy",
+                    alt: "Box Packaging",
+                    title: "Box Packaging",
+                    src: "images/free-shipping.webp",
+                    width: "300",
+                    height: "102",
+                  },
+                }),
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "payment" }, [
+                _c("img", {
+                  staticStyle: {
+                    "margin-top": "-17px",
+                    "margin-left": "-6px",
+                    width: "100%",
+                    height: "auto",
+                  },
+                  attrs: {
+                    loading: "lazy",
+                    alt: "Box Packaging",
+                    title: "Box Packaging",
+                    src: "images/flag.webp",
+                    width: "249",
+                    height: "85",
+                  },
+                }),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]),
+    ]),
+    _vm._v(" "),
+    _vm._m(24),
+  ])
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("head", [
+      _c("title", [_vm._v("Product Page")]),
+      _vm._v(" "),
+      _c("meta", { attrs: { charset: "utf-8" } }),
+      _vm._v(" "),
+      _c("meta", {
+        attrs: { "http-equiv": "X-UA-Compatible", content: "IE=edge" },
+      }),
+      _vm._v(" "),
+      _c("meta", {
+        attrs: {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("header", { staticClass: "header bg-warning py-2" }, [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "row cntct-info m-0 rowfafari" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-md-2 d-none social-icon align-items-center d-md-flex justify-content-start px-4",
+            },
+            [
+              _c(
+                "a",
+                {
+                  staticClass: "px-1",
+                  attrs: {
+                    href: "http://www.facebook.com",
+                    "aria-label": "Face Book",
+                    target: "_blank",
+                    rel: "noopener",
+                  },
+                },
+                [
+                  _c("i", {
+                    staticClass: "fab fa-facebook-f",
+                    attrs: { "aria-hidden": "true" },
+                  }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "px-1",
+                  attrs: {
+                    href: "https://www.instagram.com",
+                    target: "_blank",
+                    "aria-label": "Instagram",
+                    rel: "noopener",
+                  },
+                },
+                [
+                  _c("i", {
+                    staticClass: "fab fa-instagram",
+                    attrs: { "aria-hidden": "true" },
+                  }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "px-1",
+                  attrs: {
+                    href: "http://www.facebook.com",
+                    "aria-label": "Face Book",
+                    target: "_blank",
+                    rel: "noopener",
+                  },
+                },
+                [
+                  _c("i", {
+                    staticClass: "fab fa-linkedin",
+                    attrs: { "aria-hidden": "true" },
+                  }),
+                ]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-md-6 col-12 d-flex justify-content-center  contact-tab align-items-center",
+            },
+            [
+              _c("a", [
+                _c("span", { staticStyle: { display: "inline-flex" } }, [
+                  _vm._v("Free Shipping on all Orders!"),
+                ]),
+              ]),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-md-4 d-none social-icon align-items-center d-md-flex justify-content-end px-4",
+            },
+            [
+              _c(
+                "a",
+                { attrs: { href: "mailto:info@mosaicvisionpackaging.com" } },
+                [_vm._v("info@mosaicvisionpackaging.com")]
+              ),
+            ]
+          ),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "navbar-toggler ms-auto me-3",
+        attrs: {
+          type: "button",
+          "data-target": "#main_nav",
+          onclick: "openNav()",
+          "aria-expanded": "false",
+          "aria-label": "Toggle navigation",
+        },
+      },
+      [_c("span", { staticClass: "navbar-toggler-icon" })]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "collapse navbar-collapse", attrs: { id: "main_nav" } },
+      [
+        _c("ul", { staticClass: "navbar-nav ms-auto" }, [
+          _c("li", { staticClass: "nav-item active mx-1" }, [
+            _c(
+              "a",
+              { staticClass: "nav-link", attrs: { href: "index.html" } },
+              [_vm._v("RETAIL BOXES")]
+            ),
+          ]),
+          _vm._v(" "),
+          _c(
+            "li",
+            {
+              staticClass:
+                "nav-item  mx-1dropdown has-megamenu menga-menu-bullets",
+            },
+            [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link dropdown-toggle",
+                  attrs: { href: "#", "data-bs-toggle": "dropdown" },
+                },
+                [
+                  _vm._v("BOX BY INDUSTRY"),
+                  _c("i", {
+                    staticClass: "fa fa-angle-down",
+                    attrs: { "aria-hidden": "true" },
+                  }),
+                ]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item dropdown mx-1" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link dropdown-toggle",
+                attrs: { href: "#", "data-bs-toggle": "dropdown" },
+              },
+              [
+                _vm._v("BOX BY STYLE "),
+                _c("i", {
+                  staticClass: "fa fa-angle-down",
+                  attrs: { "aria-hidden": "true" },
+                }),
+              ]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item dropdown mx-1" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link dropdown-toggle",
+                attrs: { href: "blog.html", "data-bs-toggle": "dropdown" },
+              },
+              [_vm._v("BLOG "), _c("i", { staticClass: "fas fa-angle-down" })]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item mx-1" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                staticStyle: { transition: "none !important" },
+                attrs: {
+                  href: "tel:+92 324 8473731",
+                  "aria-label": "Portfolio",
+                },
+              },
+              [
+                _c("i", { staticClass: "fas fa-phone-alt" }),
+                _vm._v(" +92 324 8473731"),
+              ]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item mx-1" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                staticStyle: { transition: "none !important" },
+                attrs: { href: "portfolio.html", "aria-label": "Portfolio" },
+              },
+              [_vm._v("Get a Free Quote")]
+            ),
+          ]),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "drop-search shadow-view" }, [
+      _c(
+        "form",
+        {
+          staticClass: "small_search_form_top",
+          attrs: { action: "#/search", method: "get" },
+        },
+        [
+          _c("div", { staticClass: "input-group top-bar-search-group" }, [
+            _c("input", {
+              staticClass: "form-control search_input_top",
+              attrs: {
+                type: "text",
+                required: "",
+                name: "search",
+                placeholder: "Search",
+                value: "",
+              },
+            }),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass:
+                  "btn btn-secondary  bg-transparent border-0 border-start border-secondary",
+                attrs: { type: "submit", "aria-label": "search" },
+              },
+              [_c("i", { staticClass: "fa fa-search" })]
+            ),
+          ]),
+        ]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "common_get_quote_button",
+        attrs: {
+          href: "#",
+          "data-bs-toggle": "modal",
+          "data-bs-target": "#getQuote",
+        },
+      },
+      [
+        _c(
+          "p",
+          {
+            staticStyle: {
+              "text-align": "center",
+              "margin-bottom": "auto",
+              color: "#fff",
+            },
+          },
+          [_vm._v("Get Quote")]
+        ),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "modal fade",
+        attrs: {
+          id: "getQuote",
+          tabindex: "-1",
+          "aria-labelledby": "exampleModalLabel",
+          "aria-hidden": "true",
+        },
+      },
+      [
+        _c("div", { staticClass: "modal-dialog" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header" }, [
+              _c("h5", {
+                staticClass: "modal-title",
+                attrs: { id: "exampleModalLabel" },
+              }),
+              _vm._v(" "),
+              _c("button", {
+                staticClass: "btn-close",
+                attrs: {
+                  type: "button",
+                  "data-bs-dismiss": "modal",
+                  "aria-label": "Close",
+                },
+              }),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("div", { staticClass: "row side-bar-form mx-0" }, [
+                _c("div", { staticClass: "get-quote" }, [
+                  _c("h4", [_vm._v("GET CUSTOM QUOTE")]),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "details" }, [
+                  _c(
+                    "form",
+                    {
+                      attrs: {
+                        id: "get_quote",
+                        action: "#/get-quote",
+                        method: "post",
+                        novalidate: "novalidate",
+                      },
+                    },
+                    [
+                      _c("input", {
+                        attrs: {
+                          type: "hidden",
+                          name: "_token",
+                          value: "pkUBSv3UQwJKNQGbLkLPw46WZPPRbvVLKEYsxLxG",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "row pt-3" }, [
+                        _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                name: "product_length",
+                                id: "product_length",
+                                value: "",
+                                placeholder: "Length",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                name: "product_width",
+                                id: "product_width",
+                                value: "",
+                                placeholder: "Width",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                name: "product_depth",
+                                id: "product_depth",
+                                value: "",
+                                placeholder: "Depth",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "select",
+                              {
+                                staticClass: "form-control required",
+                                attrs: {
+                                  name: "measurement_units",
+                                  id: "units",
+                                },
+                              },
+                              [
+                                _c("option", { attrs: { value: "cm" } }, [
+                                  _vm._v("cm"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "mm" } }, [
+                                  _vm._v("mm"),
+                                ]),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { selected: "", value: "inches" } },
+                                  [_vm._v("inch")]
+                                ),
+                              ]
+                            ),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          attrs: {
+                            type: "hidden",
+                            value: "#",
+                            name: "current_url",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "select",
+                              {
+                                staticClass: "form-control required",
+                                attrs: {
+                                  name: "product_name",
+                                  id: "product_name",
+                                },
+                              },
+                              [
+                                _c(
+                                  "option",
+                                  {
+                                    staticStyle: { display: "none" },
+                                    attrs: {
+                                      selected: "",
+                                      disabled: "",
+                                      value: "",
+                                      hidden: "",
+                                    },
+                                  },
+                                  [_vm._v(" Product Name")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Auto-Lock Boxes" } },
+                                  [_vm._v("Auto-Lock Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Baby Product Boxes" } },
+                                  [_vm._v("Baby Product Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Bakery Boxes" } },
+                                  [_vm._v("Bakery Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Ballot boxes" } },
+                                  [_vm._v("Ballot boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Bandage Boxes" } },
+                                  [_vm._v("Bandage Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Belt Boxes" } },
+                                  [_vm._v("Belt Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Black Gable Boxes" } },
+                                  [_vm._v("Black Gable Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Book End Boxes" } },
+                                  [_vm._v("Book End Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Bottle Boxes" } },
+                                  [_vm._v("Bottle Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Bottle Neckers" } },
+                                  [_vm._v("Bottle Neckers")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Business Card Boxes" } },
+                                  [_vm._v("Business Card Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cake Boxes" } },
+                                  [_vm._v("Cake Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Candle Boxes" } },
+                                  [_vm._v("Candle Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Candy Apple Box" } },
+                                  [_vm._v("Candy Apple Box")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Candy Boxes" } },
+                                  [_vm._v("Candy Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cardboard Boxes" } },
+                                  [_vm._v("Cardboard Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cardboard Boxes" } },
+                                  [_vm._v("Cardboard Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  {
+                                    attrs: {
+                                      value: "Cardboard dispenser boxes",
+                                    },
+                                  },
+                                  [_vm._v("Cardboard dispenser boxes ")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cereal Boxes" } },
+                                  [_vm._v("Cereal Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  {
+                                    attrs: { value: "Chinese Take Out Boxes" },
+                                  },
+                                  [_vm._v("Chinese Take Out Boxes ")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Chocolate Boxes" } },
+                                  [_vm._v("Chocolate Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Christmas Boxes" } },
+                                  [_vm._v("Christmas Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cigarette Boxes" } },
+                                  [_vm._v("Cigarette Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cookie Boxes" } },
+                                  [_vm._v("Cookie Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Corrugated Boxes" } },
+                                  [_vm._v("Corrugated Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cosmetic Boxes" } },
+                                  [_vm._v("Cosmetic Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  {
+                                    attrs: { value: "Cosmetic Display Boxes" },
+                                  },
+                                  [_vm._v("Cosmetic Display Boxes ")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cream Boxes" } },
+                                  [_vm._v("Cream Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cube Boxes" } },
+                                  [_vm._v("Cube Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cupcake Boxes" } },
+                                  [_vm._v("Cupcake Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  {
+                                    attrs: { value: "Custom Bath Bomb Boxes" },
+                                  },
+                                  [_vm._v("Custom Bath Bomb Boxes ")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  {
+                                    attrs: {
+                                      value:
+                                        "Custom Electronic Cigarette Boxes",
+                                    },
+                                  },
+                                  [_vm._v("Custom Electronic Cigarette Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Die-Cut Boxes" } },
+                                  [_vm._v("Die-Cut Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Display Boxes" } },
+                                  [_vm._v("Display Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Donut Boxes" } },
+                                  [_vm._v("Donut Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "E-Liquid Boxes" } },
+                                  [_vm._v("E-Liquid Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Eye Shadow Boxes" } },
+                                  [_vm._v("Eye Shadow Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Eyeliner Boxes" } },
+                                  [_vm._v("Eyeliner Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Favor Boxes" } },
+                                  [_vm._v("Favor Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Flap Boxes" } },
+                                  [_vm._v("Flap Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Foundation Boxes" } },
+                                  [_vm._v("Foundation Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Gable Boxes" } },
+                                  [_vm._v("Gable Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Game Boxes" } },
+                                  [_vm._v("Game Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Gift Boxes" } },
+                                  [_vm._v("Gift Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Gift Card Boxes" } },
+                                  [_vm._v("Gift Card Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Gold Foil Boxes" } },
+                                  [_vm._v("Gold Foil Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Hair Extension Boxes" } },
+                                  [_vm._v("Hair Extension Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Hairspray Boxes" } },
+                                  [_vm._v("Hairspray Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Handle Boxes" } },
+                                  [_vm._v("Handle Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Hanging Tab Boxes" } },
+                                  [_vm._v("Hanging Tab Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Hexagon Boxes" } },
+                                  [_vm._v("Hexagon Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Invitation Boxes" } },
+                                  [_vm._v("Invitation Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Kraft Boxes" } },
+                                  [_vm._v("Kraft Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Lip Gloss Boxes" } },
+                                  [_vm._v("Lip Gloss Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Lipstick Boxes" } },
+                                  [_vm._v("Lipstick Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Lotion Boxes" } },
+                                  [_vm._v("Lotion Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Macaron Boxes" } },
+                                  [_vm._v("Macaron Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Mailer Boxes" } },
+                                  [_vm._v("Mailer Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Makeup Boxes" } },
+                                  [_vm._v("Makeup Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Mascara Boxes" } },
+                                  [_vm._v("Mascara Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Medicine Boxes" } },
+                                  [_vm._v("Medicine Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Muffin Boxes" } },
+                                  [_vm._v("Muffin Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Nail Polish Boxes" } },
+                                  [_vm._v("Nail Polish Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Ornament Boxes" } },
+                                  [_vm._v("Ornament Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Paper Boxes" } },
+                                  [_vm._v("Paper Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Paper Cups" } },
+                                  [_vm._v("Paper Cups")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Pastry Boxes" } },
+                                  [_vm._v("Pastry Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Perfume Boxes" } },
+                                  [_vm._v("Perfume Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Pie Boxes" } },
+                                  [_vm._v("Pie Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Pillow boxes" } },
+                                  [_vm._v("Pillow boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Pizza Boxes" } },
+                                  [_vm._v("Pizza Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Playing Cards Boxes" } },
+                                  [_vm._v("Playing Cards Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Popcorn Boxes" } },
+                                  [_vm._v("Popcorn Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Product Boxes" } },
+                                  [_vm._v("Product Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Pyramid Boxes" } },
+                                  [_vm._v("Pyramid Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Retail Boxes" } },
+                                  [_vm._v("Retail Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Rigid Boxes" } },
+                                  [_vm._v("Rigid Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Shirt Boxes" } },
+                                  [_vm._v("Shirt Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Sleeve Boxes" } },
+                                  [_vm._v("Sleeve Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Snack Boxes" } },
+                                  [_vm._v("Snack Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Soap Boxes" } },
+                                  [_vm._v("Soap Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Software Boxes" } },
+                                  [_vm._v("Software Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Tea Boxes" } },
+                                  [_vm._v("Tea Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Tie Boxes" } },
+                                  [_vm._v("Tie Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Toy Boxes" } },
+                                  [_vm._v("Toy Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "USB boxes" } },
+                                  [_vm._v("USB boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Window  boxes" } },
+                                  [_vm._v("Window boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "Others" } }, [
+                                  _vm._v("Others"),
+                                ]),
+                              ]
+                            ),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("label", { attrs: { for: "color" } }, [
+                              _vm._v("Color:"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "select",
+                              {
+                                staticClass: "form-control",
+                                attrs: { name: "color", id: "color" },
+                              },
+                              [
+                                _c("option", { attrs: { value: "" } }, [
+                                  _vm._v("None"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "1 Color" } }, [
+                                  _vm._v("1 Color"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "2 Color" } }, [
+                                  _vm._v("2 Color"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "3 Color" } }, [
+                                  _vm._v("3 Color"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "4 Color" } }, [
+                                  _vm._v("4 Color"),
+                                ]),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "4/1 Color" } },
+                                  [_vm._v("4/1 Color")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "4/2 Color" } },
+                                  [_vm._v("4/2 Color")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "4/3 Color" } },
+                                  [_vm._v("4/3 Color")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "4/4 Color" } },
+                                  [_vm._v("4/4 Color")]
+                                ),
+                              ]
+                            ),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("label", { attrs: { for: "quantity" } }, [
+                              _vm._v("Quantity:"),
+                            ]),
+                            _vm._v(" "),
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                value: "",
+                                name: "quantity",
+                                id: "quantity",
+                                type: "text",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group red-star" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                value: "",
+                                name: "contact_name",
+                                id: "contact_name",
+                                type: "text",
+                                placeholder: "Name",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group red-star" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                value: "",
+                                name: "contact_email",
+                                id: "contact_email",
+                                type: "text",
+                                placeholder: "Email",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group red-star" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                value: "",
+                                name: "contact_phone",
+                                id: "contact_phone",
+                                type: "text",
+                                placeholder: "+xxxxxxxxxxx",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("label", { attrs: { for: "comment" } }, [
+                              _vm._v("Message:"),
+                            ]),
+                            _vm._v(" "),
+                            _c("textarea", {
+                              staticClass: "form-control",
+                              attrs: {
+                                rows: "3",
+                                name: "message",
+                                id: "message",
+                                placeholder: "write short message",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 py-2 px-1" }, [
+                          _c("div", { staticClass: "col-md-12" }, [
+                            _c("input", {
+                              staticClass: "sum col-2",
+                              attrs: {
+                                id: "num1",
+                                type: "text",
+                                name: "num1",
+                                value: "4",
+                                readonly: "readonly",
+                              },
+                            }),
+                            _vm._v(" +\n                                    "),
+                            _c("input", {
+                              staticClass: "sum col-2",
+                              attrs: {
+                                id: "num2",
+                                type: "text",
+                                name: "num2",
+                                value: "5",
+                                readonly: "readonly",
+                              },
+                            }),
+                            _vm._v(" =\n                                    "),
+                            _c("input", {
+                              staticClass: "captcha col-2",
+                              attrs: {
+                                id: "captcha",
+                                type: "text",
+                                name: "captcha",
+                                maxlength: "2",
+                              },
+                            }),
+                            _vm._v(" "),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c("span", { attrs: { id: "spambot" } }, [
+                              _vm._v("(Are you human, or spambot?)"),
+                            ]),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "button",
+                              {
+                                staticClass:
+                                  "btn btn-warning btn-quote rounded-pill col-12",
+                                attrs: { type: "submit" },
+                              },
+                              [_vm._v("Submit")]
+                            ),
+                          ]),
+                        ]),
+                      ]),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-6" }, [
+      _c("div", { staticClass: "product-ban text-left" }, [
+        _c("h2", [
+          _vm._v(
+            "Light up the World with\n                                          Custom Candle Box\n                                          Packaging\n                                       "
+          ),
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "Add the feeling of warmth to your candles with well designed\n                                          personalized candle box packaging Create unique candle\n                                          Packaging with our expert guidance and materials!\n                                       "
+          ),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "px-auto" }, [
+          _c(
+            "a",
+            {
+              staticClass: "btn mt-1  btn-warning text-uppercase get_started",
+              attrs: { href: "#.html" },
+            },
+            [_vm._v("Get\n                                          Started")]
+          ),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "card-body title_box d-flex flex-wrap justify-content-center",
+      },
+      [
+        _c("div", { staticClass: "col-md-12 text-center" }, [
+          _c("h2", [_vm._v("CANDLE DISPLAY BOXES")]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "px-auto" }, [
+          _c(
+            "a",
+            {
+              staticClass:
+                "btn mt-1 rounded-pill btn-blue text-uppercase get_started",
+              attrs: { href: "#.html" },
+            },
+            [_vm._v("Get\n                                       Started")]
+          ),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "card-body title_box d-flex flex-wrap justify-content-center",
+      },
+      [
+        _c("div", { staticClass: "col-md-12 text-center" }, [
+          _c("h2", [_vm._v("Straight Tuck End")]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "px-auto" }, [
+          _c(
+            "a",
+            {
+              staticClass:
+                "btn mt-1 rounded-pill btn-blue text-uppercase get_started",
+              attrs: { href: "#.html" },
+            },
+            [_vm._v("Get\n                                       Started")]
+          ),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "card-body title_box d-flex flex-wrap justify-content-center",
+      },
+      [
+        _c("div", { staticClass: "col-md-12 text-center" }, [
+          _c("h2", [_vm._v("Sleeve Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "px-auto" }, [
+          _c(
+            "a",
+            {
+              staticClass:
+                "btn mt-1 rounded-pill btn-blue text-uppercase get_started",
+              attrs: { href: "#.html" },
+            },
+            [_vm._v("Get\n                                       Started")]
+          ),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "col-lg-3 col-md-4 col-12 position-sticky sticky_element",
+        attrs: { id: "sticky_element" },
+      },
+      [
+        _c("div", { staticClass: "row side-bar-form mx-0" }, [
+          _c("div", { staticClass: "get-quote" }, [
+            _c("h4", [_vm._v("GET CUSTOM QUOTE")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "details" }, [
+            _c(
+              "form",
+              {
+                attrs: {
+                  id: "get_quote",
+                  action: "https://oxopackaging.com/get-quote",
+                  method: "post",
+                },
+              },
+              [
+                _c("input", {
+                  attrs: {
+                    type: "hidden",
+                    name: "_token",
+                    value: "pkUBSv3UQwJKNQGbLkLPw46WZPPRbvVLKEYsxLxG",
+                  },
+                }),
+                _vm._v(" "),
+                _c("div", { staticClass: "row pt-3" }, [
+                  _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("input", {
+                        staticClass: "form-control required",
+                        attrs: {
+                          name: "product_length",
+                          id: "product_length",
+                          value: "",
+                          placeholder: "Length",
+                        },
+                      }),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("input", {
+                        staticClass: "form-control required",
+                        attrs: {
+                          name: "product_width",
+                          id: "product_width",
+                          value: "",
+                          placeholder: "Width",
+                        },
+                      }),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("input", {
+                        staticClass: "form-control required",
+                        attrs: {
+                          name: "product_depth",
+                          id: "product_depth",
+                          value: "",
+                          placeholder: "Depth",
+                        },
+                      }),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c(
+                        "select",
+                        {
+                          staticClass: "form-control required",
+                          attrs: { name: "measurement_units", id: "units" },
+                        },
+                        [
+                          _c("option", { attrs: { value: "cm" } }, [
+                            _vm._v("cm"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "mm" } }, [
+                            _vm._v("mm"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { selected: "", value: "inches" } },
+                            [_vm._v("inch")]
+                          ),
+                        ]
+                      ),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("input", {
+                    attrs: {
+                      type: "hidden",
+                      value:
+                        "https://oxopackaging.com/templates/custom-template-packaging-boxes.html",
+                      name: "current_url",
+                    },
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12 px-1" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c(
+                        "select",
+                        {
+                          staticClass: "form-control required",
+                          attrs: { name: "product_name", id: "product_name" },
+                        },
+                        [
+                          _c(
+                            "option",
+                            {
+                              staticStyle: { display: "none" },
+                              attrs: {
+                                selected: "",
+                                disabled: "",
+                                hidden: "",
+                                value: "",
+                              },
+                            },
+                            [
+                              _vm._v(
+                                "\n                                             Product Name\n                                          "
+                              ),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Auto-Lock Boxes" } },
+                            [_vm._v("Auto-Lock Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Baby Product Boxes" } },
+                            [_vm._v("Baby Product Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Bakery Boxes" } }, [
+                            _vm._v("Bakery Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Ballot boxes" } }, [
+                            _vm._v("Ballot boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Bandage Boxes" } }, [
+                            _vm._v("Bandage Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Belt Boxes" } }, [
+                            _vm._v("Belt Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Black Gable Boxes" } },
+                            [_vm._v("Black Gable Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Book End Boxes" } }, [
+                            _vm._v("Book End Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Bottle Boxes" } }, [
+                            _vm._v("Bottle Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Bottle Neckers" } }, [
+                            _vm._v("Bottle Neckers"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Business Card Boxes" } },
+                            [_vm._v("Business Card Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Cake Boxes" } }, [
+                            _vm._v("Cake Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Candle Boxes" } }, [
+                            _vm._v("Candle Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Candy Apple Box" } },
+                            [_vm._v("Candy Apple Box")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Candy Boxes" } }, [
+                            _vm._v("Candy Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Cardboard Boxes" } },
+                            [_vm._v("Cardboard Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Cardboard Boxes" } },
+                            [_vm._v("Cardboard Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Cardboard dispenser boxes" } },
+                            [
+                              _vm._v(
+                                "Cardboard dispenser boxes\n                                          "
+                              ),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Cereal Boxes" } }, [
+                            _vm._v("Cereal Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Chinese Take Out Boxes" } },
+                            [
+                              _vm._v(
+                                "Chinese Take Out Boxes\n                                          "
+                              ),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Chocolate Boxes" } },
+                            [_vm._v("Chocolate Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Christmas Boxes" } },
+                            [_vm._v("Christmas Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Cigarette Boxes" } },
+                            [_vm._v("Cigarette Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Cookie Boxes" } }, [
+                            _vm._v("Cookie Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Corrugated Boxes" } },
+                            [_vm._v("Corrugated Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Cosmetic Boxes" } }, [
+                            _vm._v("Cosmetic Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Cosmetic Display Boxes" } },
+                            [
+                              _vm._v(
+                                "Cosmetic Display Boxes\n                                          "
+                              ),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Cream Boxes" } }, [
+                            _vm._v("Cream Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Cube Boxes" } }, [
+                            _vm._v("Cube Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Cupcake Boxes" } }, [
+                            _vm._v("Cupcake Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Custom Bath Bomb Boxes" } },
+                            [
+                              _vm._v(
+                                "Custom Bath Bomb Boxes\n                                          "
+                              ),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            {
+                              attrs: {
+                                value: "Custom Electronic Cigarette Boxes",
+                              },
+                            },
+                            [
+                              _vm._v(
+                                "Custom Electronic\n                                             Cigarette Boxes\n                                          "
+                              ),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Die-Cut Boxes" } }, [
+                            _vm._v("Die-Cut Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Display Boxes" } }, [
+                            _vm._v("Display Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Donut Boxes" } }, [
+                            _vm._v("Donut Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "E-Liquid Boxes" } }, [
+                            _vm._v("E-Liquid Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Eye Shadow Boxes" } },
+                            [_vm._v("Eye Shadow Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Eyeliner Boxes" } }, [
+                            _vm._v("Eyeliner Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Favor Boxes" } }, [
+                            _vm._v("Favor Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Flap Boxes" } }, [
+                            _vm._v("Flap Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Foundation Boxes" } },
+                            [_vm._v("Foundation Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Gable Boxes" } }, [
+                            _vm._v("Gable Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Game Boxes" } }, [
+                            _vm._v("Game Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Gift Boxes" } }, [
+                            _vm._v("Gift Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Gift Card Boxes" } },
+                            [_vm._v("Gift Card Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Gold Foil Boxes" } },
+                            [_vm._v("Gold Foil Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Hair Extension Boxes" } },
+                            [_vm._v("Hair Extension Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Hairspray Boxes" } },
+                            [_vm._v("Hairspray Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Handle Boxes" } }, [
+                            _vm._v("Handle Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Hanging Tab Boxes" } },
+                            [_vm._v("Hanging Tab Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Hexagon Boxes" } }, [
+                            _vm._v("Hexagon Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Invitation Boxes" } },
+                            [_vm._v("Invitation Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Kraft Boxes" } }, [
+                            _vm._v("Kraft Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Lip Gloss Boxes" } },
+                            [_vm._v("Lip Gloss Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Lipstick Boxes" } }, [
+                            _vm._v("Lipstick Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Lotion Boxes" } }, [
+                            _vm._v("Lotion Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Macaron Boxes" } }, [
+                            _vm._v("Macaron Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Mailer Boxes" } }, [
+                            _vm._v("Mailer Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Makeup Boxes" } }, [
+                            _vm._v("Makeup Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Mascara Boxes" } }, [
+                            _vm._v("Mascara Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Medicine Boxes" } }, [
+                            _vm._v("Medicine Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Muffin Boxes" } }, [
+                            _vm._v("Muffin Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Nail Polish Boxes" } },
+                            [_vm._v("Nail Polish Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Ornament Boxes" } }, [
+                            _vm._v("Ornament Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Paper Boxes" } }, [
+                            _vm._v("Paper Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Paper Cups" } }, [
+                            _vm._v("Paper Cups"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Pastry Boxes" } }, [
+                            _vm._v("Pastry Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Perfume Boxes" } }, [
+                            _vm._v("Perfume Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Pie Boxes" } }, [
+                            _vm._v("Pie Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Pillow boxes" } }, [
+                            _vm._v("Pillow boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Pizza Boxes" } }, [
+                            _vm._v("Pizza Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "option",
+                            { attrs: { value: "Playing Cards Boxes" } },
+                            [_vm._v("Playing Cards Boxes")]
+                          ),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Popcorn Boxes" } }, [
+                            _vm._v("Popcorn Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Product Boxes" } }, [
+                            _vm._v("Product Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Pyramid Boxes" } }, [
+                            _vm._v("Pyramid Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Retail Boxes" } }, [
+                            _vm._v("Retail Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Rigid Boxes" } }, [
+                            _vm._v("Rigid Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Shirt Boxes" } }, [
+                            _vm._v("Shirt Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Sleeve Boxes" } }, [
+                            _vm._v("Sleeve Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Snack Boxes" } }, [
+                            _vm._v("Snack Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Soap Boxes" } }, [
+                            _vm._v("Soap Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Software Boxes" } }, [
+                            _vm._v("Software Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Tea Boxes" } }, [
+                            _vm._v("Tea Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Tie Boxes" } }, [
+                            _vm._v("Tie Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Toy Boxes" } }, [
+                            _vm._v("Toy Boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "USB boxes" } }, [
+                            _vm._v("USB boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Window  boxes" } }, [
+                            _vm._v("Window boxes"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "Others" } }, [
+                            _vm._v("Others"),
+                          ]),
+                        ]
+                      ),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6 px-1" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "color" } }, [
+                        _vm._v("Color:"),
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "select",
+                        {
+                          staticClass: "form-control",
+                          attrs: { name: "color", id: "color" },
+                        },
+                        [
+                          _c("option", { attrs: { value: "" } }, [
+                            _vm._v("None"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "1 Color" } }, [
+                            _vm._v("1 Color"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "2 Color" } }, [
+                            _vm._v("2 Color"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "3 Color" } }, [
+                            _vm._v("3 Color"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "4 Color" } }, [
+                            _vm._v("4 Color"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "4/1 Color" } }, [
+                            _vm._v("4/1 Color"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "4/2 Color" } }, [
+                            _vm._v("4/2 Color"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "4/3 Color" } }, [
+                            _vm._v("4/3 Color"),
+                          ]),
+                          _vm._v(" "),
+                          _c("option", { attrs: { value: "4/4 Color" } }, [
+                            _vm._v("4/4 Color"),
+                          ]),
+                        ]
+                      ),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-6 px-1" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "quantity" } }, [
+                        _vm._v("Quantity:"),
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        staticClass: "form-control required",
+                        attrs: {
+                          value: "",
+                          name: "quantity",
+                          id: "quantity",
+                          type: "text",
+                        },
+                      }),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12 px-1" }, [
+                    _c("div", { staticClass: "form-group red-star" }, [
+                      _c("input", {
+                        staticClass: "form-control required",
+                        attrs: {
+                          value: "",
+                          name: "contact_name",
+                          id: "contact_name",
+                          type: "text",
+                          placeholder: "Name",
+                        },
+                      }),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12 px-1" }, [
+                    _c("div", { staticClass: "form-group red-star" }, [
+                      _c("input", {
+                        staticClass: "form-control required",
+                        attrs: {
+                          value: "",
+                          name: "contact_email",
+                          id: "contact_email",
+                          type: "text",
+                          placeholder: "Email",
+                        },
+                      }),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12 px-1" }, [
+                    _c("div", { staticClass: "form-group red-star" }, [
+                      _c("input", {
+                        staticClass: "form-control required",
+                        attrs: {
+                          value: "",
+                          name: "contact_phone",
+                          id: "contact_phone",
+                          type: "text",
+                          placeholder: "+xxxxxxxxxxx",
+                        },
+                      }),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12 px-1" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c("label", { attrs: { for: "comment" } }, [
+                        _vm._v("Message:"),
+                      ]),
+                      _vm._v(" "),
+                      _c("textarea", {
+                        staticClass: "form-control",
+                        attrs: {
+                          rows: "3",
+                          name: "message",
+                          id: "message",
+                          placeholder: "write short message",
+                        },
+                      }),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12 py-2 px-1" }, [
+                    _c("div", { staticClass: "col-md-12" }, [
+                      _c("input", {
+                        staticClass: "sum col-2",
+                        attrs: {
+                          id: "num1",
+                          type: "text",
+                          name: "num1",
+                          value: "2",
+                          readonly: "readonly",
+                        },
+                      }),
+                      _vm._v(" +\n                                       "),
+                      _c("input", {
+                        staticClass: "sum col-2",
+                        attrs: {
+                          id: "num2",
+                          type: "text",
+                          name: "num2",
+                          value: "6",
+                          readonly: "readonly",
+                        },
+                      }),
+                      _vm._v(" =\n                                       "),
+                      _c("input", {
+                        staticClass: "captcha col-2",
+                        attrs: {
+                          id: "captcha",
+                          type: "text",
+                          name: "captcha",
+                          maxlength: "2",
+                        },
+                      }),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("span", { attrs: { id: "spambot" } }, [
+                        _vm._v("(Are you human, or spambot?)"),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-12" }, [
+                    _c("div", { staticClass: "form-group" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass:
+                            "btn btn-blue btn-quote rounded-pill col-12",
+                          attrs: { type: "submit" },
+                        },
+                        [_vm._v("Submit")]
+                      ),
+                    ]),
+                  ]),
+                ]),
+              ]
+            ),
+          ]),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row offer-sec" }, [
+      _c("h2", { staticClass: "text-center" }, [_vm._v("Candle Boxes")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-center" }, [
+        _vm._v(
+          "We facilitate your business by bringing you innovative printed boxes with\n                     extraordinary design printing.\n                  "
+        ),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row offer-slider" }, [
+        _c("div", { staticClass: "owl-carousel" }, [
+          _c("div", { staticClass: "shadow-view" }, [
+            _c("a", { attrs: { href: "#.html" } }, [
+              _c("img", {
+                staticClass: "product_image",
+                staticStyle: { width: "100%", height: "auto" },
+                attrs: {
+                  height: "356",
+                  width: "356",
+                  alt: "Custom Printed Sleeve Packaging Boxes",
+                  title: "Custom Printed Sleeve Packaging Boxes",
+                  src: "assets/images/product-1.png",
+                },
+              }),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "shadow-view" }, [
+            _c("a", { attrs: { href: "#.html" } }, [
+              _c("img", {
+                staticClass: "product_image",
+                staticStyle: { width: "100%", height: "auto" },
+                attrs: {
+                  height: "356",
+                  width: "356",
+                  alt: "Custom Printed Sleeve Packaging Boxes",
+                  title: "Custom Printed Sleeve Packaging Boxes",
+                  src: "assets/images/product-2.png",
+                },
+              }),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "shadow-view" }, [
+            _c("a", { attrs: { href: "#.html" } }, [
+              _c("img", {
+                staticClass: "product_image",
+                staticStyle: { width: "100%", height: "auto" },
+                attrs: {
+                  height: "356",
+                  width: "356",
+                  alt: "Custom Printed Sleeve Packaging Boxes",
+                  title: "Custom Printed Sleeve Packaging Boxes",
+                  src: "assets/images/product-3.png",
+                },
+              }),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "shadow-view" }, [
+            _c("a", { attrs: { href: "#.html" } }, [
+              _c("img", {
+                staticClass: "product_image",
+                staticStyle: { width: "100%", height: "auto" },
+                attrs: {
+                  height: "356",
+                  width: "356",
+                  alt: "Custom Printed Sleeve Packaging Boxes",
+                  title: "Custom Printed Sleeve Packaging Boxes",
+                  src: "assets/images/product-1.png",
+                },
+              }),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "shadow-view" }, [
+            _c("a", { attrs: { href: "#.html" } }, [
+              _c("img", {
+                staticClass: "product_image",
+                staticStyle: { width: "100%", height: "auto" },
+                attrs: {
+                  height: "356",
+                  width: "356",
+                  alt: "Custom Printed Sleeve Packaging Boxes",
+                  title: "Custom Printed Sleeve Packaging Boxes",
+                  src: "assets/images/product-2.png",
+                },
+              }),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "shadow-view" }, [
+            _c("a", { attrs: { href: "#.html" } }, [
+              _c("img", {
+                staticClass: "product_image",
+                staticStyle: { width: "100%", height: "auto" },
+                attrs: {
+                  height: "356",
+                  width: "356",
+                  alt: "Custom Printed Sleeve Packaging Boxes",
+                  title: "Custom Printed Sleeve Packaging Boxes",
+                  src: "assets/images/product-3.png",
+                },
+              }),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "shadow-view" }, [
+            _c("a", { attrs: { href: "#.html" } }, [
+              _c("img", {
+                staticClass: "product_image",
+                staticStyle: { width: "100%", height: "auto" },
+                attrs: {
+                  height: "356",
+                  width: "356",
+                  alt: "Custom Printed Sleeve Packaging Boxes",
+                  title: "Custom Printed Sleeve Packaging Boxes",
+                  src: "assets/images/product-1.png",
+                },
+              }),
+            ]),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "bg-white category_detail_box" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "category_detail" }, [
+          _c("h2", [_vm._v("Candle Packaging Boxes")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "content" }),
+          _vm._v("p\n                  "),
+          _c("p", [
+            _vm._v(
+              "The candle is used in a variety of settings and for a variety of occasions. You'll need a\n                     one-of-a-kind box with a fancy appearance if you want to impress your clients before they light the\n                     candle.\n                     "
+            ),
+            _c("strong", [_vm._v("Candle packaging boxes")]),
+            _vm._v(
+              " should be fragrant and transmit the natural glow of the wax while preserving\n                     its quality, light, and colours.\n                     "
+            ),
+            _c("strong", [_vm._v("Mosaic Vision Packaging ")]),
+            _vm._v(
+              "is a well-known company that offers a variety of packaging options,\n                     including     "
+            ),
+            _c("strong", [_vm._v("custom  Candle packaging boxes")]),
+            _vm._v(
+              ".\n                     We offer a wide range of high-quality, 100%  "
+            ),
+            _c("strong", [_vm._v("recyclable custom candle boxes ")]),
+            _vm._v(
+              " in a variety of shapes\n                     and sizes. Our packaging is extremely cost-effective, which is great news for our brand.\n                     Because they are made of high-quality materials and the most advanced printing and finishing\n                     technologies, our     "
+            ),
+            _c("strong", [_vm._v("candle gift boxes ")]),
+            _vm._v(
+              " are ideal for creating an excitement in anyone's heart.\n                  "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("h2", [
+            _vm._v(
+              "There are numerous advantages to using custom candle boxes:"
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "content" }),
+          _c("p", [
+            _vm._v(
+              "Have you ever wondered that What is the significance of personalised candle boxes, and why are they\n                     gaining popularity?\n                     Why should businesses purchase boxes when their customers can do so directly?\n                     These questions are relevant because people used to buy candle storage boxes straight from the\n                     store, unpackaged, and use them as-is. The reasons for someone purchasing the cases can be\n                     complicated.\n                     Some people like to use it as a candle gift box, while others like it for its unique and beautiful\n                     packaging.\n                     Furthermore, the candle packaging boxes protect the candles from scratches and fine lines. Shipping\n                     Boxes can also be used to keep items safe during transportation, delivery, and capacity.\n                  "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p"),
+          _vm._v(" "),
+          _c("h2", [_vm._v("What kind of custom candle boxes do you want?")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "content" }),
+          _c("p", [
+            _vm._v(
+              "If you're thinking of giving candles as a gift, you'll need a high-quality box, which is wise. We\n                     offer candle packaging boxes that are not only inexpensive, but also come in a variety of forms and\n                     designs from which customers can choose.\n                     When you're running a business and competing against a lot of other people, you need to grasp the\n                     importance of packaging in order to stand out and obtain more customers.\n                     If you believe you can win a competition by using boring and straightforward packaging, you live in\n                     a fantastic world.\n                  "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p"),
+          _vm._v(" "),
+          _c("h2", [_vm._v("Candle Boxes with a Personalised Service")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "content" }),
+          _c("p", [
+            _vm._v(
+              "Customers are more likely to notice you if you have interesting packaging. A customer, for example,\n                     will be invited to purchase your candle packaging boxes if they find them attractive. White or\n                     neutral tones are ideal for your custom packing boxes.\n                     You could also choose a simple look. A basic rule that you must follow, on the other hand, does not\n                     complicate the design; it should have perfect harmony between patterns and colouring.\n                     For everyday and simple items, you can usually go with a basic style.\n                  "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p"),
+          _vm._v(" "),
+          _c("h2", [
+            _vm._v("Candle Boxes & Packaging Manufactured using High Material"),
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "content" }),
+          _c("p", [
+            _vm._v(
+              "We employ high-quality, low-cost custom candle boxes and packaging. We all know that candles are one\n                     of the most delicate and sensitive objects. They can be readily broken with a small and light load..\n                  "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p"),
+          _vm._v(" "),
+          _c("h2", [
+            _vm._v("How important are Candle Packaging Boxes in the company"),
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "content" }),
+          _c("p", [
+            _vm._v(
+              "A wide range of candles in various tones and scents are available on the market. With so many\n                     businesses on the market, competition has been tough, and item packaging is an excellent\n                     conservative way to differentiate your image from the crowd.\n                     You can enhance the brand's personality by creating custom candle boxes. For your candles, you can\n                     focus on the logo, brand tone, a clear image, or Rigid Packaging. It will have a visible, positive\n                     impact on the clients' minds and help them understand your image in the future.\n                  "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p"),
+          _vm._v(" "),
+          _c("h2", [
+            _vm._v("Paper Candle Lids are made from natural materials"),
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "content" }),
+          _c("p", [
+            _vm._v("At "),
+            _c("strong", [_vm._v("Mosaic Vision Packaging,")]),
+            _vm._v(" we use  "),
+            _c("strong", [_vm._v("eco-friendly adjustable packaging,")]),
+            _vm._v(
+              " which contributes to our\n                     commitment to sustainability. We never overlook the importance of using environmentally friendly\n                     packaging.\n                     We recognise that our customers have become more environmentally conscious and are concerned about\n                     the environmental impact of packaging. Because it can be reused multiple times, craft paper is the\n                     best option for reprocessing. Clients can also recycle the boxes or return them to the company.\n                  "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p"),
+          _vm._v(" "),
+          _c("h2", [
+            _vm._v(
+              "Paper Candle Samples are made from environmentally friendly materials"
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "content" }),
+          _c("p", [
+            _vm._v(
+              "Box material is important because it contributes to the aesthetic appeal of a variety of\n                     products.Custom Candle Boxes companies can use this packaging to quickly promote and market their\n                     image.\n                     Simple and accurate information about the candle item, as well as the organisation's symbol, can be\n                     printed on the containers. The eye-catching details and layout will assist prospective clients in\n                     separating our candle from other corporate candle boxes.\n                  "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p"),
+          _vm._v(" "),
+          _c("h2", [
+            _vm._v("Candle Decorative Boxes are available at wholesale prices"),
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "content" }),
+          _c("p", [
+            _vm._v(
+              "If you work in the wholesale candle box industry, you should be delivering a large number of orders\n                     every day. As a result, buying in huge quantities candle boxes may be the most cost-effective\n                     option.\n                     These are made in such a way that a large number of candles can be stored in a single box. The\n                     material is of high quality and build quality, and it can withstand significant weight pressure.\n                     Furthermore, you can make these containers stand out by printing your organisation's logo or\n                     subtleties on them. Customization is possibly the most cost-effective way to communicate with your\n                     customers.\n                     Customised Candle Boxes have a number of advantages, the most important of which is that they will\n                     serve as an excellent source of publicity.\n                     This promotion will be less expensive than television and online media advertisements, which can be\n                     quite expensive.\n                     Customization also aids in more effectively and successfully communicating your message to clients,\n                     resulting in low-cost candle boxes.\n                  "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p"),
+          _vm._v(" "),
+          _c("h2", [_vm._v("Our Incredible Customers' Happiness!")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "content" }),
+          _c("p", [
+            _vm._v(
+              "We are proud to say that over the years, our customised candle packaging boxes have satisfied a large\n                     number of customers.\n                     At "
+            ),
+            _c("strong", [_vm._v("Mosaic Vision Packaging,")]),
+            _vm._v(
+              " we have a team of knowledgeable customer service representatives to\n                     assist you in any way we can.\n                     Whether you need help choosing the right design, shadings, or materials, or you're worried about\n                     costs, we'll make sure all of your questions and concerns are addressed.\n                     To maintain our good services and excellent reputation as candle packaging box manufacturers, we\n                     keep up with new unique and innovative methods and inventions.\n                     As we try to improve our services, client feedback is especially motivating for us.\n                  "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("p"),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "form",
+      {
+        staticClass: "margin-bottom-0",
+        attrs: {
+          name: "frmNewsletter",
+          id: "frmNewsletter",
+          action: "#/subscribe",
+          method: "post",
+        },
+      },
+      [
+        _c("input", {
+          attrs: {
+            type: "text",
+            name: "email",
+            id: "footer-form",
+            placeholder: "Your Email Address..",
+            required: "",
+          },
+        }),
+        _vm._v(" "),
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-warning rounded-pill",
+            staticStyle: { transition: "none !important" },
+            attrs: { id: "footer-btn", type: "submit" },
+          },
+          [_vm._v("Submit")]
+        ),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "social-icon" }, [
+      _c(
+        "a",
+        {
+          attrs: {
+            href: "http://www.facebook.com/Mosaic Visionpackaging",
+            "aria-label": "Face Book",
+            target: "_blank",
+            rel: "noopener",
+          },
+        },
+        [
+          _c("i", {
+            staticClass: "fab fa-facebook-f",
+            attrs: { "aria-hidden": "true" },
+          }),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          attrs: {
+            href: "https://twitter.com/Mosaic Vision_Packaging",
+            "aria-label": "Twitter",
+            target: "_blank",
+            rel: "noopener",
+          },
+        },
+        [
+          _c("i", {
+            staticClass: "fab fa-twitter",
+            attrs: { "aria-hidden": "true" },
+          }),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          attrs: {
+            href: "https://www.youtube.com/channel/UCDZAA-9ksepAMcUmA8nCUaA/",
+            "aria-label": "Youtube",
+            target: "_blank",
+            rel: "noopener",
+          },
+        },
+        [
+          _c("i", {
+            staticClass: "fab fa-youtube",
+            attrs: { "aria-hidden": "true" },
+          }),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          attrs: {
+            href: "https://www.pinterest.com/Mosaic Visionpackaging/",
+            "aria-label": "Pinterest",
+            target: "_blank",
+            rel: "noopener",
+          },
+        },
+        [
+          _c("i", {
+            staticClass: "fab fa-pinterest",
+            attrs: { "aria-hidden": "true" },
+          }),
+        ]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { attrs: { href: "terms.html" } }, [
+        _vm._v("Terms and Conditions"),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { attrs: { href: "contact-us.html" } }, [_vm._v("Contact Us")]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { attrs: { href: "sitemap.html" } }, [_vm._v("Sitemap")]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { attrs: { href: "portfolio.html" } }, [_vm._v("Portfolio")]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm-6 col-lg-3 col-xs-12 bullets" }, [
+      _c(
+        "p",
+        {
+          staticStyle: {
+            "font-size": "18px",
+            "margin-top": "10px",
+            "margin-bottom": "10px",
+            "text-transform": "uppercase",
+            color: "#fff",
+            "font-weight": "500",
+            "line-height": "1.2",
+            "font-family": "'Montserrat Bold'",
+          },
+        },
+        [_vm._v("Packaging Products")]
+      ),
+      _vm._v(" "),
+      _c("ul", [
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [_vm._v("Mailer Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [_vm._v("Soap Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [_vm._v("Bakery Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [_vm._v("Kraft Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [_vm._v("CardBoard Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [
+            _vm._v("Personalized Packaging Boxes"),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("i", {
+        staticClass: "fa fa-phone",
+        staticStyle: { "margin-right": "8px" },
+        attrs: { "aria-hidden": "true" },
+      }),
+      _c("a", { attrs: { href: "tel: +92 324 8473731" } }, [
+        _vm._v(" +92 324 8473731"),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c(
+        "a",
+        {
+          staticClass: "clr-orange",
+          staticStyle: { "font-size": "14px !important" },
+          attrs: { href: "mailto:info@mosaicvisionpackaging.com" },
+        },
+        [
+          _c("i", {
+            staticClass: "fa fa-envelope",
+            staticStyle: { "margin-right": "8px" },
+            attrs: { "aria-hidden": "true" },
+          }),
+          _vm._v("info@mosaicvisionpackaging.com"),
+        ]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("i", {
+        staticClass: "fa fa-map-marker",
+        staticStyle: { "margin-right": "8px" },
+        attrs: { "aria-hidden": "true" },
+      }),
+      _vm._v(
+        " 19-A, Abbot Road, Near PTV Station, \n                        Lahore, Punjab, Pakistan\n                     "
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("footer", [
+      _c("div", { staticClass: "col-xs-12 text-center" }, [
+        _c("p", { staticStyle: { color: "white" } }, [
+          _vm._v(
+            "Copyright 2022. www.mosaicvisionpackaging.com All rights reserved."
+          ),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "clearfix" }),
     ])
   },
 ]

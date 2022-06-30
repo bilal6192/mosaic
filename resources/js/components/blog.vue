@@ -1,10 +1,8 @@
     
-      <script src="{{ ('css/css/bootstrap.bundle.min.js') }}"></script>
-      <script src="{{ ('js/js/home_scripts.js') }}"></script>
+     
 <template>
 
-  <div>
-  
+  <div> 
 
 <html lang="en">
    <head>
@@ -30,15 +28,15 @@
             </div>
          </div>
       </header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 bg-white rounded custom-menu scroll_background_important">
+      <nav class="navbar navbar-expand-lg navbar-light custom-setting2 bg-light sticky-top p-3 bg-white rounded custom-menu scroll_background_important">
          <div class="container-fluid">
             <!-- <a class="navbar-brand" href="index.html"> -->
                <router-link  to='/'>
             <img class="default-logo1" :src="`images/logo.png`"  sizes="(min-width: 400px) 400px, 400px" alt="Mosaic Vision Packaging" aria-label="Mosaic Vision Packaging" width="273" height="55">
             </router-link>
             <!-- </a> -->
-            <button class="navbar-toggler ms-auto me-3" type="button" data-target="#main_nav" onclick="openNav()" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-            <div class="collapse navbar-collapse" id="main_nav">
+            <button class="navbar-toggler ms-auto me-3 " type="button" data-target="#main_nav" onclick="openNav()" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse custom-setting" id="main_nav"  >
                <ul class="navbar-nav ms-auto">
                   <li class="nav-item active mx-1"> <a class="nav-link" href="index.html">RETAIL BOXES</a> </li>
                   <li class="nav-item  mx-1dropdown has-megamenu menga-menu-bullets">
@@ -278,21 +276,38 @@
       <div>
          <section class="static_page">
             <div class="container top_mar">
-               <div class="row">
-                  <div id="slider" class="slider">
-                     <div class="owl-carousel">
-                        <div>
-                           <img  :src="`images/sliders/banner_5_51.webp`"/>                           
-                        </div>
-                        <div>
-                           <img :src="`images/sliders/%5e40E0BC7AFB4966CAF02303F8C3638F786026FF072ECE4B6951%5epimgpsh_fullsize_distr.webp`"/>                            
-                        </div>
-                        <div>
-                           <img :src="`images/sliders/%5e0130799E202DC738545DE729D7373441C7D9A89F31271556C6%5epimgpsh_fullsize_distr.webp`"/>
+               <div>
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">                     
+                     <div class="carousel-inner">
+                        <div class="item active">
+                           <img  :src="`images/sliders/%5e410836B54409450B229352E5022E745ADB0F5D3DBC1E5F8AAF%5epimgpsh_fullsize_distr2.webp`"/>   
+                           <div class="carousel-caption">
                            
+                           </div>
+                        </div>
+                        <div class="item">
+                           <img :src="`images/sliders/%5e40E0BC7AFB4966CAF02303F8C3638F786026FF072ECE4B6951%5epimgpsh_fullsize_distr.webp`"/>                            
+                           <div class="carousel-caption">
+                           
+                           </div>
+                        </div>
+                        <div class="item">
+                           <img :src="`images/sliders/%5e0130799E202DC738545DE729D7373441C7D9A89F31271556C6%5epimgpsh_fullsize_distr.webp`"/>
+                           <div class="carousel-caption">
+                           
+                           </div>
                         </div>
                      </div>
-                  </div>
+                     <!-- Left and right controls -->
+                     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                     </a>
+                  </div>                 
                </div>
                <div class="row">
                   <div class="col-sm-4 col-xs-12 package-hover-main  padding-none opi-package-hover-main">

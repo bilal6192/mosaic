@@ -29,7 +29,7 @@
             </div>
          </div>
       </header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 bg-white rounded custom-menu scroll_background_important">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 bg-white rounded  custom-setting2 custom-menu scroll_background_important">
          <div class="container-fluid">
             <!-- <a class="navbar-brand" href="index.html"> -->
                <router-link  to='/'>
@@ -37,158 +37,21 @@
             </router-link> 
             <!-- </a> -->
             <button class="navbar-toggler ms-auto me-3" type="button" data-target="#main_nav" onclick="openNav()" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-            <div class="collapse navbar-collapse" id="main_nav">
+            <div class="collapse navbar-collapse custom-setting" id="main_nav">
                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item active mx-1"> <a class="nav-link" href="index.html">RETAIL BOXES</a> </li>
+                  <li class="nav-item active mx-1">                     
+                     <router-link class="routerLink" to='/retailbox'>RETAIL BOXES</router-link>  
+                  </li>
                   <li class="nav-item  mx-1dropdown has-megamenu menga-menu-bullets">
                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">BOX BY INDUSTRY<i
-                        class="fa fa-angle-down" aria-hidden="true"></i></a>
-                     <!-- <div class="dropdown-menu megamenu" role="menu"> -->
-                     <!-- <div class="row rowfafari g-3"> -->
-                     <!-- <div class="col-lg-2 col-6">
-                        <div class="col-megamenu">
-                           <h6 class="title">Beauty</h6>
-                           <ul class="list-unstyled megamenu-ul" style="border-top: 1px solid #ddd">
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="beauty/custom-printed-cosmetic-packaging-boxes.html">Custom
-                                 Cosmetic Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="beauty/custom-printed-health-packaging-boxes.html">Health
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="beauty/custom-printed-personal-care-packaging-boxes.html">Personal
-                                 Care Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="beauty/custom-printed-pharma-medicine-packaging-boxes.html">Pharma
-                                 / Medicine Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="beauty/hair-extension-boxes.html">Hair Extension Boxes</a> </li>
-                           </ul>
-                        </div>
-                        </div> -->
-                     <!-- end col-3 -->
-                     <!-- <div class="col-lg-2 col-6">
-                        <div class="col-megamenu">
-                           <h6 class="title">Consumer Products</h6>
-                           <ul class="list-unstyled megamenu-ul" style="border-top: 1px solid #ddd">
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="consumer-products/custom-printed-candle-aromatherapy-packaging-boxes.html">Candle
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="consumer-products/custom-printed-soap-packaging-boxes.html">Soap
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="consumer-products/custom-cigarette-packaging-boxes.html">Cigarette
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="consumer-products/custom-printed-restaurants-packaging-boxes.html">Restaurants
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="consumer-products/custom-pillow-boxes.html">Pillow Boxes</a> </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="consumer-products/eliquid-boxes.html">E-Liquid Boxes</a></li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="consumer-products/rigid-boxes.html">Rigid Boxes</a></li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="consumer-products/vape-packaging-boxes.html">Vape Boxes</a> </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="consumer-products/hemp-boxes.html">Hemp Boxes</a></li>
-                           </ul>
-                        </div>
-                        </div> -->
-                     <!-- end col-3 -->
-                     <!-- <div class="col-lg-2 col-6">
-                        <div class="col-megamenu">
-                           <h6 class="title">Electronics</h6>
-                           <ul class="list-unstyled megamenu-ul" style="border-top: 1px solid #ddd">
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="electronics/custom-printed-entertainment-leisure-packaging-boxes.html">Entertainment
-                                 &amp; Leisure Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="electronics/custom-printed-retail-wholesales-packaging-boxes.html">Retail
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="electronics/custom-printed-software-packaging-boxes.html">Software
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="electronics/custom-printed-storage-packaging-boxes.html">Storage
-                                 Boxes</a>
-                              </li>
-                           </ul>
-                        </div>
-                        </div> -->
-                     <!-- end col-3 -->
-                     <!-- <div class="col-lg-2 col-6">
-                        <div class="col-megamenu">
-                           <h6 class="title">Grocery</h6>
-                           <ul class="list-unstyled megamenu-ul" style="border-top: 1px solid #ddd">
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="grocery/custom-bakery-boxes.html">Custom Bakery Boxes</a></li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="grocery/custom-printed-beverage-packaging-boxes.html">Beverage
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="grocery/custom-printed-food-packaging-boxes.html">Food
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="grocery/chocolate-boxes.html">Chocolate Boxes</a></li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="grocery/cereal-boxes.html">Cereal Boxes</a></li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="grocery/pizza-boxes.html">Pizza Boxes</a></li>
-                           </ul>
-                        </div>
-                        </div> -->
-                     <!-- end col-3 -->
-                     <!-- <div class="col-lg-2 col-6">
-                        <div class="col-megamenu">
-                           <h6 class="title">Life Style</h6>
-                           <ul class="list-unstyled megamenu-ul" style="border-top: 1px solid #ddd">
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="life-style/custom-printed-sports-packaging-boxes.html">Sports
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="life-style/custom-printed-apparel-packaging-boxes.html">Apparel
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="life-style/custom-printed-appliances-packaging-boxes.html">Appliances
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="life-style/custom-printed-automotive-packaging-boxes.html">Automotive
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="life-style/custom-printed-household-packaging-boxes.html">Household
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="life-style/custom-bottle-neckers.html">Bottle Neckers</a></li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="life-style/custom-printed-hang-tags.html">Custom Hang Tags</a> </li>
-                           </ul>
-                        </div>
-                        </div> -->
-                     <!-- end col-3 -->
-                     <!-- <div class="col-lg-2 col-6">
-                        <div class="col-megamenu">
-                           <h6 class="title">Gift</h6>
-                           <ul class="list-unstyled megamenu-ul" style="border-top: 1px solid #ddd">
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="gift/custom-printed-display-packaging-boxes.html">Display
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="gift/custom-printed-inserts-packaging-boxes.html">Inserts
-                                 Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="gift/custom-printed-jewellery-gift-packaging-boxes.html">Custom
-                                 Jewelry Boxes</a>
-                              </li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="gift/die-cut-boxes.html">Die Cut Boxes</a></li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="gift/custom-window-boxes.html">Custom Window Boxes</a></li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="gift/custom-gift-boxes.html">Custom Gift Boxes</a></li>
-                              <li style="border-bottom: 1px solid #ddd;padding: 4px 2px"><a href="gift/custom-christmas-gift-packaging-boxes.html">Christmas
-                                 Gift Boxes</a>
-                              </li>
-                           </ul>
-                        </div>
-                        </div> -->
-                     <!-- end col-3 -->
-                     <!-- </div> -->
-                     <!-- end row -->
-                     <!-- </div> -->
-                     <!-- dropdown-mega-menu.// -->
+                        class="fa fa-angle-down" aria-hidden="true"></i></a>                   
                   </li>
                   <li class="nav-item dropdown mx-1">
                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">BOX BY STYLE <i
                         class="fa fa-angle-down" aria-hidden="true"></i></a>
                   </li>
                   <li class="nav-item dropdown mx-1">
-                     <router-link class="routerLink"   to='/blog'>BLOG</router-link> 
-                          
+                     <router-link class="routerLink" to='/blog'>BLOG</router-link>                           
                   </li>
                   
                   <li class="nav-item mx-1"> <a class="nav-link" href="tel:+92 324 8473731" aria-label="Portfolio" style="transition: none !important;"><i
