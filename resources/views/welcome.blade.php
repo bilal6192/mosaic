@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Mosaic</title>
     <!-- Scripts -->
-    <script src="{{ ('http://localhost/Getting-started-with-Laravel-and-Vue-js/public/js/app.js') }}" defer></script>
+    <script src="{{ ('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
