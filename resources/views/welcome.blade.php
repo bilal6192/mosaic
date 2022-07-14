@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Mosaic</title>
     <!-- Scripts -->
-    <script src="{{ ('http://localhost/Getting-started-with-Laravel-and-Vue-js/public/js/app.js') }}" defer></script>
+    <script src="{{ ('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -26,7 +26,8 @@
       <link rel="stylesheet" href="{{ ('css/css/style.css') }}" as="style">
       <link rel="stylesheet" href="{{ ('css/css/custum.css') }}">
       <link rel="stylesheet" href="{{ ('css/css/blogs.css') }}" type="text/css">
-      <link rel="stylesheet" href="{{ ('css/css/static_pages.css') }}" type="text/css">    
+      <link rel="stylesheet" href="{{ ('css/css/static_pages.css') }}" type="text/css">  
+      <link rel="stylesheet" href="{{ ('css/css/contact_us.css') }}">  
 
       <noscript>
          <link rel='stylesheet' href=" {{ ('css/css/all.min.css') }}">

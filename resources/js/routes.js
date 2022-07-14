@@ -27,19 +27,31 @@ const routes = [
       name: 'privacy',
       path: '/privacy',
       component: require('./components/privacy.vue').default
-    }
-    ,
-  
+    },  
     {
       name: 'aboutus',
       path: '/aboutus',
       component: require('./components/aboutus.vue').default
-    },
-  
+    },  
     {
       name: 'retailbox',
       path: '/retailbox',
       component: require('./components/retailbox.vue').default
+    },  
+    {
+      name: 'boxbyindustry',
+      path: '/boxbyindustry',
+      component: require('./components/boxbyindustry.vue').default
+    },  
+    {
+      name: 'boxbystyle',
+      path: '/boxbystyle',
+      component: require('./components/boxbystyle.vue').default
+    },  
+    {
+      name: 'contactus',
+      path: '/contactus',
+      component: require('./components/contactus.vue').default
     }
   ];
 

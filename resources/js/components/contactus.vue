@@ -1,20 +1,17 @@
 <template>
-
   <div>
-  
+
 <html lang="en">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8">
    <head>
-      <title>Mosaic Vision - Custom Boxes Wholesale | MV Packaging</title>
+      <title>Contact Us</title>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
+ 
    </head>
-   <!-- overflow-y: scroll; -->
-   <body style="-webkit-overflow-scrolling: touch;">
-
-
-
+   <body style="-webkit-overflow-scrolling: touch;overflow-y: scroll;">
       <!-- ********** Header Start ********** -->
       <header class="header bg-warning py-2">
          <div class="container-fluid">
@@ -29,15 +26,13 @@
             </div>
          </div>
       </header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 bg-white rounded  custom-setting2 custom-menu scroll_background_important">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 bg-white rounded custom-menu scroll_background_important">
          <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="index.html"> -->
             <router-link  to='/'>
-            <img class="default-logo1" :src="`images/logo.png`"  sizes="(min-width: 400px) 400px, 400px" alt="Mosaic Vision Packaging" aria-label="Mosaic Vision Packaging" width="273" height="55">
+               <img class="default-logo1" :src="`images/logo.png`"  sizes="(min-width: 400px) 400px, 400px" alt="Mosaic Vision Packaging" aria-label="Mosaic Vision Packaging" width="273" height="55">
             </router-link> 
-            <!-- </a> -->
             <button class="navbar-toggler ms-auto me-3" type="button" data-target="#main_nav" onclick="openNav()" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-            <div class="collapse navbar-collapse custom-setting" id="main_nav">
+            <div class="collapse navbar-collapse" id="main_nav">
                <ul class="navbar-nav ms-auto">
                   <li class="nav-item active mx-1">                     
                      <router-link class="routerLink" to='/retailbox'>RETAIL BOXES</router-link>  
@@ -50,24 +45,12 @@
                   </li>   
                   <li class="nav-item dropdown mx-1">
                      <router-link class="routerLink" to='/blog'>BLOG</router-link>                           
-                  </li>                  
+                  </li> 
                   <li class="nav-item mx-1"> <a class="nav-link" href="tel:+92 324 8473731" aria-label="Portfolio" style="transition: none !important;"><i
                      class="fas fa-phone-alt"></i> +92 324 8473731</a> </li>
                   <li class="nav-item mx-1"> <a class="nav-link" href="portfolio.html" aria-label="Portfolio" style="transition: none !important;">Get a Free Quote</a> </li>
                </ul>
             </div>
-            <!-- <span class="res-search mobile-search"><a href="#"><img width="25" height="25"
-               src="assets/images/search-icon-header.webp" alt="Mosaic Vision packaging"
-               style="width: 25px;height: auto"></a></span>
-               <form class="search_form_top" action="#/search" method="get">
-               <div class="input-group top-bar-search-group">
-               <input type="text" name="search" required class="form-control search_input_top" placeholder="Search"
-               value="">
-               <button type="submit" aria-label="search"
-               class="btn btn-secondary  bg-transparent border-0 border-start border-secondary"><i
-                   class="fa fa-search"></i></button>
-               </div>
-               </form> -->
          </div>
          <div class="drop-search shadow-view">
             <form class="small_search_form_top" action="#/search" method="get">
@@ -282,374 +265,119 @@
          </div>
       </div>
       <a href="tel:+923248473731" class="common_phone_call_icon">
-         <div> <img :src="`images/phone-icon-946.webp`" width="35" height="35"> </div>
+         <div> <img :src="`images/phone-icon-946.webp`"  width="35" height="35"> </div>
       </a>
       <!-- ********** Header End ********** -->
-
-
-
-      <!-- ********** Home Page Banner Start ********** -->
-      <div class="banner banner-bg">
-         <div class="owl-slider" id="Banner-slider">
-            <!-- slide 01 -->
-            <div class="slide">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="owl-text text-left">
-                           <h2>Custom Boxes Made Easy</h2>
-                           <p>Mosaic Vision Packagine makses it simple for business to design and order custom boxes and affordable packaging online. Get quality retail packaging boxes, custom cosmetic boxes, wholesale printed boxes for CBD and more for any product you need.</p>
-                           <div class="banner-btn">
-                              <div class="get-btn"> <a class="nav-link" href="#">Get a Free Quote</a> </div>
-                              <div class="pickup-btn"> <a class="nav-link" href="#">pick Your style</a> </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="banner-img"> <img :src="`images/sliders/banner-col-img.png`" alt=""> </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- slide 02 -->
-            <div class="slide">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="owl-text text-center">
-                           <h2>Custom Boxes Made Easy</h2>
-                           <p>Mosaic Vision Packagine makses it simple for business to design and order custom boxes and affordable packaging online. Get quality retail packaging boxes, custom cosmetic boxes, wholesale printed boxes for CBD and more for any product you need.</p>
-                           <div class="banner-btn">
-                              <div class="get-btn"> <a class="nav-link" href="#">Get a Free Quote</a> </div>
-                              <div class="pickup-btn"> <a class="nav-link" href="#">pick Your style</a> </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="banner-img"> <img :src="`images/sliders/banner-col-img.png`" alt=""> </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- slide 03 -->
-            <div class="slide">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="owl-text text-center">
-                           <h2>Custom Boxes Made Easy</h2>
-                           <p>Mosaic Vision Packagine makses it simple for business to design and order custom boxes and affordable packaging online. Get quality retail packaging boxes, custom cosmetic boxes, wholesale printed boxes for CBD and more for any product you need.</p>
-                           <div class="banner-btn">
-                              <div class="get-btn"> <a class="nav-link" href="#">Get a Free Quote</a> </div>
-                              <div class="pickup-btn"> <a class="nav-link" href="#">pick Your style</a> </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="banner-img"> <img :src="`images/sliders/banner-col-img.png`" alt=""> </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- ********** Home Page Banner End ********** -->
-
-
-
-      <!-- ********** Home Page Package Offer Start ********** -->
-      <div class="Packaging-Offers">
-         <h2>What Mosaic Vision Packaging Offers</h2>
-         <div class="container box-row">
-            <div class="row mx-0 py-5">
-               <div class="col-lg-2 col-md-4 col-sm-4 col-4 col-6 text-center box-p opi-box-p">
-                  <img class="opi-lazy px-4" style="width:  auto;height: auto" :src="`images/CUSTOM-SIZES-&amp;-STYLES.png`" alt="Box Packaging" title="Box Packaging">
-                  <p>CUSTOM SIZESdie
-                     <br>&amp; STYLES 
-                  </p>
-               </div>
-               <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center box-p opi-box-p">
-                  <img class="opi-lazy px-4" style="width:  auto;height: auto" :src="`images/FREE-DESING-SUPPORT.png`" alt="Box Packaging" title="Box Packaging">
-                  <p>FREE
-                     <br>DESING SUPPORT
-                  </p>
-               </div>
-               <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center box-p opi-box-p">
-                  <img class="opi-lazy px-4" style="width: auto;height: auto" :src="`images/COMPETITIVE-PRICING.png`" alt="Box Packaging" title="Box Packaging">
-                  <p>COMPETITIVE
-                     <br>PRICING
-                  </p>
-               </div>
-               <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center box-p opi-box-p">
-                  <img class="opi-lazy px-4" style="width:  auto;height: auto" :src="`images/NO-DYE-CUT-OR-PLATE-CHARGES.png`" alt="Box Packaging" title="Box Packaging">
-                  <p>NO DYE CUT OR
-                     <br>PLATE CHARGES
-                  </p>
-               </div>
-               <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center box-p opi-box-p">
-                  <img class="opi-lazy px-4" style="width:  auto;height: auto" :src="`images/10-12-BUSINESS-DAYS-TO-DISPATCH.png`" alt="Box Packaging" title="Box Packaging">
-                  <p>10-12 BUSINESS DAYS
-                     <br>TO DISPATCH
-                  </p>
-               </div>
-               <div class="col-lg-2 col-md-4 col-sm-4 col-6 text-center box-p opi-box-p">
-                  <img class="opi-lazy px-4" style="width:  auto;height: auto" :src="`images/FREE-SHIPPING.png`" alt="Box Packaging" title="Box Packaging">
-                  <p>FREE
-                     <br>SHIPPING
-                  </p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- ********** Home Page Package Offer End ********** -->
-
-
-
-      <!-- ********** Home Page Products Start ********** -->
-      <section class="products">
-         <div class="container py-4">
-            <h1 class="text-center home_page_h1">Pick <span>Your</span> Style</h1>
-            <p class="text-center h6">With Quick turnaround and low minimums, we’re a leading custom prnted box manufacturer to wholesalers and retail brands for a reason.</p>
-         </div>
-         <div class="container">
-            <div class="d-flex">
+      <div>
+         <section class="static_page contact-sec">
+            <div class="container">
                <div class="row">
-                  <div class="col-sm-6 col-xs-12 col-lg-4">
-                     <div class="product-block text-center padding-none shadow-view">
-                        <a href="#" class="change-hover opi-product-card-home-page" aria-label="custom-luxury-jewelry-boxes" target="_blank" rel="noopener">
-                           <img alt="Custom Luxury Jewelry Packaging Boxes" title="Custom Luxury Jewelry Packaging Boxes" loading="lazy" :src="`images/retail-box.png`" aria-label="Custom Luxury Jewelry Packaging Boxes" width="356" height="356"> <img alt="Custom Luxury Jewelry Boxes" title="Custom Luxury Jewelry Boxes" loading="lazy" :src="`images/retail-box.png`" aria-label="Custom Luxury Jewelry Boxes" width="356" height="356">
-                           <!-- images/product-image-2.png -->
-                        </a>
-                        <div class="clearfix detail-panel">
-                           <h2 class="product-title">RETAIL BOXES</h2>
-                           <!-- <p> Custom Luxury Jewelry Boxes at affordable prices are available at Mosaic Vision...</p>
-                              <a href="products/custom-luxury-jewelry-boxes.html"
-                                  class="read-more btn-warning">Get Started</a> -->
-                        </div>
-                        <!-- <div class="bg-bck">
-                           <div class="hover-text">
-                               <a href="products/custom-luxury-jewelry-boxes.html"
-                                   class="read-more btn-warning">Read More!</a>
+                  <div class="col-12 my-5">
+                     <div class="row">
+                        <div class="col-sm-4">
+                           <div class="row">
+                              <div class="col-12">
+                                 <form id="contact_us" action="contact-us"
+                                    method="post">
+                                    <input type="hidden" name="_token"
+                                       value="pkUBSv3UQwJKNQGbLkLPw46WZPPRbvVLKEYsxLxG">
+                                    <div class="form-group pb-3">
+                                       <label class="py-2">Name<span class="required_icon">*</span></label>
+                                       <div class="control">
+                                          <input name="name" id="name" class="form-control py-2 required">
+                                       </div>
+                                    </div>
+                                    <div class="form-group pb-3">
+                                       <label class="py-2">E-mail<span class="required_icon">*</span></label>
+                                       <div class="control">
+                                          <input name="email" id="email" class="form-control py-2 required">
+                                       </div>
+                                    </div>
+                                    <div class="form-group pb-3">
+                                       <label class="py-2">Location</label>
+                                       <div class="control">
+                                          <input name="location" id="location" class="form-control py-2">
+                                       </div>
+                                    </div>
+                                    <div class="form-group pb-3">
+                                       <label class="py-2">Phone<span class="required_icon">*</span></label>
+                                       <div class="control">
+                                          <input name="phone" id="phone" class="form-control py-2 required">
+                                       </div>
+                                    </div>
+                                    <div class="form-group pb-3">
+                                       <label class="py-2">Company</label>
+                                       <div class="control">
+                                          <input name="company" id="name" class="form-control py-2">
+                                       </div>
+                                    </div>
+                                    <div class="form-group pb-3">
+                                       <label class="py-2">Website</label>
+                                       <div class="control">
+                                          <input name="website" id="name" class="form-control py-2">
+                                       </div>
+                                    </div>
+                                    <div class="form-group pb-3">
+                                       <label for="message" class="py-2">Message</label>
+                                       <div class="control">
+                                          <textarea rows="6" name="requirements_message"
+                                             id="requirements_message" class="form-control"
+                                             placeholder="write short message"></textarea>
+                                       </div>
+                                    </div>
+                                    <div class="row py-3 mb-5">
+                                       <div class="form-group d-flex justify-content-end">
+                                          <button type="submit"
+                                             class="btn btn-warning btn-quote rounded-pill">Submit</button>
+                                       </div>
+                                    </div>
+                                 </form>
+                              </div>
                            </div>
-                           </div> -->
-                     </div>
-                  </div>
-                  <div class="col-sm-6 col-xs-12 col-lg-4">
-                     <div class="product-block text-center padding-none shadow-view">
-                        <a href="#" class="change-hover opi-product-card-home-page" aria-label="custom-cannabis-tinctures-packaging" target="_blank" rel="noopener">
-                           <img alt="Custom Cannabis Tinctures Packaging" title="Custom Cannabis Tinctures Packaging" loading="lazy" :src="`images/food-box.png`" aria-label="Custom Cannabis Tinctures Packaging" width="356" height="356"> <img alt="Custom Cannabis Tinctures Boxes" title="Custom Cannabis Tinctures Boxes" loading="lazy" :src="`images/food-box.png`" aria-label="Custom Cannabis Tinctures Boxes" width="356" height="356">
-                           <!-- images/product-image-2.png -->
-                        </a>
-                        <div class="clearfix detail-panel">
-                           <h2 class="product-title">FOOD & BEVERAGE BOXES</h2>
-                           <!-- <p> We at Mosaic Vision Packaging dealing in all kinds of custom boxes with logo. If you
-                              need...</p>
-                              <a href="products/custom-cannabis-tinctures-packaging.html"
-                              class="read-more btn-warning">Get Started</a> -->
                         </div>
-                        <!-- <div class="bg-bck">
-                           <div class="hover-text">
-                               <a href="products/custom-cannabis-tinctures-packaging.html"
-                                   class="read-more btn-warning">Read More!</a>
+                        <div class="col-sm-8 contct-map">
+                           <h1>get in touch with us</h1>
+                           <p>See how your business can get benefits with <span class="text-warning">Mosaic Vision</span>
+                              <span class="jet-bck">Packaging</span> as Your team.
+                           </p>
+                           <div class="row info-main">
+                              <div class="info-box text-center">
+                                 <span class="bg-warning"><i class="fa fa-phone"
+                                    aria-hidden="true"></i></span>
+                                 <a href="tel:+923248473731">
+                                    <p>(324) 8473731</p>
+                                 </a>
+                              </div>
+                              <div class="info-box text-center">
+                                 <span class="bg-warning"><i class="fa fa-envelope"
+                                    aria-hidden="true"></i></span>
+                                 <a
+                                    href="mailto:info@mosaicvisionpackaging.com">
+                                    <p>info@mosaicvisionpackaging.com</p>
+                                 </a>
+                              </div>
+                              <div class="info-box text-center">
+                                 <span class="bg-warning"><i
+                                    class="fas fa-map-marker-alt" aria-hidden="true"></i></span>
+                                 <p>19-A, Abbot Road, Near PTV Station,
+                                    Lahore, Punjab, Pakistan
+                                 </p>
+                              </div>
                            </div>
-                           </div> -->
-                     </div>
-                  </div>
-                  <div class="col-sm-6 col-xs-12 col-lg-4">
-                     <div class="product-block text-center padding-none shadow-view">
-                        <a href="#" class="change-hover opi-product-card-home-page" aria-label="custom-printed-vape-cartridge-packaging-boxes" target="_blank" rel="noopener">
-                           <img alt="Vape Cartridge Boxes" title="" loading="lazy" :src="`images/gift-box.png`" aria-label="" width="356" height="356"> <img alt="Vape Cartridge packaging" title="" loading="lazy" :src="`images/gift-box.png`"  aria-label="" width="356" height="356">
-                           <!-- images/product-image-2.png -->
-                        </a>
-                        <div class="clearfix detail-panel">
-                           <h2 class="product-title">GIFT BOXES</h2>
-                           <!-- <p> Get Custom Vape Cart Boxes &ndash; Wholesale Vape Cartridge...</p>
-                              <a href="products/custom-printed-vape-cartridge-packaging-boxes.html"
-                                  class="read-more btn-warning">Get Started</a> -->
+                           <div style="width: 100%">
+                              <iframe
+                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.4802996863664!2d74.32458351572431!3d31.565874352050812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b4c2dc0d94d%3A0x255088f5920c75dc!2s19a%20Abbott%20Road%2C%20Montgomery%20Park%20Garhi%20Shahu%2C%20Lahore%2C%20Punjab%2054000%2C%20Pakistan!5e0!3m2!1sen!2sus!4v1654163576221!5m2!1sen!2sus"
+                                 width="100%" height="380px" style="border:0;" allowfullscreen="" loading="lazy"
+                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           </div>
+                           <br />
                         </div>
-                        <!-- <div class="bg-bck">
-                           <div class="hover-text">
-                               <a href="products/custom-printed-vape-cartridge-packaging-boxes.html"
-                                   class="read-more btn-warning">Read More!</a>
-                           </div>
-                           </div> -->
                      </div>
-                  </div>
-                  <div class="col-sm-6 col-xs-12 col-lg-4">
-                     <div class="product-block text-center padding-none shadow-view">
-                        <a href="#" class="change-hover opi-product-card-home-page" aria-label="custom-printed-essential-oil-packaging-boxes" target="_blank" rel="noopener">
-                           <img alt="Custom Essential Oil Boxes" title="Custom Essential Oil Boxes" loading="lazy" :src="`images/cbd-box.png`" aria-label="Custom Essential Oil Boxes" width="356" height="356"> <img alt="Custom Essential Oil Packaging Boxes" title="Custom Essential Oil Packaging Boxes" loading="lazy" :src="`images/cbd-box.png`" aria-label="Custom Essential Oil Packaging Boxes" width="356" height="356">
-                           <!-- images/product-image-2.png -->
-                        </a>
-                        <div class="clearfix detail-panel">
-                           <h2 class="product-title">CBD PACKAGING BOXES</h2>
-                           <!-- <p> Herbal products like Essential Oils also referred to as...</p>
-                              <a href="products/custom-printed-essential-oil-packaging-boxes.html"
-                                  class="read-more btn-warning">Get Started</a> -->
-                        </div>
-                        <!-- <div class="bg-bck">
-                           <div class="hover-text">
-                               <a href="products/custom-printed-essential-oil-packaging-boxes.html"
-                                   class="read-more btn-warning">Read More!</a>
-                           </div>
-                           </div> -->
-                     </div>
-                  </div>
-                  <div class="col-sm-6 col-xs-12 col-lg-4">
-                     <div class="product-block text-center padding-none shadow-view">
-                        <a href="#" class="change-hover opi-product-card-home-page" aria-label="custom-printed-lip-balm-packaging-boxes" target="_blank" rel="noopener">
-                           <img alt="Custom Printed Lip Balm Packaging Boxes" title="Custom Printed Lip Balm Packaging Boxes" loading="lazy" :src="`images/eco.png`" aria-label="Custom Printed Lip Balm Packaging Boxes" width="356" height="356"> <img alt="Custom Printed Lip Balm Boxes" title="Custom Printed Lip Balm Boxes" loading="lazy" :src="`images/eco.png`" aria-label="Custom Printed Lip Balm Boxes" width="356" height="356">
-                           <!-- images/product-image-2.png -->
-                        </a>
-                        <div class="clearfix detail-panel">
-                           <h2 class="product-title">ECO FRIENDLY BOXES</h2>
-                           <!-- <p> Get Your Custom Lip Balm Boxes- Wholesale Lip Balm...</p>
-                              <a href="products/custom-printed-lip-balm-packaging-boxes.html"
-                                  class="read-more btn-warning">Get Started</a> -->
-                        </div>
-                        <!-- <div class="bg-bck">
-                           <div class="hover-text">
-                               <a href="products/custom-printed-lip-balm-packaging-boxes.html"
-                                   class="read-more btn-warning">Read More!</a>
-                           </div>
-                           </div> -->
-                     </div>
-                  </div>
-                  <div class="col-sm-6 col-xs-12 col-lg-4">
-                     <div class="product-block text-center padding-none shadow-view">
-                        <a href="#" class="change-hover opi-product-card-home-page" aria-label="custom-printed-popcorn-packaging-boxes" target="_blank" rel="noopener">
-                           <img alt="Custom Printed Popcorn Boxes" title="Custom Printed Popcorn Boxes" loading="lazy" :src="`images/cosmatic.png`" aria-label="Custom Printed Popcorn Boxes" width="356" height="356"> <img alt="Custom Popcorn Boxes" title="Custom Popcorn Boxes" loading="lazy" :src="`images/cosmatic.png`"  aria-label="Custom Popcorn Boxes" width="356" height="356">
-                           <!-- images/product-image-2.png -->
-                        </a>
-                        <div class="clearfix detail-panel">
-                           <h2 class="product-title">COSMETIC BOXES</h2>
-                           <!-- <p> Popcorns and movies have always been the perfect pair. If you own a theatre,...
-                              </p>
-                              <a href="products/custom-printed-popcorn-packaging-boxes.html"
-                                  class="read-more btn-warning">Get Started</a> -->
-                        </div>
-                        <!-- <div class="bg-bck">
-                           <div class="hover-text">
-                               <a href="products/custom-printed-popcorn-packaging-boxes.html"
-                                   class="read-more btn-warning">Read More!</a>
-                           </div>
-                           </div> -->
-                     </div>
-                  </div>
-                  <div class="view-btn"> <a href="#.html" class="read-more">VIEW ALL CATEGORIES</a> </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- ********** Home Page Products End ********** -->
-
-
-
-      <!-- ********** Home Page Video Start ********** -->
-      <section class="video-section">
-         <div class="container">
-            <div class="video-heading">
-               <h2>Why 1,000s of Happy Customers Turn to Mosaic Vision Packaging</h2>
-               <p>Watch to learn why thousands of brands nationwide choose Mosaic Vision Packaging for their Custom Printed boxes, from small startups to Fortune 500 brands alike.</p>
-            </div>
-            <div class="video-imbend">
-               <iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/xm-R4yiRgvo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-         </div>
-      </section>
-      <!-- ********** Home Page Video End ********** -->
-
-
-
-      <!-- ********** Home Page Testimonials Start ********** -->
-      <div class="testimonials" id="testimonials">
-         <div class="container">
-            <h3>Testimonial</h3>
-            <div class="owl-carousel">
-               <div class="card d-flex" style="border: none">
-                  <div class="card-img"> <img loading="lazy" :src="`images/testimonial-img.png`" srcset="assets/images/testimonial-img.png" sizes="(min-width: 73px) 73px, 73px" class="media-object rounded-pill" alt="" title="" width="73" height="73"> </div>
-                  <div class="card-body p-0 pt-2">
-                     <h2>BARRY THAWN</h2>
-                     <p>I had a great experience with this company right out of the gate. They worked with me too customized exactly what I wanted. My order arrived on time and the product turned out exactly as I expected. A... </p>
-                  </div>
-               </div>
-               <div class="card d-flex" style="border: none">
-                  <div class="card-img"> <img loading="lazy" :src="`images/testimonial-img.png`"  srcset="assets/images/testimonial-img.png" sizes="(min-width: 73px) 73px, 73px" class="media-object rounded-pill" alt="" title="" width="73" height="73"> </div>
-                  <div class="card-body p-0 pt-2">
-                     <h2>BARRY THAWN</h2>
-                     <p>I had a great experience with this company right out of the gate. They worked with me too customized exactly what I wanted. My order arrived on time and the product turned out exactly as I expected. A... </p>
-                  </div>
-               </div>
-               <div class="card d-flex" style="border: none">
-                  <div class="card-img"> <img loading="lazy" :src="`images/testimonial-img.png`"  srcset="assets/images/testimonial-img.png" sizes="(min-width: 73px) 73px, 73px" class="media-object rounded-pill" alt="" title="" width="73" height="73"> </div>
-                  <div class="card-body p-0 pt-2">
-                     <h2>BARRY THAWN</h2>
-                     <p>I had a great experience with this company right out of the gate. They worked with me too customized exactly what I wanted. My order arrived on time and the product turned out exactly as I expected. A... </p>
-                  </div>
-               </div>
-               <div class="card d-flex" style="border: none">
-                  <div class="card-img"> <img loading="lazy" :src="`images/testimonial-img.png`"  srcset="assets/images/testimonial-img.png" sizes="(min-width: 73px) 73px, 73px" class="media-object rounded-pill" alt="" title="" width="73" height="73"> </div>
-                  <div class="card-body p-0 pt-2">
-                     <h2>BARRY THAWN</h2>
-                     <p>I had a great experience with this company right out of the gate. They worked with me too customized exactly what I wanted. My order arrived on time and the product turned out exactly as I expected. A... </p>
-                  </div>
-               </div>
-               <div class="card d-flex" style="border: none">
-                  <div class="card-img"> <img loading="lazy" :src="`images/testimonial-img.png`"  srcset="assets/images/testimonial-img.png" sizes="(min-width: 73px) 73px, 73px" class="media-object rounded-pill" alt="" title="" width="73" height="73"> </div>
-                  <div class="card-body p-0 pt-2">
-                     <h2>BARRY THAWN</h2>
-                     <p>I had a great experience with this company right out of the gate. They worked with me too customized exactly what I wanted. My order arrived on time and the product turned out exactly as I expected. A... </p>
-                  </div>
-               </div>
-               <div class="card d-flex" style="border: none">
-                  <div class="card-img"> <img loading="lazy" :src="`images/testimonial-img.png`"  srcset="assets/images/testimonial-img.png" sizes="(min-width: 73px) 73px, 73px" class="media-object rounded-pill" alt="" title="" width="73" height="73"> </div>
-                  <div class="card-body p-0 pt-2">
-                     <h2>BARRY THAWN</h2>
-                     <p>I had a great experience with this company right out of the gate. They worked with me too customized exactly what I wanted. My order arrived on time and the product turned out exactly as I expected. A... </p>
                   </div>
                </div>
             </div>
-         </div>
+         </section>
       </div>
-      <!-- ********** Home Page Testimonials End ********** -->
-
-
-
-      <!-- ********** Home Page Brand Start ********** -->
-      <section class="brands-section">
-         <div class="container">
-            <div class="brand-heading">
-               <h2>Brands that trust <span>Mosaic Vision Packaging</span></h2>
-               <p>We have customers including business start-ups, resellers and designers who are playing hard to get their businesses up to new levels of success. We support them better! and support them to grow.</p>
-            </div>
-            <div class="barands-body">
-               <div class="row">logo-01.png`" 
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-01.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-02.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-03.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-04.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-05.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-06.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-07.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-08.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-09.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-10.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-11.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-12.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-13.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-14.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-15.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-16.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-17.png`" alt=""></div>
-                  <div class="col-md-1 col-sm-2"><img :src="`images/logo-18.png`" alt=""></div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- ********** Home Page Brand End ********** -->
-
-
-
       <!-- ********** Footer Start ********** -->
       <section class="footer">
          <div class="container">
@@ -697,7 +425,6 @@
                      font-family: 'Montserrat Bold';
                      ">Information</p>
                   <ul>
-                     
                      <li><router-link  to='/privacy'>Privacy and Security</router-link> </li>
                      <li><a href="terms.html">Terms and Conditions</a></li>
                      <li><router-link  to='/aboutus'>About Us</router-link> </li>
@@ -745,9 +472,9 @@
                      <li><i class="fa fa-map-marker" aria-hidden="true" style="margin-right: 8px;"></i> 19-A, Abbot Road, Near PTV Station, 
                         Lahore, Punjab, Pakistan
                      </li>
-                     <li class="payment"><img loading="lazy" style="width: 100%;height: auto" alt="Box Packaging" title="Box Packaging" :src="`images/free-shipping.webp`" width="300" height="102"> </li>
+                     <li class="payment"><img loading="lazy" style="width: 100%;height: auto" alt="Box Packaging" title="Box Packaging" :src="`images/free-shipping.webp`"  width="300" height="102"> </li>
                      <li class="payment"><img loading="lazy" style="margin-top: -17px;
-                        margin-left: -6px;width: 100%;height: auto" alt="Box Packaging" title="Box Packaging" :src="`images/flag.webp`"   width="249" height="85"></li>
+                        margin-left: -6px;width: 100%;height: auto" alt="Box Packaging" title="Box Packaging" :src="`images/flag.webp`"  width="249" height="85"></li>
                   </ul>
                </div>
             </div>
@@ -760,15 +487,11 @@
          <div class="clearfix"></div>
       </footer>
       <!-- ********** Footer End ********** -->
-
-
-
       <!-- ********** Header Mobile Start ********** -->
       <div id="res-nav" class="res-overlay">
          <a href="#" class="closebtn" onclick="closeNav()">×</a>
          <div class="overlay-content col-xs-12">
             <div class="accordion" id="accordionMenu">
-              
                <div class="accordion-item text-left">
                   <h2 class="accordion-header py-3 px-4 text-start">
                      <a class="text-white" href="index.html">Home</a>
@@ -803,13 +526,7 @@
          </div>
       </div>
       <!-- ********** Header Mobile Start ********** -->
-
-
-
-      <!-- <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/owl.carousel.min.js"></script>
-      <script src="assets/js/script3860.js"></script>
-      <script src="assets/js/home_scripts.js"></script> -->
+    
    </body>
 </html>
 
@@ -820,9 +537,13 @@ const default_layout = "default";
 
 
 export default {
-  
+  // computed: {},
+  // data() {
+  //     return {
+  //         message:'Home ok ok'
+  //     }
+  // }
 };
-
 </script>
 <style>
    .routerLink{

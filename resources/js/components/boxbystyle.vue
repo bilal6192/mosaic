@@ -1,8 +1,6 @@
 
     
 <template>
-
-
   <div> 
    
 <!-- <html lang="en"> -->
@@ -76,7 +74,7 @@
                <div class="modal-body">
                   <div class="row side-bar-form mx-0">
                      <div class="get-quote">
-                        <h4>GET CUSTOM QUOTE</h4>
+                        <h4>GET CUSTOM QUOTE3</h4>
                      </div>
                      <div class="details">
                         <form id="get_quote" action="#/get-quote" method="post" novalidate="novalidate">
@@ -391,7 +389,7 @@
                   <div class="col-lg-3 col-md-4 col-12 position-sticky sticky_element" id="sticky_element">
                      <div class="row side-bar-form mx-0">
                         <div class="get-quote">
-                           <h4>GET CUSTOM QUOTE</h4>
+                           <h4>GET CUSTOM QUOTE3</h4>
                         </div>
                         <div class="details">
                            <form id="get_quote" action="https://oxopackaging.com/get-quote" method="post">
@@ -826,7 +824,7 @@
                      line-height: 1.2;
                      font-family: 'Montserrat Bold';
                      ">Information</p>
-                  <ul>                     
+                  <ul>
                      <li><router-link  to='/privacy'>Privacy and Security</router-link> </li>
                      <li><a href="terms.html">Terms and Conditions</a></li>
                      <li><router-link  to='/aboutus'>About Us</router-link> </li>
