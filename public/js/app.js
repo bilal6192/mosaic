@@ -8083,6 +8083,529 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var default_layout = "default";
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({// computed: {},
+  // data() {
+  //     return {
+  //         message:'Home ok ok'
+  //     }
+  // }
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -8213,6 +8736,10 @@ var routes = [{
   name: 'contactus',
   path: '/contactus',
   component: (__webpack_require__(/*! ./components/contactus.vue */ "./resources/js/components/contactus.vue")["default"])
+}, {
+  name: 'sitemap',
+  path: '/sitemap',
+  component: (__webpack_require__(/*! ./components/sitemap.vue */ "./resources/js/components/sitemap.vue")["default"])
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]({
   // base: '/blogportal/',
@@ -23564,6 +24091,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.routerLink{\n    text-decoration: n
 
 /***/ }),
 
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/blog.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/blog.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.follow_us_border2 {\r\n    display: inline-block;\r\n    height: 15px;\r\n    width: 84%;\r\n    background-color: #f2f2f2;\r\n    position: absolute;\r\n    left: 137px;\r\n    top: 11px;\r\n    z-index: 0;\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contactus.vue?vue&type=style&index=0&lang=css&":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contactus.vue?vue&type=style&index=0&lang=css& ***!
@@ -23606,6 +24157,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\n.routerLink{\n    text-decoration: none;\n}\n  ", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=style&index=0&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.routerLink{\n    text-decoration: none;\n}\nsection {\n           padding: 25px 0;\n}\na {\n           color: black;\n           text-decoration: none;\n}\nh4 {\n           font-size: 24px;\n           font-family: inherit;\n           font-weight: 500;\n           line-height: 1.1;\n           color: inherit;\n           margin-top: 10px;\n           margin-bottom: 10px;\n}\nh3 {\n           font-family: inherit;\n           font-weight: 500;\n           line-height: 1.1;\n           color: inherit;\n           font-size: 24px;\n}\nul li {\n           padding: 6px;\n}\n        ", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -43798,6 +44373,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/blog.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/blog.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_blog_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./blog.vue?vue&type=style&index=0&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/blog.vue?vue&type=style&index=0&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_blog_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_blog_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contactus.vue?vue&type=style&index=0&lang=css&":
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contactus.vue?vue&type=style&index=0&lang=css& ***!
@@ -43855,6 +44460,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_privacy_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=style&index=0&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_sitemap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./sitemap.vue?vue&type=style&index=0&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=style&index=0&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_sitemap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_sitemap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
@@ -44271,15 +44906,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _blog_vue_vue_type_template_id_7856a16d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./blog.vue?vue&type=template&id=7856a16d& */ "./resources/js/components/blog.vue?vue&type=template&id=7856a16d&");
 /* harmony import */ var _blog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./blog.vue?vue&type=script&lang=js& */ "./resources/js/components/blog.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _blog_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./blog.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/blog.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
+;
 
 
 /* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _blog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _blog_vue_vue_type_template_id_7856a16d___WEBPACK_IMPORTED_MODULE_0__.render,
   _blog_vue_vue_type_template_id_7856a16d___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
@@ -44496,6 +45133,47 @@ component.options.__file = "resources/js/components/retailbox.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/sitemap.vue":
+/*!*********************************************!*\
+  !*** ./resources/js/components/sitemap.vue ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _sitemap_vue_vue_type_template_id_34b0688c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sitemap.vue?vue&type=template&id=34b0688c& */ "./resources/js/components/sitemap.vue?vue&type=template&id=34b0688c&");
+/* harmony import */ var _sitemap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sitemap.vue?vue&type=script&lang=js& */ "./resources/js/components/sitemap.vue?vue&type=script&lang=js&");
+/* harmony import */ var _sitemap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sitemap.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/sitemap.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _sitemap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _sitemap_vue_vue_type_template_id_34b0688c___WEBPACK_IMPORTED_MODULE_0__.render,
+  _sitemap_vue_vue_type_template_id_34b0688c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/sitemap.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/about.vue?vue&type=script&lang=js&":
 /*!********************************************************************!*\
   !*** ./resources/js/components/about.vue?vue&type=script&lang=js& ***!
@@ -44640,6 +45318,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/sitemap.vue?vue&type=script&lang=js&":
+/*!**********************************************************************!*\
+  !*** ./resources/js/components/sitemap.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_sitemap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./sitemap.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_sitemap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
 /***/ "./resources/js/components/aboutus.vue?vue&type=style&index=0&lang=css&":
 /*!******************************************************************************!*\
   !*** ./resources/js/components/aboutus.vue?vue&type=style&index=0&lang=css& ***!
@@ -44666,6 +45360,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/blog.vue?vue&type=style&index=0&lang=css&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/blog.vue?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_blog_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./blog.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/blog.vue?vue&type=style&index=0&lang=css&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/contactus.vue?vue&type=style&index=0&lang=css&":
 /*!********************************************************************************!*\
   !*** ./resources/js/components/contactus.vue?vue&type=style&index=0&lang=css& ***!
@@ -44688,6 +45395,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_privacy_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./privacy.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/privacy.vue?vue&type=style&index=0&lang=css&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/sitemap.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/sitemap.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_sitemap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./sitemap.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=style&index=0&lang=css&");
 
 
 /***/ }),
@@ -44841,6 +45561,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_retailbox_vue_vue_type_template_id_2740dfa6___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_retailbox_vue_vue_type_template_id_2740dfa6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./retailbox.vue?vue&type=template&id=2740dfa6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/retailbox.vue?vue&type=template&id=2740dfa6&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/sitemap.vue?vue&type=template&id=34b0688c&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/sitemap.vue?vue&type=template&id=34b0688c& ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_sitemap_vue_vue_type_template_id_34b0688c___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_sitemap_vue_vue_type_template_id_34b0688c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_sitemap_vue_vue_type_template_id_34b0688c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./sitemap.vue?vue&type=template&id=34b0688c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=template&id=34b0688c&");
 
 
 /***/ }),
@@ -48119,14 +48856,22 @@ var render = function () {
                       1
                     ),
                     _vm._v(" "),
-                    _vm._m(36),
+                    _c(
+                      "li",
+                      [
+                        _c("router-link", { attrs: { to: "/sitemap" } }, [
+                          _vm._v("Sitemap"),
+                        ]),
+                      ],
+                      1
+                    ),
                     _vm._v(" "),
-                    _vm._m(37),
+                    _vm._m(36),
                   ]),
                 ]
               ),
               _vm._v(" "),
-              _vm._m(38),
+              _vm._m(37),
               _vm._v(" "),
               _c(
                 "div",
@@ -48150,11 +48895,11 @@ var render = function () {
                   ),
                   _vm._v(" "),
                   _c("ul", { staticStyle: { "list-style-type": "none" } }, [
+                    _vm._m(38),
+                    _vm._v(" "),
                     _vm._m(39),
                     _vm._v(" "),
                     _vm._m(40),
-                    _vm._v(" "),
-                    _vm._m(41),
                     _vm._v(" "),
                     _c("li", { staticClass: "payment" }, [
                       _c("img", {
@@ -48195,9 +48940,9 @@ var render = function () {
           ]),
         ]),
         _vm._v(" "),
-        _vm._m(42),
+        _vm._m(41),
         _vm._v(" "),
-        _vm._m(43),
+        _vm._m(42),
       ]),
     ]),
   ])
@@ -49874,14 +50619,6 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("li", [
-      _c("a", { attrs: { href: "sitemap.html" } }, [_vm._v("Sitemap")]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", [
       _c("a", { attrs: { href: "portfolio.html" } }, [_vm._v("Portfolio")]),
     ])
   },
@@ -50285,413 +51022,445 @@ var render = function () {
         ),
         _vm._v(" "),
         _c("div", [
-          _c("section", { staticClass: "static_page" }, [
-            _c("div", { staticClass: "container top_mar" }, [
-              _c("div", { staticClass: "row" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "carousel slide",
-                    attrs: {
-                      id: "carouselExampleControls",
-                      "data-bs-ride": "carousel",
+          _c(
+            "section",
+            {
+              staticClass: "static_page",
+              staticStyle: { padding: "0px !important" },
+            },
+            [
+              _c("div", { staticClass: "container top_mar" }, [
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "carousel slide",
+                      attrs: {
+                        id: "carouselExampleControls",
+                        "data-bs-ride": "carousel",
+                      },
                     },
-                  },
-                  [
-                    _c("div", { staticClass: "carousel-inner" }, [
-                      _c("div", { staticClass: "carousel-item active" }, [
-                        _c("img", {
-                          staticStyle: { width: "1300px" },
-                          attrs: {
-                            src: "images/sliders/%5e410836B54409450B229352E5022E745ADB0F5D3DBC1E5F8AAF%5epimgpsh_fullsize_distr2.webp",
-                          },
-                        }),
+                    [
+                      _c("div", { staticClass: "carousel-inner" }, [
+                        _c("div", { staticClass: "carousel-item active" }, [
+                          _c("img", {
+                            staticStyle: { width: "1300px" },
+                            attrs: {
+                              src: "images/sliders/%5e410836B54409450B229352E5022E745ADB0F5D3DBC1E5F8AAF%5epimgpsh_fullsize_distr2.webp",
+                            },
+                          }),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "carousel-item" }, [
+                          _c("img", {
+                            staticStyle: { width: "1300px" },
+                            attrs: {
+                              src: "images/sliders/%5e40E0BC7AFB4966CAF02303F8C3638F786026FF072ECE4B6951%5epimgpsh_fullsize_distr.webp",
+                            },
+                          }),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "carousel-item" }, [
+                          _c("img", {
+                            staticStyle: { width: "1300px" },
+                            attrs: {
+                              src: "images/sliders/%5e0130799E202DC738545DE729D7373441C7D9A89F31271556C6%5epimgpsh_fullsize_distr.webp",
+                            },
+                          }),
+                        ]),
                       ]),
                       _vm._v(" "),
-                      _c("div", { staticClass: "carousel-item" }, [
-                        _c("img", {
-                          staticStyle: { width: "1300px" },
-                          attrs: {
-                            src: "images/sliders/%5e40E0BC7AFB4966CAF02303F8C3638F786026FF072ECE4B6951%5epimgpsh_fullsize_distr.webp",
-                          },
-                        }),
-                      ]),
+                      _vm._m(8),
                       _vm._v(" "),
-                      _c("div", { staticClass: "carousel-item" }, [
-                        _c("img", {
-                          staticStyle: { width: "1300px" },
-                          attrs: {
-                            src: "images/sliders/%5e0130799E202DC738545DE729D7373441C7D9A89F31271556C6%5epimgpsh_fullsize_distr.webp",
-                          },
-                        }),
+                      _vm._m(9),
+                    ]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "col-sm-4 col-xs-12 package-hover-main  padding-none opi-package-hover-main",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "img-responsive",
+                        staticStyle: { width: "100%" },
+                        attrs: {
+                          src: "images/blog-posts/5-reasons-why-custom-packaging-is-important-in-todays-world.webp",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _vm._m(10),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "col-sm-4 col-xs-12 package-hover-main  padding-none opi-package-hover-main",
+                    },
+                    [
+                      _c("img", {
+                        attrs: {
+                          src: "images/blog-posts/the-importance-and-drawbacks-of-uv-coating-in-printing.webp",
+                          width: "100%",
+                          alt: "blog slider",
+                          title: "blog slider",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _vm._m(11),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "col-sm-4 col-xs-12 package-hover-main  padding-none opi-package-hover-main",
+                    },
+                    [
+                      _c("img", {
+                        attrs: {
+                          src: "images/blog-posts/pros-and-cons-of-offset-and-digital-printing.webp",
+                          width: "100%",
+                          alt: "blog slider",
+                          title: "blog slider",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _vm._m(12),
+                    ]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row mb-5" }, [
+                  _c("div", { staticClass: "col-md-8 col-12" }, [
+                    _c("div", { staticClass: "row" }, [
+                      _c("div", { staticClass: "col-sm-12" }, [
+                        _vm._m(13),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "mb-4" }, [
+                          _c("img", {
+                            attrs: {
+                              src: "images/blog-img-4.jpg",
+                              width: "100%",
+                              alt: "blog image",
+                              title: "blog image",
+                            },
+                          }),
+                        ]),
                       ]),
                     ]),
                     _vm._v(" "),
-                    _vm._m(8),
-                    _vm._v(" "),
-                    _vm._m(9),
-                  ]
-                ),
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "row" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "col-sm-4 col-xs-12 package-hover-main  padding-none opi-package-hover-main",
-                  },
-                  [
-                    _c("img", {
-                      staticClass: "img-responsive",
-                      staticStyle: { width: "100%" },
-                      attrs: {
-                        src: "images/blog-posts/5-reasons-why-custom-packaging-is-important-in-todays-world.webp",
-                      },
-                    }),
-                    _vm._v(" "),
-                    _vm._m(10),
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "col-sm-4 col-xs-12 package-hover-main  padding-none opi-package-hover-main",
-                  },
-                  [
-                    _c("img", {
-                      attrs: {
-                        src: "images/blog-posts/the-importance-and-drawbacks-of-uv-coating-in-printing.webp",
-                        width: "100%",
-                        alt: "blog slider",
-                        title: "blog slider",
-                      },
-                    }),
-                    _vm._v(" "),
-                    _vm._m(11),
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "col-sm-4 col-xs-12 package-hover-main  padding-none opi-package-hover-main",
-                  },
-                  [
-                    _c("img", {
-                      attrs: {
-                        src: "images/blog-posts/pros-and-cons-of-offset-and-digital-printing.webp",
-                        width: "100%",
-                        alt: "blog slider",
-                        title: "blog slider",
-                      },
-                    }),
-                    _vm._v(" "),
-                    _vm._m(12),
-                  ]
-                ),
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "row mb-5" }, [
-                _c("div", { staticClass: "col-md-8 col-12" }, [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-sm-12" }, [
-                      _vm._m(13),
+                    _c("div", { staticClass: "row mx-0" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
+                        },
+                        [
+                          _c("div", { staticClass: "mb-5 mx-1" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-sm-flex justify-content-center flex-wrap",
+                              },
+                              [
+                                _c("a", { attrs: { href: "#.html" } }, [
+                                  _c("img", {
+                                    attrs: {
+                                      width: "100%",
+                                      src: "images/blog-posts/5-reasons-why-custom-packaging-is-important-in-todays-world.webp",
+                                      alt: "Featured Image",
+                                      title: "Featured Image",
+                                    },
+                                  }),
+                                ]),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _vm._m(14),
+                          ]),
+                        ]
+                      ),
                       _vm._v(" "),
-                      _c("div", { staticClass: "mb-4" }, [
-                        _c("img", {
-                          attrs: {
-                            src: "images/blog-img-4.jpg",
-                            width: "100%",
-                            alt: "blog image",
-                            title: "blog image",
-                          },
-                        }),
-                      ]),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
+                        },
+                        [
+                          _c("div", { staticClass: "mb-5 mx-1" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-sm-flex justify-content-center flex-wrap",
+                              },
+                              [
+                                _c("a", { attrs: { href: "#.html" } }, [
+                                  _c("img", {
+                                    attrs: {
+                                      width: "100%",
+                                      src: "images/blog-posts/the-importance-and-drawbacks-of-uv-coating-in-printing.webp",
+                                      alt: "Featured Image",
+                                      title: "Featured Image",
+                                    },
+                                  }),
+                                ]),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _vm._m(15),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
+                        },
+                        [
+                          _c("div", { staticClass: "mb-5 mx-1" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-sm-flex justify-content-center flex-wrap",
+                              },
+                              [
+                                _c("a", { attrs: { href: "#.html" } }, [
+                                  _c("img", {
+                                    attrs: {
+                                      width: "100%",
+                                      src: "images/blog-posts/pros-and-cons-of-offset-and-digital-printing.webp",
+                                      alt: "Featured Image",
+                                      title: "Featured Image",
+                                    },
+                                  }),
+                                ]),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _vm._m(16),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
+                        },
+                        [
+                          _c("div", { staticClass: "mb-5 mx-1" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-sm-flex justify-content-center flex-wrap",
+                              },
+                              [
+                                _c("a", { attrs: { href: "#.html" } }, [
+                                  _c("img", {
+                                    attrs: {
+                                      width: "100%",
+                                      src: "images/blog-posts/functions-applications-and-comparison-between-matte-and-gloss-lamination.webp",
+                                      alt: "Featured Image",
+                                      title: "Featured Image",
+                                    },
+                                  }),
+                                ]),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _vm._m(17),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
+                        },
+                        [
+                          _c("div", { staticClass: "mb-5 mx-1" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-sm-flex justify-content-center flex-wrap",
+                              },
+                              [
+                                _c("a", { attrs: { href: "#.html" } }, [
+                                  _c("img", {
+                                    attrs: {
+                                      width: "100%",
+                                      src: "images/blog-posts/how-to-promote-your-products-through-impressive-cbd-oil-boxes.jpg",
+                                      alt: "Featured Image",
+                                      title: "Featured Image",
+                                    },
+                                  }),
+                                ]),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _vm._m(18),
+                          ]),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
+                        },
+                        [
+                          _c("div", { staticClass: "mb-5 mx-1" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "d-sm-flex justify-content-center flex-wrap",
+                              },
+                              [
+                                _c("a", { attrs: { href: "#.html" } }, [
+                                  _c("img", {
+                                    attrs: {
+                                      width: "100%",
+                                      src: "images/blog-posts/give-your-brand-a-bang-with-custom-candle-boxes.webp",
+                                      alt: "Featured Image",
+                                      title: "Featured Image",
+                                    },
+                                  }),
+                                ]),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _vm._m(19),
+                          ]),
+                        ]
+                      ),
                     ]),
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "row mx-0" }, [
+                  _c("div", { staticClass: "col-md-4 col-12" }, [
                     _c(
-                      "div",
+                      "section",
                       {
-                        staticClass: "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
+                        staticClass: "right_bar",
+                        staticStyle: { padding: "0px !important" },
                       },
                       [
-                        _c("div", { staticClass: "mb-5 mx-1" }, [
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "d-sm-flex justify-content-center flex-wrap",
-                            },
-                            [
-                              _c("a", { attrs: { href: "#.html" } }, [
+                        _vm._m(20),
+                        _vm._v(" "),
+                        _vm._m(21),
+                        _vm._v(" "),
+                        _c("hr"),
+                        _vm._v(" "),
+                        _c("ul", { staticClass: "tips-ul" }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "row" }, [
+                          _vm._m(22),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-sm-12" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "sidebar-package opi-sidebar-package",
+                              },
+                              [
                                 _c("img", {
-                                  attrs: {
+                                  staticStyle: {
                                     width: "100%",
+                                    height: "auto",
+                                  },
+                                  attrs: {
                                     src: "images/blog-posts/5-reasons-why-custom-packaging-is-important-in-todays-world.webp",
-                                    alt: "Featured Image",
-                                    title: "Featured Image",
+                                    width: "416",
+                                    height: "217",
                                   },
                                 }),
-                              ]),
-                            ]
-                          ),
+                                _vm._v(" "),
+                                _vm._m(23),
+                              ]
+                            ),
+                          ]),
                           _vm._v(" "),
-                          _vm._m(14),
-                        ]),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass: "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
-                      },
-                      [
-                        _c("div", { staticClass: "mb-5 mx-1" }, [
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "d-sm-flex justify-content-center flex-wrap",
-                            },
-                            [
-                              _c("a", { attrs: { href: "#.html" } }, [
+                          _c("div", { staticClass: "col-sm-12" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "sidebar-package opi-sidebar-package",
+                              },
+                              [
                                 _c("img", {
-                                  attrs: {
+                                  staticStyle: {
                                     width: "100%",
+                                    height: "auto",
+                                  },
+                                  attrs: {
                                     src: "images/blog-posts/the-importance-and-drawbacks-of-uv-coating-in-printing.webp",
-                                    alt: "Featured Image",
-                                    title: "Featured Image",
+                                    width: "416",
+                                    height: "217",
                                   },
                                 }),
-                              ]),
-                            ]
-                          ),
+                                _vm._v(" "),
+                                _vm._m(24),
+                              ]
+                            ),
+                          ]),
                           _vm._v(" "),
-                          _vm._m(15),
-                        ]),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass: "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
-                      },
-                      [
-                        _c("div", { staticClass: "mb-5 mx-1" }, [
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "d-sm-flex justify-content-center flex-wrap",
-                            },
-                            [
-                              _c("a", { attrs: { href: "#.html" } }, [
+                          _c("div", { staticClass: "col-sm-12" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "sidebar-package opi-sidebar-package",
+                              },
+                              [
                                 _c("img", {
-                                  attrs: {
+                                  staticStyle: {
                                     width: "100%",
+                                    height: "auto",
+                                  },
+                                  attrs: {
                                     src: "images/blog-posts/pros-and-cons-of-offset-and-digital-printing.webp",
-                                    alt: "Featured Image",
-                                    title: "Featured Image",
+                                    width: "416",
+                                    height: "217",
                                   },
                                 }),
-                              ]),
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _vm._m(16),
-                        ]),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass: "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
-                      },
-                      [
-                        _c("div", { staticClass: "mb-5 mx-1" }, [
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "d-sm-flex justify-content-center flex-wrap",
-                            },
-                            [
-                              _c("a", { attrs: { href: "#.html" } }, [
-                                _c("img", {
-                                  attrs: {
-                                    width: "100%",
-                                    src: "images/blog-posts/functions-applications-and-comparison-between-matte-and-gloss-lamination.webp",
-                                    alt: "Featured Image",
-                                    title: "Featured Image",
-                                  },
-                                }),
-                              ]),
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _vm._m(17),
-                        ]),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass: "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
-                      },
-                      [
-                        _c("div", { staticClass: "mb-5 mx-1" }, [
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "d-sm-flex justify-content-center flex-wrap",
-                            },
-                            [
-                              _c("a", { attrs: { href: "#.html" } }, [
-                                _c("img", {
-                                  attrs: {
-                                    width: "100%",
-                                    src: "images/blog-posts/how-to-promote-your-products-through-impressive-cbd-oil-boxes.jpg",
-                                    alt: "Featured Image",
-                                    title: "Featured Image",
-                                  },
-                                }),
-                              ]),
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _vm._m(18),
-                        ]),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass: "col-sm-6 col-lg-6 col-12 d-sm-flex px-1",
-                      },
-                      [
-                        _c("div", { staticClass: "mb-5 mx-1" }, [
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "d-sm-flex justify-content-center flex-wrap",
-                            },
-                            [
-                              _c("a", { attrs: { href: "#.html" } }, [
-                                _c("img", {
-                                  attrs: {
-                                    width: "100%",
-                                    src: "images/blog-posts/give-your-brand-a-bang-with-custom-candle-boxes.webp",
-                                    alt: "Featured Image",
-                                    title: "Featured Image",
-                                  },
-                                }),
-                              ]),
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _vm._m(19),
+                                _vm._v(" "),
+                                _vm._m(25),
+                              ]
+                            ),
+                          ]),
                         ]),
                       ]
                     ),
                   ]),
+                  _vm._v(" "),
+                  _vm._m(26),
                 ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-4 col-12" }, [
-                  _c("section", { staticClass: "right_bar" }, [
-                    _vm._m(20),
-                    _vm._v(" "),
-                    _vm._m(21),
-                    _vm._v(" "),
-                    _c("hr"),
-                    _vm._v(" "),
-                    _c("ul", { staticClass: "tips-ul" }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "row" }, [
-                      _vm._m(22),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "col-sm-12" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "sidebar-package opi-sidebar-package",
-                          },
-                          [
-                            _c("img", {
-                              staticStyle: { width: "100%", height: "auto" },
-                              attrs: {
-                                src: "images/blog-posts/5-reasons-why-custom-packaging-is-important-in-todays-world.webp",
-                                width: "416",
-                                height: "217",
-                              },
-                            }),
-                            _vm._v(" "),
-                            _vm._m(23),
-                          ]
-                        ),
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "col-sm-12" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "sidebar-package opi-sidebar-package",
-                          },
-                          [
-                            _c("img", {
-                              staticStyle: { width: "100%", height: "auto" },
-                              attrs: {
-                                src: "images/blog-posts/the-importance-and-drawbacks-of-uv-coating-in-printing.webp",
-                                width: "416",
-                                height: "217",
-                              },
-                            }),
-                            _vm._v(" "),
-                            _vm._m(24),
-                          ]
-                        ),
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "col-sm-12" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass: "sidebar-package opi-sidebar-package",
-                          },
-                          [
-                            _c("img", {
-                              staticStyle: { width: "100%", height: "auto" },
-                              attrs: {
-                                src: "images/blog-posts/pros-and-cons-of-offset-and-digital-printing.webp",
-                                width: "416",
-                                height: "217",
-                              },
-                            }),
-                            _vm._v(" "),
-                            _vm._m(25),
-                          ]
-                        ),
-                      ]),
-                    ]),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _vm._m(26),
               ]),
-            ]),
-          ]),
+            ]
+          ),
         ]),
         _vm._v(" "),
         _c("section", { staticClass: "footer" }, [
@@ -52095,7 +52864,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "follow_us_main" }, [
       _c("h4", { staticClass: "lastest-head" }, [_vm._v("Latest Posts")]),
       _vm._v(" "),
-      _c("div", { staticClass: "follow_us_border" }),
+      _c("div", { staticClass: "follow_us_border2" }),
     ])
   },
   function () {
@@ -52341,7 +53110,10 @@ var staticRenderFns = [
         _c("div", { staticClass: "follow_us_main" }, [
           _c("h4", { staticClass: "lastest-head" }, [_vm._v("Follow Us")]),
           _vm._v(" "),
-          _c("div", { staticClass: "follow_us_border" }),
+          _c("div", {
+            staticClass: "follow_us_border2",
+            staticStyle: { left: "115px !important", width: "73% !important" },
+          }),
         ]),
       ]),
     ])
@@ -66977,6 +67749,2056 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "clearfix" }),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=template&id=34b0688c&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/sitemap.vue?vue&type=template&id=34b0688c& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("html", { attrs: { lang: "en" } }, [
+      _c("meta", {
+        attrs: {
+          "http-equiv": "content-type",
+          content: "text/html;charset=UTF-8",
+        },
+      }),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "body",
+        {
+          staticStyle: {
+            "-webkit-overflow-scrolling": "touch",
+            "overflow-y": "scroll",
+          },
+        },
+        [
+          _vm._m(1),
+          _vm._v(" "),
+          _c(
+            "nav",
+            {
+              staticClass:
+                "navbar navbar-expand-lg navbar-light bg-light sticky-top p-3 bg-white rounded custom-menu scroll_background_important",
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "container-fluid" },
+                [
+                  _c("router-link", { attrs: { to: "/" } }, [
+                    _c("img", {
+                      staticClass: "default-logo1",
+                      attrs: {
+                        src: "images/logo.png",
+                        sizes: "(min-width: 400px) 400px, 400px",
+                        alt: "Mosaic Vision Packaging",
+                        "aria-label": "Mosaic Vision Packaging",
+                        width: "273",
+                        height: "55",
+                      },
+                    }),
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(2),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "collapse navbar-collapse",
+                      attrs: { id: "main_nav" },
+                    },
+                    [
+                      _c("ul", { staticClass: "navbar-nav ms-auto" }, [
+                        _c(
+                          "li",
+                          { staticClass: "nav-item active mx-1" },
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                staticClass: "routerLink",
+                                attrs: { to: "/retailbox" },
+                              },
+                              [_vm._v("RETAIL BOXES")]
+                            ),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          { staticClass: "nav-item active mx-1" },
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                staticClass: "routerLink",
+                                attrs: { to: "/boxbyindustry" },
+                              },
+                              [_vm._v("BOX BY INDUSTRY")]
+                            ),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          { staticClass: "nav-item active mx-1" },
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                staticClass: "routerLink",
+                                attrs: { to: "/boxbystyle" },
+                              },
+                              [_vm._v("BOX BY STYLE")]
+                            ),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          { staticClass: "nav-item dropdown mx-1" },
+                          [
+                            _c(
+                              "router-link",
+                              {
+                                staticClass: "routerLink",
+                                attrs: { to: "/blog" },
+                              },
+                              [_vm._v("BLOG")]
+                            ),
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _vm._m(3),
+                        _vm._v(" "),
+                        _vm._m(4),
+                      ]),
+                    ]
+                  ),
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _vm._m(5),
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(6),
+          _vm._v(" "),
+          _vm._m(7),
+          _vm._v(" "),
+          _vm._m(8),
+          _vm._v(" "),
+          _vm._m(9),
+          _vm._v(" "),
+          _c("section", { staticClass: "footer" }, [
+            _c("div", { staticClass: "container" }, [
+              _c("h3", { staticClass: "text-center" }, [
+                _vm._v("MOSAIC VISION PACKAGING"),
+              ]),
+              _vm._v(" "),
+              _c("hr"),
+              _vm._v(" "),
+              _c("div", { staticClass: "row mx-0" }, [
+                _vm._m(10),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "col-sm-6 col-lg-3 col-xs-12 bullets" },
+                  [
+                    _c(
+                      "p",
+                      {
+                        staticStyle: {
+                          "font-size": "18px",
+                          "margin-top": "10px",
+                          "margin-bottom": "10px",
+                          "text-transform": "uppercase",
+                          color: "#fff",
+                          "font-weight": "500",
+                          "line-height": "1.2",
+                          "font-family": "'Montserrat Bold'",
+                        },
+                      },
+                      [_vm._v("Information")]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "/privacy" } }, [
+                            _vm._v("Privacy and Security"),
+                          ]),
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _vm._m(11),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "/aboutus" } }, [
+                            _vm._v("About Us"),
+                          ]),
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "/contactus" } }, [
+                            _vm._v("Contact Us"),
+                          ]),
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "/sitemap" } }, [
+                            _vm._v("Sitemap"),
+                          ]),
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _vm._m(12),
+                    ]),
+                  ]
+                ),
+                _vm._v(" "),
+                _vm._m(13),
+                _vm._v(" "),
+                _vm._m(14),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _vm._m(15),
+          _vm._v(" "),
+          _vm._m(16),
+        ]
+      ),
+    ]),
+  ])
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("head", [
+      _c("title", [_vm._v("Site Map")]),
+      _vm._v(" "),
+      _c("meta", { attrs: { charset: "utf-8" } }),
+      _vm._v(" "),
+      _c("meta", {
+        attrs: { "http-equiv": "X-UA-Compatible", content: "IE=edge" },
+      }),
+      _vm._v(" "),
+      _c("meta", {
+        attrs: {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("header", { staticClass: "header bg-warning py-2" }, [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "row cntct-info m-0 rowfafari" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-md-2 d-none social-icon align-items-center d-md-flex justify-content-start px-4",
+            },
+            [
+              _c(
+                "a",
+                {
+                  staticClass: "px-1",
+                  attrs: {
+                    href: "http://www.facebook.com",
+                    "aria-label": "Face Book",
+                    target: "_blank",
+                    rel: "noopener",
+                  },
+                },
+                [
+                  _c("i", {
+                    staticClass: "fab fa-facebook-f",
+                    attrs: { "aria-hidden": "true" },
+                  }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "px-1",
+                  attrs: {
+                    href: "https://www.instagram.com",
+                    target: "_blank",
+                    "aria-label": "Instagram",
+                    rel: "noopener",
+                  },
+                },
+                [
+                  _c("i", {
+                    staticClass: "fab fa-instagram",
+                    attrs: { "aria-hidden": "true" },
+                  }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "px-1",
+                  attrs: {
+                    href: "http://www.facebook.com",
+                    "aria-label": "Face Book",
+                    target: "_blank",
+                    rel: "noopener",
+                  },
+                },
+                [
+                  _c("i", {
+                    staticClass: "fab fa-linkedin",
+                    attrs: { "aria-hidden": "true" },
+                  }),
+                ]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-md-6 col-12 d-flex justify-content-center  contact-tab align-items-center",
+            },
+            [
+              _c("a", [
+                _c("span", { staticStyle: { display: "inline-flex" } }, [
+                  _vm._v("Free Shipping on all Orders!"),
+                ]),
+              ]),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-md-4 d-none social-icon align-items-center d-md-flex justify-content-end px-4",
+            },
+            [
+              _c(
+                "a",
+                { attrs: { href: "mailto:info@mosaicvisionpackaging.com" } },
+                [_vm._v("info@mosaicvisionpackaging.com")]
+              ),
+            ]
+          ),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "navbar-toggler ms-auto me-3",
+        attrs: {
+          type: "button",
+          "data-target": "#main_nav",
+          onclick: "openNav()",
+          "aria-expanded": "false",
+          "aria-label": "Toggle navigation",
+        },
+      },
+      [_c("span", { staticClass: "navbar-toggler-icon" })]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item mx-1" }, [
+      _c(
+        "a",
+        {
+          staticClass: "nav-link",
+          staticStyle: { transition: "none !important" },
+          attrs: { href: "tel:+92 324 8473731", "aria-label": "Portfolio" },
+        },
+        [
+          _c("i", { staticClass: "fas fa-phone-alt" }),
+          _vm._v(" +92 324 8473731"),
+        ]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item mx-1" }, [
+      _c(
+        "a",
+        {
+          staticClass: "nav-link",
+          staticStyle: { transition: "none !important" },
+          attrs: { href: "portfolio.html", "aria-label": "Portfolio" },
+        },
+        [_vm._v("Get a Free Quote")]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "drop-search shadow-view" }, [
+      _c(
+        "form",
+        {
+          staticClass: "small_search_form_top",
+          attrs: { action: "#/search", method: "get" },
+        },
+        [
+          _c("div", { staticClass: "input-group top-bar-search-group" }, [
+            _c("input", {
+              staticClass: "form-control search_input_top",
+              attrs: {
+                type: "text",
+                required: "",
+                name: "search",
+                placeholder: "Search",
+                value: "",
+              },
+            }),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass:
+                  "btn btn-secondary  bg-transparent border-0 border-start border-secondary",
+                attrs: { type: "submit", "aria-label": "search" },
+              },
+              [_c("i", { staticClass: "fa fa-search" })]
+            ),
+          ]),
+        ]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "common_get_quote_button",
+        attrs: {
+          href: "#",
+          "data-bs-toggle": "modal",
+          "data-bs-target": "#getQuote",
+        },
+      },
+      [
+        _c(
+          "p",
+          {
+            staticStyle: {
+              "text-align": "center",
+              "margin-bottom": "auto",
+              color: "#fff",
+            },
+          },
+          [_vm._v("Get Quote")]
+        ),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "modal fade",
+        attrs: {
+          id: "getQuote",
+          tabindex: "-1",
+          "aria-labelledby": "exampleModalLabel",
+          "aria-hidden": "true",
+        },
+      },
+      [
+        _c("div", { staticClass: "modal-dialog" }, [
+          _c("div", { staticClass: "modal-content" }, [
+            _c("div", { staticClass: "modal-header" }, [
+              _c("h5", {
+                staticClass: "modal-title",
+                attrs: { id: "exampleModalLabel" },
+              }),
+              _vm._v(" "),
+              _c("button", {
+                staticClass: "btn-close",
+                attrs: {
+                  type: "button",
+                  "data-bs-dismiss": "modal",
+                  "aria-label": "Close",
+                },
+              }),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("div", { staticClass: "row side-bar-form mx-0" }, [
+                _c("div", { staticClass: "get-quote" }, [
+                  _c("h4", [_vm._v("GET CUSTOM QUOTE")]),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "details" }, [
+                  _c(
+                    "form",
+                    {
+                      attrs: {
+                        id: "get_quote",
+                        action: "#/get-quote",
+                        method: "post",
+                        novalidate: "novalidate",
+                      },
+                    },
+                    [
+                      _c("input", {
+                        attrs: {
+                          type: "hidden",
+                          name: "_token",
+                          value: "pkUBSv3UQwJKNQGbLkLPw46WZPPRbvVLKEYsxLxG",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "row pt-3" }, [
+                        _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                name: "product_length",
+                                id: "product_length",
+                                value: "",
+                                placeholder: "Length",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                name: "product_width",
+                                id: "product_width",
+                                value: "",
+                                placeholder: "Width",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                name: "product_depth",
+                                id: "product_depth",
+                                value: "",
+                                placeholder: "Depth",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-lg-3 col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "select",
+                              {
+                                staticClass: "form-control required",
+                                attrs: {
+                                  name: "measurement_units",
+                                  id: "units",
+                                },
+                              },
+                              [
+                                _c("option", { attrs: { value: "cm" } }, [
+                                  _vm._v("cm"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "mm" } }, [
+                                  _vm._v("mm"),
+                                ]),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { selected: "", value: "inches" } },
+                                  [_vm._v("inch")]
+                                ),
+                              ]
+                            ),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          attrs: {
+                            type: "hidden",
+                            value: "#",
+                            name: "current_url",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "select",
+                              {
+                                staticClass: "form-control required",
+                                attrs: {
+                                  name: "product_name",
+                                  id: "product_name",
+                                },
+                              },
+                              [
+                                _c(
+                                  "option",
+                                  {
+                                    staticStyle: { display: "none" },
+                                    attrs: {
+                                      selected: "",
+                                      disabled: "",
+                                      value: "",
+                                      hidden: "",
+                                    },
+                                  },
+                                  [_vm._v(" Product Name")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Auto-Lock Boxes" } },
+                                  [_vm._v("Auto-Lock Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Baby Product Boxes" } },
+                                  [_vm._v("Baby Product Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Bakery Boxes" } },
+                                  [_vm._v("Bakery Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Ballot boxes" } },
+                                  [_vm._v("Ballot boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Bandage Boxes" } },
+                                  [_vm._v("Bandage Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Belt Boxes" } },
+                                  [_vm._v("Belt Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Black Gable Boxes" } },
+                                  [_vm._v("Black Gable Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Book End Boxes" } },
+                                  [_vm._v("Book End Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Bottle Boxes" } },
+                                  [_vm._v("Bottle Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Bottle Neckers" } },
+                                  [_vm._v("Bottle Neckers")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Business Card Boxes" } },
+                                  [_vm._v("Business Card Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cake Boxes" } },
+                                  [_vm._v("Cake Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Candle Boxes" } },
+                                  [_vm._v("Candle Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Candy Apple Box" } },
+                                  [_vm._v("Candy Apple Box")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Candy Boxes" } },
+                                  [_vm._v("Candy Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cardboard Boxes" } },
+                                  [_vm._v("Cardboard Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cardboard Boxes" } },
+                                  [_vm._v("Cardboard Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  {
+                                    attrs: {
+                                      value: "Cardboard dispenser boxes",
+                                    },
+                                  },
+                                  [_vm._v("Cardboard dispenser boxes ")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cereal Boxes" } },
+                                  [_vm._v("Cereal Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  {
+                                    attrs: { value: "Chinese Take Out Boxes" },
+                                  },
+                                  [_vm._v("Chinese Take Out Boxes ")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Chocolate Boxes" } },
+                                  [_vm._v("Chocolate Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Christmas Boxes" } },
+                                  [_vm._v("Christmas Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cigarette Boxes" } },
+                                  [_vm._v("Cigarette Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cookie Boxes" } },
+                                  [_vm._v("Cookie Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Corrugated Boxes" } },
+                                  [_vm._v("Corrugated Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cosmetic Boxes" } },
+                                  [_vm._v("Cosmetic Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  {
+                                    attrs: { value: "Cosmetic Display Boxes" },
+                                  },
+                                  [_vm._v("Cosmetic Display Boxes ")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cream Boxes" } },
+                                  [_vm._v("Cream Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cube Boxes" } },
+                                  [_vm._v("Cube Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Cupcake Boxes" } },
+                                  [_vm._v("Cupcake Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  {
+                                    attrs: { value: "Custom Bath Bomb Boxes" },
+                                  },
+                                  [_vm._v("Custom Bath Bomb Boxes ")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  {
+                                    attrs: {
+                                      value:
+                                        "Custom Electronic Cigarette Boxes",
+                                    },
+                                  },
+                                  [_vm._v("Custom Electronic Cigarette Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Die-Cut Boxes" } },
+                                  [_vm._v("Die-Cut Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Display Boxes" } },
+                                  [_vm._v("Display Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Donut Boxes" } },
+                                  [_vm._v("Donut Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "E-Liquid Boxes" } },
+                                  [_vm._v("E-Liquid Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Eye Shadow Boxes" } },
+                                  [_vm._v("Eye Shadow Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Eyeliner Boxes" } },
+                                  [_vm._v("Eyeliner Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Favor Boxes" } },
+                                  [_vm._v("Favor Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Flap Boxes" } },
+                                  [_vm._v("Flap Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Foundation Boxes" } },
+                                  [_vm._v("Foundation Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Gable Boxes" } },
+                                  [_vm._v("Gable Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Game Boxes" } },
+                                  [_vm._v("Game Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Gift Boxes" } },
+                                  [_vm._v("Gift Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Gift Card Boxes" } },
+                                  [_vm._v("Gift Card Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Gold Foil Boxes" } },
+                                  [_vm._v("Gold Foil Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Hair Extension Boxes" } },
+                                  [_vm._v("Hair Extension Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Hairspray Boxes" } },
+                                  [_vm._v("Hairspray Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Handle Boxes" } },
+                                  [_vm._v("Handle Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Hanging Tab Boxes" } },
+                                  [_vm._v("Hanging Tab Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Hexagon Boxes" } },
+                                  [_vm._v("Hexagon Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Invitation Boxes" } },
+                                  [_vm._v("Invitation Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Kraft Boxes" } },
+                                  [_vm._v("Kraft Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Lip Gloss Boxes" } },
+                                  [_vm._v("Lip Gloss Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Lipstick Boxes" } },
+                                  [_vm._v("Lipstick Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Lotion Boxes" } },
+                                  [_vm._v("Lotion Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Macaron Boxes" } },
+                                  [_vm._v("Macaron Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Mailer Boxes" } },
+                                  [_vm._v("Mailer Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Makeup Boxes" } },
+                                  [_vm._v("Makeup Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Mascara Boxes" } },
+                                  [_vm._v("Mascara Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Medicine Boxes" } },
+                                  [_vm._v("Medicine Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Muffin Boxes" } },
+                                  [_vm._v("Muffin Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Nail Polish Boxes" } },
+                                  [_vm._v("Nail Polish Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Ornament Boxes" } },
+                                  [_vm._v("Ornament Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Paper Boxes" } },
+                                  [_vm._v("Paper Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Paper Cups" } },
+                                  [_vm._v("Paper Cups")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Pastry Boxes" } },
+                                  [_vm._v("Pastry Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Perfume Boxes" } },
+                                  [_vm._v("Perfume Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Pie Boxes" } },
+                                  [_vm._v("Pie Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Pillow boxes" } },
+                                  [_vm._v("Pillow boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Pizza Boxes" } },
+                                  [_vm._v("Pizza Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Playing Cards Boxes" } },
+                                  [_vm._v("Playing Cards Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Popcorn Boxes" } },
+                                  [_vm._v("Popcorn Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Product Boxes" } },
+                                  [_vm._v("Product Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Pyramid Boxes" } },
+                                  [_vm._v("Pyramid Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Retail Boxes" } },
+                                  [_vm._v("Retail Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Rigid Boxes" } },
+                                  [_vm._v("Rigid Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Shirt Boxes" } },
+                                  [_vm._v("Shirt Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Sleeve Boxes" } },
+                                  [_vm._v("Sleeve Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Snack Boxes" } },
+                                  [_vm._v("Snack Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Soap Boxes" } },
+                                  [_vm._v("Soap Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Software Boxes" } },
+                                  [_vm._v("Software Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Tea Boxes" } },
+                                  [_vm._v("Tea Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Tie Boxes" } },
+                                  [_vm._v("Tie Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Toy Boxes" } },
+                                  [_vm._v("Toy Boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "USB boxes" } },
+                                  [_vm._v("USB boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "Window  boxes" } },
+                                  [_vm._v("Window boxes")]
+                                ),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "Others" } }, [
+                                  _vm._v("Others"),
+                                ]),
+                              ]
+                            ),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("label", { attrs: { for: "color" } }, [
+                              _vm._v("Color:"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "select",
+                              {
+                                staticClass: "form-control",
+                                attrs: { name: "color", id: "color" },
+                              },
+                              [
+                                _c("option", { attrs: { value: "" } }, [
+                                  _vm._v("None"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "1 Color" } }, [
+                                  _vm._v("1 Color"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "2 Color" } }, [
+                                  _vm._v("2 Color"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "3 Color" } }, [
+                                  _vm._v("3 Color"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "4 Color" } }, [
+                                  _vm._v("4 Color"),
+                                ]),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "4/1 Color" } },
+                                  [_vm._v("4/1 Color")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "4/2 Color" } },
+                                  [_vm._v("4/2 Color")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "4/3 Color" } },
+                                  [_vm._v("4/3 Color")]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "option",
+                                  { attrs: { value: "4/4 Color" } },
+                                  [_vm._v("4/4 Color")]
+                                ),
+                              ]
+                            ),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("label", { attrs: { for: "quantity" } }, [
+                              _vm._v("Quantity:"),
+                            ]),
+                            _vm._v(" "),
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                value: "",
+                                name: "quantity",
+                                id: "quantity",
+                                type: "text",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group red-star" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                value: "",
+                                name: "contact_name",
+                                id: "contact_name",
+                                type: "text",
+                                placeholder: "Name",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group red-star" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                value: "",
+                                name: "contact_email",
+                                id: "contact_email",
+                                type: "text",
+                                placeholder: "Email",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group red-star" }, [
+                            _c("input", {
+                              staticClass: "form-control required",
+                              attrs: {
+                                value: "",
+                                name: "contact_phone",
+                                id: "contact_phone",
+                                type: "text",
+                                placeholder: "+xxxxxxxxxxx",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 px-1" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c("label", { attrs: { for: "comment" } }, [
+                              _vm._v("Message:"),
+                            ]),
+                            _vm._v(" "),
+                            _c("textarea", {
+                              staticClass: "form-control",
+                              attrs: {
+                                rows: "3",
+                                name: "message",
+                                id: "message",
+                                placeholder: "write short message",
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12 py-2 px-1" }, [
+                          _c("div", { staticClass: "col-md-12" }, [
+                            _c("input", {
+                              staticClass: "sum col-2",
+                              attrs: {
+                                id: "num1",
+                                type: "text",
+                                name: "num1",
+                                value: "4",
+                                readonly: "readonly",
+                              },
+                            }),
+                            _vm._v(" +\n                                    "),
+                            _c("input", {
+                              staticClass: "sum col-2",
+                              attrs: {
+                                id: "num2",
+                                type: "text",
+                                name: "num2",
+                                value: "5",
+                                readonly: "readonly",
+                              },
+                            }),
+                            _vm._v(" =\n                                    "),
+                            _c("input", {
+                              staticClass: "captcha col-2",
+                              attrs: {
+                                id: "captcha",
+                                type: "text",
+                                name: "captcha",
+                                maxlength: "2",
+                              },
+                            }),
+                            _vm._v(" "),
+                            _c("br"),
+                            _vm._v(" "),
+                            _c("span", { attrs: { id: "spambot" } }, [
+                              _vm._v("(Are you human, or spambot?)"),
+                            ]),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-12" }, [
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "button",
+                              {
+                                staticClass:
+                                  "btn btn-warning btn-quote rounded-pill col-12",
+                                attrs: { type: "submit" },
+                              },
+                              [_vm._v("Submit")]
+                            ),
+                          ]),
+                        ]),
+                      ]),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "common_phone_call_icon",
+        attrs: { href: "tel:+923248473731" },
+      },
+      [
+        _c("div", [
+          _c("img", {
+            attrs: {
+              src: "assets/images/phone-icon-946.webp",
+              width: "35",
+              height: "35",
+            },
+          }),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("section", [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "col-md-12 column sitemap-page" }, [
+            _c("h3", { staticClass: "text-dark" }, [
+              _c("i", { staticClass: "fa fa-home" }),
+              _vm._v(" OXO Packaging"),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row clearfix" }, [
+              _c("div", { staticClass: "col-md-4 column" }, [
+                _c("ul", { staticClass: "list-unstyled" }, [
+                  _c("li", [
+                    _c("a", { attrs: { href: "index.html" } }, [
+                      _vm._v("Home"),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "text-muted" }, [
+                    _c("a", { attrs: { href: "about-us.html" } }, [
+                      _vm._v(" About Us"),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v("Boxes by Industry"),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v("Custom Printed Boxes"),
+                    ]),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4 column" }, [
+                _c("ul", { staticClass: "list-unstyled" }, [
+                  _c("li", [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v("Latest Offers"),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("a", { attrs: { href: "#.html" } }, [
+                      _vm._v("Templates"),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { attrs: { href: "https://oxopackaging.com/blog" } },
+                      [_vm._v("Blogs")]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", [
+                      _c("li", { staticClass: "text-muted" }, [
+                        _c("a", { attrs: { href: "#.html" } }, [
+                          _vm._v(
+                            " Light Your Way\n                                    with Luxury Candle Boxes"
+                          ),
+                        ]),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "text-muted" }, [
+                        _c("a", { attrs: { href: "#.html" } }, [
+                          _vm._v(
+                            "\n                                    How to Grab your Customers’ Attention with Our Creative Handmade Soap\n                                    Boxes"
+                          ),
+                        ]),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "text-muted" }, [
+                        _c("a", { attrs: { href: "#.html" } }, [
+                          _vm._v(
+                            " We have\n                                    you Covered"
+                          ),
+                        ]),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "text-muted" }, [
+                        _c("a", { attrs: { href: "#.html" } }, [
+                          _vm._v(
+                            "\n                                    Increase the Glam Quotient with Our Custom Cosmetic Boxes"
+                          ),
+                        ]),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "text-muted" }, [
+                        _c("a", { attrs: { href: "#.html" } }, [
+                          _vm._v(
+                            " To\n                                    Kraft or not to Kraft"
+                          ),
+                        ]),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-4 column sitemap-page" }, [
+                _c("ul", { staticClass: "list-unstyled" }, [
+                  _c("li", { staticClass: "text-muted" }, [
+                    _c("a", { attrs: { href: "privacy-security.html" } }, [
+                      _vm._v(" Privacy Policy"),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "text-muted" }, [
+                    _c("a", { attrs: { href: "terms.html" } }, [
+                      _vm._v("Terms & Condition"),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "text-muted" }, [
+                    _c("a", { attrs: { href: "contact-us.html" } }, [
+                      _vm._v("Contact Us"),
+                    ]),
+                  ]),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm-6 col-lg-3 col-xs-12" }, [
+      _c(
+        "p",
+        {
+          staticStyle: {
+            "font-size": "18px",
+            "margin-top": "10px",
+            "margin-bottom": "10px",
+            "text-transform": "uppercase",
+            color: "#fff",
+            "font-weight": "500",
+            "line-height": "1.2",
+            "font-family": "'Montserrat Bold'",
+          },
+        },
+        [_vm._v("Newsletter")]
+      ),
+      _vm._v(" "),
+      _c("p", { staticClass: "fw-bold font_m_bold" }, [
+        _vm._v("Subscribe for a newsletter"),
+      ]),
+      _vm._v(" "),
+      _c("div", {
+        staticStyle: { color: "red" },
+        attrs: { id: "messagenote" },
+      }),
+      _vm._v(" "),
+      _c(
+        "form",
+        {
+          staticClass: "margin-bottom-0",
+          attrs: {
+            name: "frmNewsletter",
+            id: "frmNewsletter",
+            action: "#/subscribe",
+            method: "post",
+          },
+        },
+        [
+          _c("input", {
+            attrs: {
+              type: "text",
+              name: "email",
+              id: "footer-form",
+              placeholder: "Your Email Address..",
+              required: "",
+            },
+          }),
+          _vm._v(" "),
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-warning rounded-pill",
+              staticStyle: { transition: "none !important" },
+              attrs: { id: "footer-btn", type: "submit" },
+            },
+            [_vm._v("Submit")]
+          ),
+        ]
+      ),
+      _vm._v(" "),
+      _c("img", {
+        staticStyle: { "margin-top": "25px" },
+        attrs: {
+          srcset:
+            "assets/images/payment-img.webp" +
+            " 800w, " +
+            "assets/images/payment-img.webp" +
+            " 400w",
+          sizes: "(min-width: 400px) 400px, 400px",
+          src: "assets/images/payment-img.webp",
+          alt: "Box Packaging",
+          title: "Box Packaging",
+          width: "205",
+          height: "73",
+        },
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "clearfix" }),
+      _vm._v(" "),
+      _c("p", [_vm._v("Follow Us:")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "social-icon" }, [
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "http://www.facebook.com/Mosaic Visionpackaging",
+              "aria-label": "Face Book",
+              target: "_blank",
+              rel: "noopener",
+            },
+          },
+          [
+            _c("i", {
+              staticClass: "fab fa-facebook-f",
+              attrs: { "aria-hidden": "true" },
+            }),
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://twitter.com/Mosaic Vision_Packaging",
+              "aria-label": "Twitter",
+              target: "_blank",
+              rel: "noopener",
+            },
+          },
+          [
+            _c("i", {
+              staticClass: "fab fa-twitter",
+              attrs: { "aria-hidden": "true" },
+            }),
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://www.youtube.com/",
+              "aria-label": "Youtube",
+              target: "_blank",
+              rel: "noopener",
+            },
+          },
+          [
+            _c("i", {
+              staticClass: "fab fa-youtube",
+              attrs: { "aria-hidden": "true" },
+            }),
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://www.pinterest.com/Mosaic Visionpackaging/",
+              "aria-label": "Pinterest",
+              target: "_blank",
+              rel: "noopener",
+            },
+          },
+          [
+            _c("i", {
+              staticClass: "fab fa-pinterest",
+              attrs: { "aria-hidden": "true" },
+            }),
+          ]
+        ),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { attrs: { href: "terms.html" } }, [
+        _vm._v("Terms and Conditions"),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { attrs: { href: "portfolio.html" } }, [_vm._v("Portfolio")]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-sm-6 col-lg-3 col-xs-12 bullets" }, [
+      _c(
+        "p",
+        {
+          staticStyle: {
+            "font-size": "18px",
+            "margin-top": "10px",
+            "margin-bottom": "10px",
+            "text-transform": "uppercase",
+            color: "#fff",
+            "font-weight": "500",
+            "line-height": "1.2",
+            "font-family": "'Montserrat Bold'",
+          },
+        },
+        [_vm._v("Packaging Products")]
+      ),
+      _vm._v(" "),
+      _c("ul", [
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [_vm._v("Mailer Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [_vm._v("Soap Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [_vm._v("Bakery Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [_vm._v("Kraft Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [_vm._v("CardBoard Boxes")]),
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "#.html" } }, [
+            _vm._v("Personalized Packaging Boxes"),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "col-sm-6 col-lg-3 col-xs-12 contact-ul" },
+      [
+        _c(
+          "span",
+          {
+            staticStyle: {
+              "font-size": "18px",
+              "margin-top": "10px",
+              "margin-bottom": "10px",
+              "text-transform": "uppercase",
+              color: "#fff",
+              "font-weight": "500",
+              "line-height": "1.2",
+              "font-family": "'Montserrat Bold'",
+            },
+          },
+          [_vm._v("Contact Us")]
+        ),
+        _vm._v(" "),
+        _c("ul", { staticStyle: { "list-style-type": "none" } }, [
+          _c("li", [
+            _c("i", {
+              staticClass: "fa fa-phone",
+              staticStyle: { "margin-right": "8px" },
+              attrs: { "aria-hidden": "true" },
+            }),
+            _c("a", { attrs: { href: "tel: +92 324 8473731" } }, [
+              _vm._v(" +92 324 8473731"),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "clr-orange",
+                staticStyle: { "font-size": "14px !important" },
+                attrs: { href: "mailto:info@mosaicvisionpackaging.com" },
+              },
+              [
+                _c("i", {
+                  staticClass: "fa fa-envelope",
+                  staticStyle: { "margin-right": "8px" },
+                  attrs: { "aria-hidden": "true" },
+                }),
+                _vm._v("info@mosaicvisionpackaging.com"),
+              ]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("i", {
+              staticClass: "fa fa-map-marker",
+              staticStyle: { "margin-right": "8px" },
+              attrs: { "aria-hidden": "true" },
+            }),
+            _vm._v(
+              " 19-A, Abbot Road, Near PTV Station, \n                        Lahore, Punjab, Pakistan\n                     "
+            ),
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "payment" }, [
+            _c("img", {
+              staticStyle: { width: "100%", height: "auto" },
+              attrs: {
+                loading: "lazy",
+                alt: "Box Packaging",
+                title: "Box Packaging",
+                src: "assets/images/free-shipping.webp",
+                width: "300",
+                height: "102",
+              },
+            }),
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "payment" }, [
+            _c("img", {
+              staticStyle: {
+                "margin-top": "-17px",
+                "margin-left": "-6px",
+                width: "100%",
+                height: "auto",
+              },
+              attrs: {
+                loading: "lazy",
+                alt: "Box Packaging",
+                title: "Box Packaging",
+                src: "assets/images/flag.webp",
+                width: "249",
+                height: "85",
+              },
+            }),
+          ]),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("footer", [
+      _c("div", { staticClass: "col-xs-12 text-center" }, [
+        _c("p", { staticStyle: { color: "white" } }, [
+          _vm._v(
+            "Copyright 2022. www.mosaicvisionpackaging.com All rights reserved."
+          ),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "clearfix" }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "res-overlay", attrs: { id: "res-nav" } }, [
+      _c(
+        "a",
+        {
+          staticClass: "closebtn",
+          attrs: { href: "#", onclick: "closeNav()" },
+        },
+        [_vm._v("×")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "overlay-content col-xs-12" }, [
+        _c(
+          "div",
+          { staticClass: "accordion", attrs: { id: "accordionMenu" } },
+          [
+            _c("div", { staticClass: "accordion-item text-left" }, [
+              _c(
+                "h2",
+                { staticClass: "accordion-header py-3 px-4 text-start" },
+                [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "text-white",
+                      attrs: { href: "index.html" },
+                    },
+                    [_vm._v("Home")]
+                  ),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "accordion-item text-left" }, [
+              _c(
+                "h2",
+                { staticClass: "accordion-header py-3 px-4 text-start" },
+                [
+                  _c(
+                    "a",
+                    { staticClass: "text-white", attrs: { href: "#.html" } },
+                    [_vm._v("RETAIL BOXES")]
+                  ),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "accordion-item text-left" }, [
+              _c(
+                "h2",
+                { staticClass: "accordion-header py-3 px-4 text-start" },
+                [
+                  _c(
+                    "a",
+                    { staticClass: "text-white", attrs: { href: "#.html" } },
+                    [_vm._v("BOX BY INDUSTRY")]
+                  ),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "accordion-item text-left" }, [
+              _c(
+                "h2",
+                { staticClass: "accordion-header py-3 px-4 text-start" },
+                [
+                  _c(
+                    "a",
+                    { staticClass: "text-white", attrs: { href: "#.html" } },
+                    [_vm._v("BOX BY STYLE ")]
+                  ),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "accordion-item text-left" }, [
+              _c(
+                "h2",
+                { staticClass: "accordion-header py-3 px-4 text-start" },
+                [
+                  _c(
+                    "a",
+                    { staticClass: "text-white", attrs: { href: "blog.html" } },
+                    [_vm._v("Blog")]
+                  ),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "accordion-item text-left" }, [
+              _c(
+                "h2",
+                { staticClass: "accordion-header py-3 px-4 text-start" },
+                [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "text-white",
+                      attrs: { href: "tel: +923248473731" },
+                    },
+                    [_vm._v(" +92 324 8473731")]
+                  ),
+                ]
+              ),
+            ]),
+          ]
+        ),
+      ]),
     ])
   },
 ]

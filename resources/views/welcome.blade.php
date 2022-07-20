@@ -28,7 +28,7 @@
       <link rel="stylesheet" href="{{ ('css/css/blogs.css') }}" type="text/css">
       <link rel="stylesheet" href="{{ ('css/css/static_pages.css') }}" type="text/css">  
       <link rel="stylesheet" href="{{ ('css/css/contact_us.css') }}">  
-
+      <link rel="stylesheet" href="{{ ('css/css/product_detail.css') }}">  
       <noscript>
          <link rel='stylesheet' href=" {{ ('css/css/all.min.css') }}">
       </noscript>
@@ -77,6 +77,7 @@
   z-index: 11111
 
 }
+
 </style>
 
 <body>

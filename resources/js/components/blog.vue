@@ -274,7 +274,7 @@
       </a>
       <!-- ********** Header End ********** -->
       <div >
-         <section class="static_page">
+         <section class="static_page" style="padding:0px !important">
             <div class="container top_mar">
                <div class="row">        
                   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -328,7 +328,7 @@
                         <div class="col-sm-12">
                            <div class="follow_us_main">
                               <h4 class="lastest-head">Latest Posts</h4>
-                              <div class="follow_us_border"></div>
+                              <div class="follow_us_border2"></div>
                            </div>
                            
                            <div class="mb-4"><img :src="`images/blog-img-4.jpg`" width="100%" alt="blog image"
@@ -489,12 +489,12 @@
                      </div>
                   </div>
                   <div class="col-md-4 col-12">
-                     <section class="right_bar">
+                     <section class="right_bar" style="padding:0px !important">
                         <div class="row">
                            <div class="col-sm-12">
                               <div class="follow_us_main">
                                  <h4 class="lastest-head">Follow Us</h4>
-                                 <div class="follow_us_border"></div>
+                                 <div class="follow_us_border2" style="left:115px !important;width:73% !important"></div>
                               </div>
                            </div>
                         </div>
@@ -742,3 +742,15 @@ export default {
         }
 };
 </script>
+<style>
+.follow_us_border2 {
+    display: inline-block;
+    height: 15px;
+    width: 84%;
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 137px;
+    top: 11px;
+    z-index: 0;
+}
+</style>

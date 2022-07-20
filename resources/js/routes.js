@@ -52,6 +52,11 @@ const routes = [
       name: 'contactus',
       path: '/contactus',
       component: require('./components/contactus.vue').default
+    },  
+    {
+      name: 'sitemap',
+      path: '/sitemap',
+      component: require('./components/sitemap.vue').default
     }
   ];
 
